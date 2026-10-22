@@ -13,7 +13,7 @@ const bells = JSON.parse(
     "python",
     [
       "-c",
-      "import json;from importlib.machinery import SourceFileLoader;m=SourceFileLoader('oracle','scripts/source-oracle.py').load_module();print(json.dumps(m.published_bells()))",
+      "import json,runpy;print(json.dumps(runpy.run_path('scripts/source-oracle.py')['published_bells']()))",
     ],
     { encoding: "utf8" },
   ),

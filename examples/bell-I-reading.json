@@ -1,0 +1,835 @@
+{
+  "schema": "shiguzhai-reading-v1",
+  "source": {
+    "title": "A ‘set’ of ancient bronze bells excavated in Changsha, Hunan Province, China",
+    "authors": "Kin Sum Li and colleagues",
+    "year": 2024,
+    "doi": "10.1186/s40494-024-01377-0",
+    "url": "https://doi.org/10.1186/s40494-024-01377-0",
+    "table": "Table 1, printed page 6",
+    "measured": "August 2022, Changsha Museum exhibition gallery, 22 °C",
+    "scope": "Ten bells found together at Shiguzhai in June 1993; the paper dates their manufacture to the twelfth century BCE."
+  },
+  "settings": {
+    "bell": "I",
+    "a": 280,
+    "b": 269,
+    "group": "burial",
+    "values": "all",
+    "reference": 440
+  },
+  "selected": {
+    "bell": "I",
+    "accession": "1632.9",
+    "A": 280,
+    "B": 269,
+    "intervalCents": -69.38478526601072
+  },
+  "comparison": {
+    "rows": [
+      {
+        "bell": "I",
+        "position": "A",
+        "hz": 280,
+        "midi": 61,
+        "cents": 17.507964104368057,
+        "referenceHz": 277.1826309768721,
+        "name": "C♯4"
+      },
+      {
+        "bell": "I",
+        "position": "A",
+        "hz": 279,
+        "midi": 61,
+        "cents": 11.313917965433262,
+        "referenceHz": 277.1826309768721,
+        "name": "C♯4"
+      },
+      {
+        "bell": "I",
+        "position": "B",
+        "hz": 283,
+        "midi": 61,
+        "cents": 35.958235168666874,
+        "referenceHz": 277.1826309768721,
+        "name": "C♯4"
+      },
+      {
+        "bell": "I",
+        "position": "B",
+        "hz": 282,
+        "midi": 61,
+        "cents": 29.829966648960493,
+        "referenceHz": 277.1826309768721,
+        "name": "C♯4"
+      },
+      {
+        "bell": "I",
+        "position": "B",
+        "hz": 280,
+        "midi": 61,
+        "cents": 17.507964104368057,
+        "referenceHz": 277.1826309768721,
+        "name": "C♯4"
+      },
+      {
+        "bell": "I",
+        "position": "B",
+        "hz": 278,
+        "midi": 61,
+        "cents": 5.097631038617578,
+        "referenceHz": 277.1826309768721,
+        "name": "C♯4"
+      },
+      {
+        "bell": "I",
+        "position": "B",
+        "hz": 276,
+        "midi": 61,
+        "cents": -7.402308095788612,
+        "referenceHz": 277.1826309768721,
+        "name": "C♯4"
+      },
+      {
+        "bell": "I",
+        "position": "B",
+        "hz": 274,
+        "midi": 61,
+        "cents": -19.993156676959245,
+        "referenceHz": 277.1826309768721,
+        "name": "C♯4"
+      },
+      {
+        "bell": "I",
+        "position": "B",
+        "hz": 269,
+        "midi": 60,
+        "cents": 48.12317883835746,
+        "referenceHz": 261.6255653005986,
+        "name": "C4"
+      },
+      {
+        "bell": "II",
+        "position": "A",
+        "hz": 280,
+        "midi": 61,
+        "cents": 17.507964104368057,
+        "referenceHz": 277.1826309768721,
+        "name": "C♯4"
+      },
+      {
+        "bell": "II",
+        "position": "A",
+        "hz": 279,
+        "midi": 61,
+        "cents": 11.313917965433262,
+        "referenceHz": 277.1826309768721,
+        "name": "C♯4"
+      },
+      {
+        "bell": "II",
+        "position": "B",
+        "hz": 296,
+        "midi": 62,
+        "cents": 13.71238252514786,
+        "referenceHz": 293.6647679174076,
+        "name": "D4"
+      },
+      {
+        "bell": "II",
+        "position": "B",
+        "hz": 302,
+        "midi": 62,
+        "cents": 48.45403096050305,
+        "referenceHz": 293.6647679174076,
+        "name": "D4"
+      },
+      {
+        "bell": "II",
+        "position": "B",
+        "hz": 290,
+        "midi": 62,
+        "cents": -21.740748211670535,
+        "referenceHz": 293.6647679174076,
+        "name": "D4"
+      },
+      {
+        "bell": "II",
+        "position": "B",
+        "hz": 288,
+        "midi": 62,
+        "cents": -33.72165449881663,
+        "referenceHz": 293.6647679174076,
+        "name": "D4"
+      },
+      {
+        "bell": "II",
+        "position": "B",
+        "hz": 286,
+        "midi": 62,
+        "cents": -45.786052095524354,
+        "referenceHz": 293.6647679174076,
+        "name": "D4"
+      },
+      {
+        "bell": "II",
+        "position": "B",
+        "hz": 283,
+        "midi": 61,
+        "cents": 35.958235168666874,
+        "referenceHz": 277.1826309768721,
+        "name": "C♯4"
+      },
+      {
+        "bell": "II",
+        "position": "B",
+        "hz": 280,
+        "midi": 61,
+        "cents": 17.507964104368057,
+        "referenceHz": 277.1826309768721,
+        "name": "C♯4"
+      },
+      {
+        "bell": "III",
+        "position": "A",
+        "hz": 313,
+        "midi": 63,
+        "cents": 10.39096008955056,
+        "referenceHz": 311.1269837220809,
+        "name": "D♯4"
+      },
+      {
+        "bell": "III",
+        "position": "A",
+        "hz": 312,
+        "midi": 63,
+        "cents": 4.851006405106517,
+        "referenceHz": 311.1269837220809,
+        "name": "D♯4"
+      },
+      {
+        "bell": "III",
+        "position": "B",
+        "hz": 350,
+        "midi": 65,
+        "cents": 3.821677969203563,
+        "referenceHz": 349.2282314330039,
+        "name": "F4"
+      },
+      {
+        "bell": "III",
+        "position": "B",
+        "hz": 347,
+        "midi": 65,
+        "cents": -11.081433135677798,
+        "referenceHz": 349.2282314330039,
+        "name": "F4"
+      },
+      {
+        "bell": "III",
+        "position": "B",
+        "hz": 343,
+        "midi": 65,
+        "cents": -31.153936822217076,
+        "referenceHz": 349.2282314330039,
+        "name": "F4"
+      },
+      {
+        "bell": "III",
+        "position": "B",
+        "hz": 337,
+        "midi": 64,
+        "cents": 38.29408118863853,
+        "referenceHz": 329.6275569128699,
+        "name": "E4"
+      },
+      {
+        "bell": "III",
+        "position": "B",
+        "hz": 335,
+        "midi": 64,
+        "cents": 27.989086184570056,
+        "referenceHz": 329.6275569128699,
+        "name": "E4"
+      },
+      {
+        "bell": "III",
+        "position": "B",
+        "hz": 330,
+        "midi": 64,
+        "cents": 1.9550008653880013,
+        "referenceHz": 329.6275569128699,
+        "name": "E4"
+      },
+      {
+        "bell": "III",
+        "position": "B",
+        "hz": 321,
+        "midi": 64,
+        "cents": -45.916271682828125,
+        "referenceHz": 329.6275569128699,
+        "name": "E4"
+      },
+      {
+        "bell": "III",
+        "position": "B",
+        "hz": 315,
+        "midi": 63,
+        "cents": 21.41796583514335,
+        "referenceHz": 311.1269837220809,
+        "name": "D♯4"
+      },
+      {
+        "bell": "III",
+        "position": "B",
+        "hz": 306,
+        "midi": 63,
+        "cents": -28.766244998409718,
+        "referenceHz": 311.1269837220809,
+        "name": "D♯4"
+      },
+      {
+        "bell": "IV",
+        "position": "A",
+        "hz": 313,
+        "midi": 63,
+        "cents": 10.39096008955056,
+        "referenceHz": 311.1269837220809,
+        "name": "D♯4"
+      },
+      {
+        "bell": "IV",
+        "position": "A",
+        "hz": 314,
+        "midi": 63,
+        "cents": 15.913242440360875,
+        "referenceHz": 311.1269837220809,
+        "name": "D♯4"
+      },
+      {
+        "bell": "IV",
+        "position": "B",
+        "hz": 326,
+        "midi": 64,
+        "cents": -19.15787115229861,
+        "referenceHz": 329.6275569128699,
+        "name": "E4"
+      },
+      {
+        "bell": "IV",
+        "position": "B",
+        "hz": 323,
+        "midi": 64,
+        "cents": -35.163230596881334,
+        "referenceHz": 329.6275569128699,
+        "name": "E4"
+      },
+      {
+        "bell": "IV",
+        "position": "B",
+        "hz": 319,
+        "midi": 63,
+        "cents": 43.2634802882518,
+        "referenceHz": 311.1269837220809,
+        "name": "D♯4"
+      },
+      {
+        "bell": "IV",
+        "position": "B",
+        "hz": 315,
+        "midi": 63,
+        "cents": 21.41796583514335,
+        "referenceHz": 311.1269837220809,
+        "name": "D♯4"
+      },
+      {
+        "bell": "IV",
+        "position": "B",
+        "hz": 313,
+        "midi": 63,
+        "cents": 10.39096008955056,
+        "referenceHz": 311.1269837220809,
+        "name": "D♯4"
+      },
+      {
+        "bell": "IV",
+        "position": "B",
+        "hz": 311,
+        "midi": 63,
+        "cents": -0.7067320728687321,
+        "referenceHz": 311.1269837220809,
+        "name": "D♯4"
+      },
+      {
+        "bell": "V",
+        "position": "A",
+        "hz": 325,
+        "midi": 64,
+        "cents": -24.476566730611182,
+        "referenceHz": 329.6275569128699,
+        "name": "E4"
+      },
+      {
+        "bell": "V",
+        "position": "A",
+        "hz": 326,
+        "midi": 64,
+        "cents": -19.15787115229861,
+        "referenceHz": 329.6275569128699,
+        "name": "E4"
+      },
+      {
+        "bell": "V",
+        "position": "A",
+        "hz": 327,
+        "midi": 64,
+        "cents": -13.855465631892372,
+        "referenceHz": 329.6275569128699,
+        "name": "E4"
+      },
+      {
+        "bell": "V",
+        "position": "B",
+        "hz": 355,
+        "midi": 65,
+        "cents": 28.378601040861895,
+        "referenceHz": 349.2282314330039,
+        "name": "F4"
+      },
+      {
+        "bell": "V",
+        "position": "B",
+        "hz": 360,
+        "midi": 66,
+        "cents": -47.40794063398113,
+        "referenceHz": 369.9944227116344,
+        "name": "F♯4"
+      },
+      {
+        "bell": "V",
+        "position": "B",
+        "hz": 358,
+        "midi": 65,
+        "cents": 42.94727648751575,
+        "referenceHz": 349.2282314330039,
+        "name": "F4"
+      },
+      {
+        "bell": "V",
+        "position": "B",
+        "hz": 351,
+        "midi": 65,
+        "cents": 8.76100813588181,
+        "referenceHz": 349.2282314330039,
+        "name": "F4"
+      },
+      {
+        "bell": "V",
+        "position": "B",
+        "hz": 347,
+        "midi": 65,
+        "cents": -11.081433135677798,
+        "referenceHz": 349.2282314330039,
+        "name": "F4"
+      },
+      {
+        "bell": "V",
+        "position": "B",
+        "hz": 342,
+        "midi": 65,
+        "cents": -36.20863836651438,
+        "referenceHz": 349.2282314330039,
+        "name": "F4"
+      },
+      {
+        "bell": "V",
+        "position": "B",
+        "hz": 338,
+        "midi": 64,
+        "cents": 43.42366730902967,
+        "referenceHz": 329.6275569128699,
+        "name": "E4"
+      },
+      {
+        "bell": "V",
+        "position": "B",
+        "hz": 333,
+        "midi": 64,
+        "cents": 17.62238425592244,
+        "referenceHz": 329.6275569128699,
+        "name": "E4"
+      },
+      {
+        "bell": "V",
+        "position": "B",
+        "hz": 330,
+        "midi": 64,
+        "cents": 1.9550008653880013,
+        "referenceHz": 329.6275569128699,
+        "name": "E4"
+      },
+      {
+        "bell": "V",
+        "position": "B",
+        "hz": 328,
+        "midi": 64,
+        "cents": -8.569250687891383,
+        "referenceHz": 329.6275569128699,
+        "name": "E4"
+      },
+      {
+        "bell": "V",
+        "position": "B",
+        "hz": 326,
+        "midi": 64,
+        "cents": -19.15787115229861,
+        "referenceHz": 329.6275569128699,
+        "name": "E4"
+      },
+      {
+        "bell": "VI",
+        "position": "A",
+        "hz": 364,
+        "midi": 66,
+        "cents": -28.278087991155587,
+        "referenceHz": 369.9944227116344,
+        "name": "F♯4"
+      },
+      {
+        "bell": "VI",
+        "position": "A",
+        "hz": 363,
+        "midi": 66,
+        "cents": -33.040770634690375,
+        "referenceHz": 369.9944227116344,
+        "name": "F♯4"
+      },
+      {
+        "bell": "VI",
+        "position": "B",
+        "hz": 377,
+        "midi": 66,
+        "cents": 32.47319969280511,
+        "referenceHz": 369.9944227116344,
+        "name": "F♯4"
+      },
+      {
+        "bell": "VI",
+        "position": "B",
+        "hz": 380,
+        "midi": 66,
+        "cents": 46.195073767546546,
+        "referenceHz": 369.9944227116344,
+        "name": "F♯4"
+      },
+      {
+        "bell": "VI",
+        "position": "B",
+        "hz": 375,
+        "midi": 66,
+        "cents": 23.264486230300463,
+        "referenceHz": 369.9944227116344,
+        "name": "F♯4"
+      },
+      {
+        "bell": "VI",
+        "position": "B",
+        "hz": 373,
+        "midi": 66,
+        "cents": 14.006528076693314,
+        "referenceHz": 369.9944227116344,
+        "name": "F♯4"
+      },
+      {
+        "bell": "VI",
+        "position": "B",
+        "hz": 370,
+        "midi": 66,
+        "cents": 0.026096389983365498,
+        "referenceHz": 369.9944227116344,
+        "name": "F♯4"
+      },
+      {
+        "bell": "VI",
+        "position": "B",
+        "hz": 368,
+        "midi": 66,
+        "cents": -9.357308961176614,
+        "referenceHz": 369.9944227116344,
+        "name": "F♯4"
+      },
+      {
+        "bell": "VI",
+        "position": "B",
+        "hz": 366,
+        "midi": 66,
+        "cents": -18.79185028874133,
+        "referenceHz": 369.9944227116344,
+        "name": "F♯4"
+      },
+      {
+        "bell": "VII",
+        "position": "A",
+        "hz": 362,
+        "midi": 66,
+        "cents": -37.81659172974514,
+        "referenceHz": 369.9944227116344,
+        "name": "F♯4"
+      },
+      {
+        "bell": "VII",
+        "position": "A",
+        "hz": 363,
+        "midi": 66,
+        "cents": -33.040770634690375,
+        "referenceHz": 369.9944227116344,
+        "name": "F♯4"
+      },
+      {
+        "bell": "VII",
+        "position": "A",
+        "hz": 364,
+        "midi": 66,
+        "cents": -28.278087991155587,
+        "referenceHz": 369.9944227116344,
+        "name": "F♯4"
+      },
+      {
+        "bell": "VII",
+        "position": "B",
+        "hz": 406,
+        "midi": 68,
+        "cents": -39.228555607380144,
+        "referenceHz": 415.3046975799451,
+        "name": "G♯4"
+      },
+      {
+        "bell": "VII",
+        "position": "B",
+        "hz": 404,
+        "midi": 68,
+        "cents": -47.777876927438,
+        "referenceHz": 415.3046975799451,
+        "name": "G♯4"
+      },
+      {
+        "bell": "VII",
+        "position": "B",
+        "hz": 402,
+        "midi": 67,
+        "cents": 43.63037318512255,
+        "referenceHz": 391.99543598174927,
+        "name": "G4"
+      },
+      {
+        "bell": "VIII",
+        "position": "A",
+        "hz": 379,
+        "midi": 66,
+        "cents": 41.63318957571818,
+        "referenceHz": 369.9944227116344,
+        "name": "F♯4"
+      },
+      {
+        "bell": "VIII",
+        "position": "A",
+        "hz": 381,
+        "midi": 67,
+        "cents": -49.25503123760535,
+        "referenceHz": 391.99543598174927,
+        "name": "G4"
+      },
+      {
+        "bell": "VIII",
+        "position": "A",
+        "hz": 377,
+        "midi": 66,
+        "cents": 32.47319969280511,
+        "referenceHz": 369.9944227116344,
+        "name": "F♯4"
+      },
+      {
+        "bell": "VIII",
+        "position": "B",
+        "hz": 409,
+        "midi": 68,
+        "cents": -26.48321669949354,
+        "referenceHz": 415.3046975799451,
+        "name": "G♯4"
+      },
+      {
+        "bell": "VIII",
+        "position": "B",
+        "hz": 410,
+        "midi": 68,
+        "cents": -22.255536823055877,
+        "referenceHz": 415.3046975799451,
+        "name": "G♯4"
+      },
+      {
+        "bell": "VIII",
+        "position": "B",
+        "hz": 408,
+        "midi": 68,
+        "cents": -30.721245863796298,
+        "referenceHz": 415.3046975799451,
+        "name": "G♯4"
+      },
+      {
+        "bell": "VIII",
+        "position": "B",
+        "hz": 403,
+        "midi": 67,
+        "cents": 47.93157800396983,
+        "referenceHz": 391.99543598174927,
+        "name": "G4"
+      },
+      {
+        "bell": "IX",
+        "position": "A",
+        "hz": 402,
+        "midi": 67,
+        "cents": 43.63037318512255,
+        "referenceHz": 391.99543598174927,
+        "name": "G4"
+      },
+      {
+        "bell": "IX",
+        "position": "B",
+        "hz": 423,
+        "midi": 68,
+        "cents": 31.784967514347784,
+        "referenceHz": 415.3046975799451,
+        "name": "G♯4"
+      },
+      {
+        "bell": "IX",
+        "position": "B",
+        "hz": 420,
+        "midi": 68,
+        "cents": 19.462964969756058,
+        "referenceHz": 415.3046975799451,
+        "name": "G♯4"
+      },
+      {
+        "bell": "IX",
+        "position": "B",
+        "hz": 412,
+        "midi": 68,
+        "cents": -13.831023609729698,
+        "referenceHz": 415.3046975799451,
+        "name": "G♯4"
+      },
+      {
+        "bell": "IX",
+        "position": "B",
+        "hz": 409,
+        "midi": 68,
+        "cents": -26.48321669949354,
+        "referenceHz": 415.3046975799451,
+        "name": "G♯4"
+      },
+      {
+        "bell": "IX",
+        "position": "B",
+        "hz": 403,
+        "midi": 67,
+        "cents": 47.93157800396983,
+        "referenceHz": 391.99543598174927,
+        "name": "G4"
+      },
+      {
+        "bell": "X",
+        "position": "A",
+        "hz": 410,
+        "midi": 68,
+        "cents": -22.255536823055877,
+        "referenceHz": 415.3046975799451,
+        "name": "G♯4"
+      },
+      {
+        "bell": "X",
+        "position": "B",
+        "hz": 437,
+        "midi": 69,
+        "cents": -11.844292828872938,
+        "referenceHz": 440,
+        "name": "A4"
+      },
+      {
+        "bell": "X",
+        "position": "B",
+        "hz": 434,
+        "midi": 69,
+        "cents": -23.770177296216843,
+        "referenceHz": 440,
+        "name": "A4"
+      },
+      {
+        "bell": "X",
+        "position": "B",
+        "hz": 431,
+        "midi": 69,
+        "cents": -35.77878532267391,
+        "referenceHz": 440,
+        "name": "A4"
+      },
+      {
+        "bell": "X",
+        "position": "B",
+        "hz": 427,
+        "midi": 68,
+        "cents": 48.07905531499728,
+        "referenceHz": 415.3046975799451,
+        "name": "G♯4"
+      },
+      {
+        "bell": "X",
+        "position": "B",
+        "hz": 423,
+        "midi": 68,
+        "cents": 31.784967514347784,
+        "referenceHz": 415.3046975799451,
+        "name": "G♯4"
+      },
+      {
+        "bell": "X",
+        "position": "B",
+        "hz": 420,
+        "midi": 68,
+        "cents": 19.462964969756058,
+        "referenceHz": 415.3046975799451,
+        "name": "G♯4"
+      },
+      {
+        "bell": "X",
+        "position": "B",
+        "hz": 413,
+        "midi": 68,
+        "cents": -9.6340905262565,
+        "referenceHz": 415.3046975799451,
+        "name": "G♯4"
+      }
+    ],
+    "keys": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69
+    ],
+    "minimum": 269,
+    "maximum": 437
+  },
+  "limits": [
+    "Reference sounds are synthesized sine tones, not recordings.",
+    "Source lists omit repeated frequencies and contain no frequency occurrence counts or strike chronology.",
+    "Modern note names use twelve-tone equal temperament with A4 = 440 Hz.",
+    "Nearest-key coverage does not establish an ancient tuning system."
+  ]
+}

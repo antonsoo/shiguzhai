@@ -1,0 +1,8 @@
+{
+  "method": "Python Decimal ln with 50 digits, anchored to the rendered C4 and C-sharp4 grid positions; source list membership verified directly in browser-review.mjs",
+  "configurations": 4,
+  "charts": 48,
+  "marks": 2412,
+  "maximumSvgUnitsError": 5.343281372915953e-12,
+  "toleranceSvgUnits": 1e-09
+}

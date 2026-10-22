@@ -1,0 +1,99 @@
+{
+  "method": "Python wave + interpolated positive zero crossings; frequencies from publisher table, modern comparison from independent Decimal calculation",
+  "files": 4,
+  "measuredTones": 8,
+  "maximumErrorCents": 0.002440458074752303,
+  "toleranceCents": 0.02,
+  "silentGapsAndEnvelopeChecked": true,
+  "playback": [],
+  "results": [
+    {
+      "file": "chromium-1440-I-280-269.wav",
+      "sha256": "b4ee7a785364750952285d860b4551b7bada01e49df4f046d372ddc53b847708",
+      "bell": "I",
+      "a": 280,
+      "b": 269,
+      "mode": "pair",
+      "browser": "chromium",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0000311609721,
+          "errorCents": 0.00019266761752899
+        },
+        {
+          "expectedHz": 269,
+          "measuredHz": 268.99997441942185,
+          "errorCents": 0.00016463185865826728
+        }
+      ]
+    },
+    {
+      "file": "chromium-375-I-280-269.wav",
+      "sha256": "b4ee7a785364750952285d860b4551b7bada01e49df4f046d372ddc53b847708",
+      "bell": "I",
+      "a": 280,
+      "b": 269,
+      "mode": "pair",
+      "browser": "chromium",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0000311609721,
+          "errorCents": 0.00019266761752899
+        },
+        {
+          "expectedHz": 269,
+          "measuredHz": 268.99997441942185,
+          "errorCents": 0.00016463185865826728
+        }
+      ]
+    },
+    {
+      "file": "firefox-1440-I-280-269.wav",
+      "sha256": "7ec6c6b21935b02656f7476aa7033f19b9249cb0456bab01768fbe6295fc70b0",
+      "bell": "I",
+      "a": 280,
+      "b": 269,
+      "mode": "pair",
+      "browser": "firefox",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0003947061594,
+          "errorCents": 0.002440458074752303
+        },
+        {
+          "expectedHz": 269,
+          "measuredHz": 269.0001436932808,
+          "errorCents": 0.0009247830254774097
+        }
+      ]
+    },
+    {
+      "file": "firefox-375-I-280-269.wav",
+      "sha256": "7ec6c6b21935b02656f7476aa7033f19b9249cb0456bab01768fbe6295fc70b0",
+      "bell": "I",
+      "a": 280,
+      "b": 269,
+      "mode": "pair",
+      "browser": "firefox",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0003947061594,
+          "errorCents": 0.002440458074752303
+        },
+        {
+          "expectedHz": 269,
+          "measuredHz": 269.0001436932808,
+          "errorCents": 0.0009247830254774097
+        }
+      ]
+    }
+  ]
+}

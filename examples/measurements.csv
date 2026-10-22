@@ -1,0 +1,88 @@
+bell,accession,strike_position,source_list_position,frequency_hz,first_entry_role,source_doi,source_table
+CsM I,1632.9,A,1,280,first listed,10.1186/s40494-024-01377-0,1
+CsM I,1632.9,A,2,279,additional reported value,10.1186/s40494-024-01377-0,1
+CsM I,1632.9,B,1,283,clearest or most often occurring,10.1186/s40494-024-01377-0,1
+CsM I,1632.9,B,2,282,additional reported value,10.1186/s40494-024-01377-0,1
+CsM I,1632.9,B,3,280,additional reported value,10.1186/s40494-024-01377-0,1
+CsM I,1632.9,B,4,278,additional reported value,10.1186/s40494-024-01377-0,1
+CsM I,1632.9,B,5,276,additional reported value,10.1186/s40494-024-01377-0,1
+CsM I,1632.9,B,6,274,additional reported value,10.1186/s40494-024-01377-0,1
+CsM I,1632.9,B,7,269,additional reported value,10.1186/s40494-024-01377-0,1
+CsM II,1632.5,A,1,280,first listed,10.1186/s40494-024-01377-0,1
+CsM II,1632.5,A,2,279,additional reported value,10.1186/s40494-024-01377-0,1
+CsM II,1632.5,B,1,296,clearest or most often occurring,10.1186/s40494-024-01377-0,1
+CsM II,1632.5,B,2,302,additional reported value,10.1186/s40494-024-01377-0,1
+CsM II,1632.5,B,3,290,additional reported value,10.1186/s40494-024-01377-0,1
+CsM II,1632.5,B,4,288,additional reported value,10.1186/s40494-024-01377-0,1
+CsM II,1632.5,B,5,286,additional reported value,10.1186/s40494-024-01377-0,1
+CsM II,1632.5,B,6,283,additional reported value,10.1186/s40494-024-01377-0,1
+CsM II,1632.5,B,7,280,additional reported value,10.1186/s40494-024-01377-0,1
+CsM III,1633,A,1,313,first listed,10.1186/s40494-024-01377-0,1
+CsM III,1633,A,2,312,additional reported value,10.1186/s40494-024-01377-0,1
+CsM III,1633,B,1,350,clearest or most often occurring,10.1186/s40494-024-01377-0,1
+CsM III,1633,B,2,347,additional reported value,10.1186/s40494-024-01377-0,1
+CsM III,1633,B,3,343,additional reported value,10.1186/s40494-024-01377-0,1
+CsM III,1633,B,4,337,additional reported value,10.1186/s40494-024-01377-0,1
+CsM III,1633,B,5,335,additional reported value,10.1186/s40494-024-01377-0,1
+CsM III,1633,B,6,330,additional reported value,10.1186/s40494-024-01377-0,1
+CsM III,1633,B,7,321,additional reported value,10.1186/s40494-024-01377-0,1
+CsM III,1633,B,8,315,additional reported value,10.1186/s40494-024-01377-0,1
+CsM III,1633,B,9,306,additional reported value,10.1186/s40494-024-01377-0,1
+CsM IV,1632.8,A,1,313,first listed,10.1186/s40494-024-01377-0,1
+CsM IV,1632.8,A,2,314,additional reported value,10.1186/s40494-024-01377-0,1
+CsM IV,1632.8,B,1,326,clearest or most often occurring,10.1186/s40494-024-01377-0,1
+CsM IV,1632.8,B,2,323,additional reported value,10.1186/s40494-024-01377-0,1
+CsM IV,1632.8,B,3,319,additional reported value,10.1186/s40494-024-01377-0,1
+CsM IV,1632.8,B,4,315,additional reported value,10.1186/s40494-024-01377-0,1
+CsM IV,1632.8,B,5,313,additional reported value,10.1186/s40494-024-01377-0,1
+CsM IV,1632.8,B,6,311,additional reported value,10.1186/s40494-024-01377-0,1
+CsM V,1632.7,A,1,325,first listed,10.1186/s40494-024-01377-0,1
+CsM V,1632.7,A,2,326,additional reported value,10.1186/s40494-024-01377-0,1
+CsM V,1632.7,A,3,327,additional reported value,10.1186/s40494-024-01377-0,1
+CsM V,1632.7,B,1,355,clearest or most often occurring,10.1186/s40494-024-01377-0,1
+CsM V,1632.7,B,2,360,additional reported value,10.1186/s40494-024-01377-0,1
+CsM V,1632.7,B,3,358,additional reported value,10.1186/s40494-024-01377-0,1
+CsM V,1632.7,B,4,351,additional reported value,10.1186/s40494-024-01377-0,1
+CsM V,1632.7,B,5,347,additional reported value,10.1186/s40494-024-01377-0,1
+CsM V,1632.7,B,6,342,additional reported value,10.1186/s40494-024-01377-0,1
+CsM V,1632.7,B,7,338,additional reported value,10.1186/s40494-024-01377-0,1
+CsM V,1632.7,B,8,333,additional reported value,10.1186/s40494-024-01377-0,1
+CsM V,1632.7,B,9,330,additional reported value,10.1186/s40494-024-01377-0,1
+CsM V,1632.7,B,10,328,additional reported value,10.1186/s40494-024-01377-0,1
+CsM V,1632.7,B,11,326,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VI,1632.4,A,1,364,first listed,10.1186/s40494-024-01377-0,1
+CsM VI,1632.4,A,2,363,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VI,1632.4,B,1,377,clearest or most often occurring,10.1186/s40494-024-01377-0,1
+CsM VI,1632.4,B,2,380,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VI,1632.4,B,3,375,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VI,1632.4,B,4,373,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VI,1632.4,B,5,370,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VI,1632.4,B,6,368,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VI,1632.4,B,7,366,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VII,1632.3,A,1,362,first listed,10.1186/s40494-024-01377-0,1
+CsM VII,1632.3,A,2,363,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VII,1632.3,A,3,364,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VII,1632.3,B,1,406,clearest or most often occurring,10.1186/s40494-024-01377-0,1
+CsM VII,1632.3,B,2,404,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VII,1632.3,B,3,402,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VIII,1632.2,A,1,379,first listed,10.1186/s40494-024-01377-0,1
+CsM VIII,1632.2,A,2,381,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VIII,1632.2,A,3,377,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VIII,1632.2,B,1,409,clearest or most often occurring,10.1186/s40494-024-01377-0,1
+CsM VIII,1632.2,B,2,410,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VIII,1632.2,B,3,408,additional reported value,10.1186/s40494-024-01377-0,1
+CsM VIII,1632.2,B,4,403,additional reported value,10.1186/s40494-024-01377-0,1
+CsM IX,1632.6,A,1,402,first listed,10.1186/s40494-024-01377-0,1
+CsM IX,1632.6,B,1,423,clearest or most often occurring,10.1186/s40494-024-01377-0,1
+CsM IX,1632.6,B,2,420,additional reported value,10.1186/s40494-024-01377-0,1
+CsM IX,1632.6,B,3,412,additional reported value,10.1186/s40494-024-01377-0,1
+CsM IX,1632.6,B,4,409,additional reported value,10.1186/s40494-024-01377-0,1
+CsM IX,1632.6,B,5,403,additional reported value,10.1186/s40494-024-01377-0,1
+CsM X,1632.1,A,1,410,first listed,10.1186/s40494-024-01377-0,1
+CsM X,1632.1,B,1,437,clearest or most often occurring,10.1186/s40494-024-01377-0,1
+CsM X,1632.1,B,2,434,additional reported value,10.1186/s40494-024-01377-0,1
+CsM X,1632.1,B,3,431,additional reported value,10.1186/s40494-024-01377-0,1
+CsM X,1632.1,B,4,427,additional reported value,10.1186/s40494-024-01377-0,1
+CsM X,1632.1,B,5,423,additional reported value,10.1186/s40494-024-01377-0,1
+CsM X,1632.1,B,6,420,additional reported value,10.1186/s40494-024-01377-0,1
+CsM X,1632.1,B,7,413,additional reported value,10.1186/s40494-024-01377-0,1

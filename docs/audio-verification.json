@@ -1,0 +1,4946 @@
+{
+  "method": "Python wave + interpolated positive zero crossings; frequencies from publisher table, modern comparison from independent Decimal calculation",
+  "files": 242,
+  "measuredTones": 402,
+  "maximumErrorCents": 0.0033164667996102588,
+  "toleranceCents": 0.02,
+  "silentGapsAndEnvelopeChecked": true,
+  "playback": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "stoppedBeforeResumeScheduledOscillators": 0,
+      "resumeRejectionHandled": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "stoppedBeforeResumeScheduledOscillators": 0,
+      "resumeRejectionHandled": true
+    }
+  ],
+  "results": [
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 283,
+      "mode": "pair",
+      "browser": "chromium",
+      "file": "chromium-0-I-pair.wav",
+      "sha256": "7a0c6ac4672ac5ed5fa62494f735995bd85460619f0e643c8954b90f44c2c2fd",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0000311609721,
+          "errorCents": 0.00019266761752899
+        },
+        {
+          "expectedHz": 283,
+          "measuredHz": 283.0000139673831,
+          "errorCents": 8.544455326131928e-05
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 283,
+      "mode": "reference",
+      "browser": "chromium",
+      "file": "chromium-1-I-reference.wav",
+      "sha256": "c1354730c564b5bfe8122cb8e22386688ca4666d74daf40bc450a063e76dc0ec",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 283,
+          "measuredHz": 283.00002290019603,
+          "errorCents": 0.00014009045032816587
+        },
+        {
+          "expectedHz": 277.1826309768721,
+          "measuredHz": 277.18261456785706,
+          "errorCents": 0.00010248782999095358
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 283,
+      "mode": "observations",
+      "browser": "chromium",
+      "file": "chromium-2-I-observations.wav",
+      "sha256": "8938e8ff7e7200bc098e9ed34d2bb09ec2367a564939afab07b020c9208bae85",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 283,
+          "measuredHz": 283.0000175275621,
+          "errorCents": 0.00010722371498596586
+        },
+        {
+          "expectedHz": 282,
+          "measuredHz": 281.9999862629877,
+          "errorCents": 8.433327659672618e-05
+        },
+        {
+          "expectedHz": 280,
+          "measuredHz": 279.9999910641342,
+          "errorCents": 5.525026930615827e-05
+        },
+        {
+          "expectedHz": 278,
+          "measuredHz": 278.0000206644705,
+          "errorCents": 0.00012868717147436018
+        },
+        {
+          "expectedHz": 276,
+          "measuredHz": 276.0000054202671,
+          "errorCents": 3.399909737020306e-05
+        },
+        {
+          "expectedHz": 274,
+          "measuredHz": 273.9999858455988,
+          "errorCents": 8.943278062303935e-05
+        },
+        {
+          "expectedHz": 269,
+          "measuredHz": 268.99999589041533,
+          "errorCents": 2.6448524060218735e-05
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 283,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-3-I-A.wav",
+      "sha256": "2d001c35e1adaa94a5f7407059c866b052e3330d52b18ae196ce3e19368f559b",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0000311609721,
+          "errorCents": 0.00019266761752899
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 279,
+      "b": 283,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-4-I-A.wav",
+      "sha256": "da4bd135ce7a5457aa1dd55a54baa2808b4e15bf273d25b21944c8ce82582293",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 279,
+          "measuredHz": 279.0000042978582,
+          "errorCents": 2.666881144076747e-05
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 283,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-5-I-B.wav",
+      "sha256": "27a7b7dfe518fd9866a2fa4749c306125445bad3d5425cacace53c0a229b7297",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 283,
+          "measuredHz": 283.00002290019603,
+          "errorCents": 0.00014009045032816587
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 282,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-6-I-B.wav",
+      "sha256": "5b3ce1dcdf4b3c2cb9093f525d327d65c209ed535ef1f444376cc0cef9663e9b",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 282,
+          "measuredHz": 281.9999738227353,
+          "errorCents": 0.00016070558186244416
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 280,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-7-I-B.wav",
+      "sha256": "2d001c35e1adaa94a5f7407059c866b052e3330d52b18ae196ce3e19368f559b",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0000311609721,
+          "errorCents": 0.00019266761752899
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 278,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-8-I-B.wav",
+      "sha256": "9061a2832763f6b55d9365c36b2d6ca7ac43e9e892df0b460e255f0b8ba2a437",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 278,
+          "measuredHz": 277.9999929420926,
+          "errorCents": 4.3952840898335436e-05
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 276,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-9-I-B.wav",
+      "sha256": "3129495a9d04306772b943c02db6546ecfc94885d7b10a620d9feb8d7037587f",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 276,
+          "measuredHz": 276.0,
+          "errorCents": 0.0
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 274,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-10-I-B.wav",
+      "sha256": "457c50de673537168d746a951da0df62e2c455650fe78f0fb3aacb5a32732f7d",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 274,
+          "measuredHz": 273.9999823099764,
+          "errorCents": 0.0001117721611098135
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 269,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-11-I-B.wav",
+      "sha256": "757a2e5eca0b32bab21386e7e527b1610e5b9ae8d075b93eca4237dd3257bad9",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 269,
+          "measuredHz": 268.99999803901727,
+          "errorCents": 1.2620520671001478e-05
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 296,
+      "mode": "pair",
+      "browser": "chromium",
+      "file": "chromium-12-II-pair.wav",
+      "sha256": "14d23ff89eb1988f6726de4379cf2105a4aad13f729cc504b29679cec6bfb196",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0000311609721,
+          "errorCents": 0.00019266761752899
+        },
+        {
+          "expectedHz": 296,
+          "measuredHz": 295.9999960803009,
+          "errorCents": 2.2925394003439427e-05
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 296,
+      "mode": "reference",
+      "browser": "chromium",
+      "file": "chromium-13-II-reference.wav",
+      "sha256": "1c1dca8666441cbab25085e20fc8fd8a4474afb0cc0e5e1775e34c67a94238c8",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 296,
+          "measuredHz": 295.9999960803009,
+          "errorCents": 2.2925394003439427e-05
+        },
+        {
+          "expectedHz": 293.6647679174076,
+          "measuredHz": 293.6647618949754,
+          "errorCents": 3.550388351443656e-05
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 296,
+      "mode": "observations",
+      "browser": "chromium",
+      "file": "chromium-14-II-observations.wav",
+      "sha256": "20dd0894073103398914e3d59281014070b82f2205a0d245fa0a2a64ccc14787",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 296,
+          "measuredHz": 296.00002025178026,
+          "errorCents": 0.00011844787260653163
+        },
+        {
+          "expectedHz": 302,
+          "measuredHz": 302.00002191714196,
+          "errorCents": 0.00012564139426956536
+        },
+        {
+          "expectedHz": 290,
+          "measuredHz": 290.0000172256088,
+          "errorCents": 0.00010283296421415949
+        },
+        {
+          "expectedHz": 288,
+          "measuredHz": 288.00000000000006,
+          "errorCents": 3.8441118045779003e-13
+        },
+        {
+          "expectedHz": 286,
+          "measuredHz": 285.9999804573627,
+          "errorCents": 0.00011829678404159744
+        },
+        {
+          "expectedHz": 283,
+          "measuredHz": 283.00001752756214,
+          "errorCents": 0.00010722371537037702
+        },
+        {
+          "expectedHz": 280,
+          "measuredHz": 279.9999910641342,
+          "errorCents": 5.525026930615827e-05
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 296,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-15-II-A.wav",
+      "sha256": "2d001c35e1adaa94a5f7407059c866b052e3330d52b18ae196ce3e19368f559b",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0000311609721,
+          "errorCents": 0.00019266761752899
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 279,
+      "b": 296,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-16-II-A.wav",
+      "sha256": "da4bd135ce7a5457aa1dd55a54baa2808b4e15bf273d25b21944c8ce82582293",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 279,
+          "measuredHz": 279.0000042978582,
+          "errorCents": 2.666881144076747e-05
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 296,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-17-II-B.wav",
+      "sha256": "14cc0417d6a8cce0544f8eb61a795e2799ee314021b998c6a1b7b5db9f3565ef",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 296,
+          "measuredHz": 295.9999960803009,
+          "errorCents": 2.2925394003439427e-05
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 302,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-18-II-B.wav",
+      "sha256": "4f42b461067b4e531b3c8a5365e633ca21223eed9b24d012346f391f892af50b",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 302,
+          "measuredHz": 301.9999951986672,
+          "errorCents": 2.7523943377357017e-05
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 290,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-19-II-B.wav",
+      "sha256": "aa48bc56411705fbe8b419036497bf0466b5667730f401b395e3d2f02ee8a063",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 290,
+          "measuredHz": 289.9999749089824,
+          "errorCents": 0.00014978767561493327
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 288,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-20-II-B.wav",
+      "sha256": "f5758dad7d970dd606a47af3e83b8c545807712d5b6838271e461c7916c26d05",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 288,
+          "measuredHz": 288.0,
+          "errorCents": 0.0
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 286,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-21-II-B.wav",
+      "sha256": "6fcf6c1039be6972633e72b0e2d108aff874a3370d34d6672962e8ffb9d2de48",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 286,
+          "measuredHz": 285.9999701070043,
+          "errorCents": 0.00018095026116586216
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 283,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-22-II-B.wav",
+      "sha256": "27a7b7dfe518fd9866a2fa4749c306125445bad3d5425cacace53c0a229b7297",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 283,
+          "measuredHz": 283.00002290019603,
+          "errorCents": 0.00014009045032816587
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 280,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-23-II-B.wav",
+      "sha256": "2d001c35e1adaa94a5f7407059c866b052e3330d52b18ae196ce3e19368f559b",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0000311609721,
+          "errorCents": 0.00019266761752899
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 350,
+      "mode": "pair",
+      "browser": "chromium",
+      "file": "chromium-24-III-pair.wav",
+      "sha256": "71af8ac8ffe31ac615b30e4f18cb01e15eeb16978b89ef59a7c3769cf33ce5bf",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 313,
+          "measuredHz": 312.99998715773916,
+          "errorCents": 7.10318201733237e-05
+        },
+        {
+          "expectedHz": 350,
+          "measuredHz": 349.99999279314636,
+          "errorCents": 3.564785857445674e-05
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 350,
+      "mode": "reference",
+      "browser": "chromium",
+      "file": "chromium-25-III-reference.wav",
+      "sha256": "71bfc9aed0893783abbc4c29bc63a7cc9472ef5b0390fbfaf3bd42d114ec0a7d",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 350,
+          "measuredHz": 349.999989630736,
+          "errorCents": 5.129035178176994e-05
+        },
+        {
+          "expectedHz": 349.2282314330039,
+          "measuredHz": 349.2282370674911,
+          "errorCents": 2.7931922747577418e-05
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 350,
+      "mode": "observations",
+      "browser": "chromium",
+      "file": "chromium-26-III-observations.wav",
+      "sha256": "d7917d273aa65d8cb3263240d42299e2bc978cc4fc61b581595b14d436aceb28",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 350,
+          "measuredHz": 349.9999911163908,
+          "errorCents": 4.394173410581652e-05
+        },
+        {
+          "expectedHz": 347,
+          "measuredHz": 347.00000898658305,
+          "errorCents": 4.483538421010346e-05
+        },
+        {
+          "expectedHz": 343,
+          "measuredHz": 342.9999788784147,
+          "errorCents": 0.00010660760560829449
+        },
+        {
+          "expectedHz": 337,
+          "measuredHz": 337.00000335261615,
+          "errorCents": 1.722303620080448e-05
+        },
+        {
+          "expectedHz": 335,
+          "measuredHz": 334.9999683526746,
+          "errorCents": 0.00016354904433738235
+        },
+        {
+          "expectedHz": 330,
+          "measuredHz": 330.0000056683891,
+          "errorCents": 2.973729752537019e-05
+        },
+        {
+          "expectedHz": 321,
+          "measuredHz": 320.99998838303475,
+          "errorCents": 6.265322797316537e-05
+        },
+        {
+          "expectedHz": 315,
+          "measuredHz": 314.99999999999966,
+          "errorCents": 1.9220559022889518e-12
+        },
+        {
+          "expectedHz": 306,
+          "measuredHz": 305.99995599233586,
+          "errorCents": 0.0002489789936114984
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 350,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-27-III-A.wav",
+      "sha256": "1ad2840b1d06539ca689aa9703c5f7208f4b4f8e04e96c464bc317b3a5048956",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 313,
+          "measuredHz": 312.99998715773916,
+          "errorCents": 7.10318201733237e-05
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 312,
+      "b": 350,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-28-III-A.wav",
+      "sha256": "5ae954b61d4a009ecaf46bfb7ef9028abf4a17edddcf879b0483ad073a51dfe8",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 312,
+          "measuredHz": 312.00000556467154,
+          "errorCents": 3.087739994527143e-05
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 350,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-29-III-B.wav",
+      "sha256": "ed7c9cef23ab7d9f45556d37f6328c78e849bbff8d87b8bde12c652a48461919",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 350,
+          "measuredHz": 349.999989630736,
+          "errorCents": 5.129035178176994e-05
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 347,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-30-III-B.wav",
+      "sha256": "08858fd2ac3d1b0930a8ff413014fadc4bdcaee023b8a3cbac6cb738ca3ae499",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 347,
+          "measuredHz": 346.9999764100674,
+          "errorCents": 0.00011769364824010795
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 343,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-31-III-B.wav",
+      "sha256": "b67975bede6e1570cf55da98b3f7b6a0899c27885b900c975afe47c29efc2962",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 343,
+          "measuredHz": 342.9999762670835,
+          "errorCents": 0.00011978785572159421
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 337,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-32-III-B.wav",
+      "sha256": "2abddf5e9850cb21e0c369e5235677d85abe1a5607e49a01ef7dcac0059b88e8",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 337,
+          "measuredHz": 336.99999398579445,
+          "errorCents": 3.0896135159609894e-05
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 335,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-33-III-B.wav",
+      "sha256": "045804bb313431b0b617178f548d908a024dc46a9cafca21eb7b25e23a17e994",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 335,
+          "measuredHz": 334.99999676040545,
+          "errorCents": 1.6741780286069452e-05
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 330,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-34-III-B.wav",
+      "sha256": "f409e4981162b8896324ec3532824c031d4a35529fb8b1fbcd09011a983503fd",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 330,
+          "measuredHz": 330.00000658398784,
+          "errorCents": 3.454067812635984e-05
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 321,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-35-III-B.wav",
+      "sha256": "5687412491e5c8c053003245d95e69d59bc349d6fa153c70ec0956ed01f28cd4",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 321,
+          "measuredHz": 320.9999925418217,
+          "errorCents": 4.022383900903329e-05
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 315,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-36-III-B.wav",
+      "sha256": "693edb43c0e3175f2cd5136a77ee6811be3e755ac296e43239a2a944b5d37acc",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 315,
+          "measuredHz": 314.99997233093126,
+          "errorCents": 0.0001520686858427284
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 306,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-37-III-B.wav",
+      "sha256": "45c3784f870063aea41c43ececd2893af20cb3adda77647310f5e3019b92204f",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 306,
+          "measuredHz": 305.9999701171904,
+          "errorCents": 0.00016906581697942742
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 326,
+      "mode": "pair",
+      "browser": "chromium",
+      "file": "chromium-38-IV-pair.wav",
+      "sha256": "afa355ac4277e1928576eecd7a0caddba8d3c82b870f49be3a39b3a5199e67a2",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 313,
+          "measuredHz": 312.99998715773916,
+          "errorCents": 7.10318201733237e-05
+        },
+        {
+          "expectedHz": 326,
+          "measuredHz": 325.99999216208363,
+          "errorCents": 4.1623521089957125e-05
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 326,
+      "mode": "reference",
+      "browser": "chromium",
+      "file": "chromium-39-IV-reference.wav",
+      "sha256": "cd5119223f1a546f08ddd8b136038a1fb1493e7ad345722eeb02804668a2e601",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 326,
+          "measuredHz": 325.99999509530386,
+          "errorCents": 2.60465552774104e-05
+        },
+        {
+          "expectedHz": 329.6275569128699,
+          "measuredHz": 329.6275598571593,
+          "errorCents": 1.546367696549663e-05
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 326,
+      "mode": "observations",
+      "browser": "chromium",
+      "file": "chromium-40-IV-observations.wav",
+      "sha256": "23ccb931437f5796e546ecb032a943d7199bb754405e8bc21b7e29f95f919469",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 326,
+          "measuredHz": 326.0000015351869,
+          "errorCents": 8.152662258787551e-06
+        },
+        {
+          "expectedHz": 323,
+          "measuredHz": 322.9999809925565,
+          "errorCents": 0.00010187719606225001
+        },
+        {
+          "expectedHz": 319,
+          "measuredHz": 318.99997493985563,
+          "errorCents": 0.00013600306242478552
+        },
+        {
+          "expectedHz": 315,
+          "measuredHz": 314.9999999999999,
+          "errorCents": 5.766167706866853e-13
+        },
+        {
+          "expectedHz": 313,
+          "measuredHz": 312.99997580487496,
+          "errorCents": 0.0001338256418134274
+        },
+        {
+          "expectedHz": 311,
+          "measuredHz": 310.9999822723252,
+          "errorCents": 9.86840999754721e-05
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 326,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-41-IV-A.wav",
+      "sha256": "1ad2840b1d06539ca689aa9703c5f7208f4b4f8e04e96c464bc317b3a5048956",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 313,
+          "measuredHz": 312.99998715773916,
+          "errorCents": 7.10318201733237e-05
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 314,
+      "b": 326,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-42-IV-A.wav",
+      "sha256": "2d0f0f139ab0120afad91a49dc0f0faeb708052499eb1b637e1e054699f95589",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 314,
+          "measuredHz": 313.9999960203582,
+          "errorCents": 2.1941692507096676e-05
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 326,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-43-IV-B.wav",
+      "sha256": "f05e6f3dc6857b36a59ad3577c99445db9d1736ad0df36ea433e3f7ab6237303",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 326,
+          "measuredHz": 325.99999509530386,
+          "errorCents": 2.60465552774104e-05
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 323,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-44-IV-B.wav",
+      "sha256": "b380bf83b18a310e7aa45812fca8f9c7d16bb136eefbfb8b79769c939b318f6e",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 323,
+          "measuredHz": 322.9999909831066,
+          "errorCents": 4.8329266393898854e-05
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 319,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-45-IV-B.wav",
+      "sha256": "6b0ddd9bbe164228f9dc4e35d8c7bacb8c685180a3c1d8a4ee4d64888e2d58f7",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 319,
+          "measuredHz": 318.99997700751123,
+          "errorCents": 0.0001247817582493438
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 315,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-46-IV-B.wav",
+      "sha256": "693edb43c0e3175f2cd5136a77ee6811be3e755ac296e43239a2a944b5d37acc",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 315,
+          "measuredHz": 314.99997233093126,
+          "errorCents": 0.0001520686858427284
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 313,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-47-IV-B.wav",
+      "sha256": "1ad2840b1d06539ca689aa9703c5f7208f4b4f8e04e96c464bc317b3a5048956",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 313,
+          "measuredHz": 312.99998715773916,
+          "errorCents": 7.10318201733237e-05
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 311,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-48-IV-B.wav",
+      "sha256": "5bb89c72673316e6293944bf265cb1044a9a9360326b07e7b2d4af1ea6758131",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 311,
+          "measuredHz": 310.99998469592725,
+          "errorCents": 8.519270894347735e-05
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 355,
+      "mode": "pair",
+      "browser": "chromium",
+      "file": "chromium-49-V-pair.wav",
+      "sha256": "888673b85fa49285e278f1fc2a0ccbcd50fe31daf475eddb3513c48848f154e6",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 325,
+          "measuredHz": 324.99998604665444,
+          "errorCents": 7.43277152591825e-05
+        },
+        {
+          "expectedHz": 355,
+          "measuredHz": 354.99998572048474,
+          "errorCents": 6.963713656740414e-05
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 355,
+      "mode": "reference",
+      "browser": "chromium",
+      "file": "chromium-50-V-reference.wav",
+      "sha256": "6a6384b8eb628aec64aee7f79065efa34449c64ca97e4db999c5738425ad5018",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 355,
+          "measuredHz": 355.0000051028271,
+          "errorCents": 2.4885036723694377e-05
+        },
+        {
+          "expectedHz": 349.2282314330039,
+          "measuredHz": 349.2282370674911,
+          "errorCents": 2.7931922747577418e-05
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 355,
+      "mode": "observations",
+      "browser": "chromium",
+      "file": "chromium-51-V-observations.wav",
+      "sha256": "c3b18dc5b366f1e45343b0dc8d08769911ca433d573303ed852bfe513554992d",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 355,
+          "measuredHz": 355.0000017520689,
+          "errorCents": 8.544341883956648e-06
+        },
+        {
+          "expectedHz": 360,
+          "measuredHz": 359.99997929702,
+          "errorCents": 9.956029150454552e-05
+        },
+        {
+          "expectedHz": 358,
+          "measuredHz": 358.0000024254742,
+          "errorCents": 1.1729227705341584e-05
+        },
+        {
+          "expectedHz": 351,
+          "measuredHz": 350.9999568819663,
+          "errorCents": 0.00021267069139685094
+        },
+        {
+          "expectedHz": 347,
+          "measuredHz": 346.99994661970624,
+          "errorCents": 0.00026632215905090405
+        },
+        {
+          "expectedHz": 342,
+          "measuredHz": 341.99998860573254,
+          "errorCents": 5.7678783942617384e-05
+        },
+        {
+          "expectedHz": 338,
+          "measuredHz": 338.0000170267391,
+          "errorCents": 8.721085719754569e-05
+        },
+        {
+          "expectedHz": 333,
+          "measuredHz": 333.0000067616961,
+          "errorCents": 3.515338878809152e-05
+        },
+        {
+          "expectedHz": 330,
+          "measuredHz": 329.9999886382515,
+          "errorCents": 5.960559449985878e-05
+        },
+        {
+          "expectedHz": 328,
+          "measuredHz": 327.99998025926016,
+          "errorCents": 0.00010419464033638504
+        },
+        {
+          "expectedHz": 326,
+          "measuredHz": 326.00000153518675,
+          "errorCents": 8.152661105554014e-06
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 355,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-52-V-A.wav",
+      "sha256": "df9ae5faf89d722bcfaf5aa49e825d41a6c094290a92ef77fa81ef76fca481b6",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 325,
+          "measuredHz": 324.99998604665444,
+          "errorCents": 7.43277152591825e-05
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 326,
+      "b": 355,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-53-V-A.wav",
+      "sha256": "f05e6f3dc6857b36a59ad3577c99445db9d1736ad0df36ea433e3f7ab6237303",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 326,
+          "measuredHz": 325.99999509530386,
+          "errorCents": 2.60465552774104e-05
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 327,
+      "b": 355,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-54-V-A.wav",
+      "sha256": "3ee0e63641f14791020c418eb4d6988ecd84825fc22aec8948d8ce153b03ad48",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 327,
+          "measuredHz": 327.00000235876723,
+          "errorCents": 1.2488006550038284e-05
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 355,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-55-V-B.wav",
+      "sha256": "d1d8870ce51613b2b2d915ec2ca8d30c12c4cf1b86d598351ed19f930f9c77ec",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 355,
+          "measuredHz": 355.0000051028271,
+          "errorCents": 2.4885036723694377e-05
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 360,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-56-V-B.wav",
+      "sha256": "1ff76f0eb9583c8c52808a55ab61a485e3066f5b8fc1c86cca1f4494f12069da",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 360,
+          "measuredHz": 359.99998793468677,
+          "errorCents": 5.802189284407846e-05
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 358,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-57-V-B.wav",
+      "sha256": "f2f3b1d48fae018ad2f43e7014331c9d6422b4f2d97fd15b186f18ef8f608afa",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 358,
+          "measuredHz": 358.0000024254743,
+          "errorCents": 1.1729228089752762e-05
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 351,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-58-V-B.wav",
+      "sha256": "4a075daa2402d38feaa69203a1b735caca2fd82817f8d97a4326364e344a15c1",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 351,
+          "measuredHz": 351.00001617437505,
+          "errorCents": 7.977671858928117e-05
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 347,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-59-V-B.wav",
+      "sha256": "08858fd2ac3d1b0930a8ff413014fadc4bdcaee023b8a3cbac6cb738ca3ae499",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 347,
+          "measuredHz": 346.9999764100674,
+          "errorCents": 0.00011769364824010795
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 342,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-60-V-B.wav",
+      "sha256": "3e4807b61becdfb7b97c9ed178ae5817224eb1f26a5c15307600625448c3cd6b",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 342,
+          "measuredHz": 342.00000383270583,
+          "errorCents": 1.9401493568593612e-05
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 338,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-61-V-B.wav",
+      "sha256": "b2b417403d7a75fdfa1804038ebe2f045c414bc2d7ad8c8973b59739bb4e2b71",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 338,
+          "measuredHz": 338.00000904102495,
+          "errorCents": 4.630807685806249e-05
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 333,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-62-V-B.wav",
+      "sha256": "bb1a7c6e989a384e70d2d7728b0165f71aaa7ccfb1373abad08f21f514e4490e",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 333,
+          "measuredHz": 332.99998240949526,
+          "errorCents": 9.145129596726262e-05
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 330,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-63-V-B.wav",
+      "sha256": "f409e4981162b8896324ec3532824c031d4a35529fb8b1fbcd09011a983503fd",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 330,
+          "measuredHz": 330.00000658398784,
+          "errorCents": 3.454067812635984e-05
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 328,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-64-V-B.wav",
+      "sha256": "99b5b9f298112417ab07626fb83d5f791d586c596a1ad202223a6003f26110d7",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 328,
+          "measuredHz": 327.99997162476586,
+          "errorCents": 0.000149768821974751
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 326,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-65-V-B.wav",
+      "sha256": "f05e6f3dc6857b36a59ad3577c99445db9d1736ad0df36ea433e3f7ab6237303",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 326,
+          "measuredHz": 325.99999509530386,
+          "errorCents": 2.60465552774104e-05
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 377,
+      "mode": "pair",
+      "browser": "chromium",
+      "file": "chromium-66-VI-pair.wav",
+      "sha256": "42e817f64d9d5d8ed1e4fdd6be19ac2ec17e04760ffd8af53885b2d9aee50d4a",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 364,
+          "measuredHz": 364.00000079824565,
+          "errorCents": 3.7965659035600784e-06
+        },
+        {
+          "expectedHz": 377,
+          "measuredHz": 377.00000385078954,
+          "errorCents": 1.768333667863425e-05
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 377,
+      "mode": "reference",
+      "browser": "chromium",
+      "file": "chromium-67-VI-reference.wav",
+      "sha256": "b38e3a6a3c2f6ebdc38b1eac7d7067f16a96f8bef62d8fa2b674c587109494fa",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 377,
+          "measuredHz": 377.0000020220377,
+          "errorCents": 9.285465493447961e-06
+        },
+        {
+          "expectedHz": 369.9944227116344,
+          "measuredHz": 369.99441530930415,
+          "errorCents": 3.4636106778691146e-05
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 377,
+      "mode": "observations",
+      "browser": "chromium",
+      "file": "chromium-68-VI-observations.wav",
+      "sha256": "99258d24992f1a133ebcd75c19308597d48a22e2175888ea47115aca77c14355",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 377,
+          "measuredHz": 376.9999758660441,
+          "errorCents": 0.00011082633290814361
+        },
+        {
+          "expectedHz": 380,
+          "measuredHz": 379.9999836169068,
+          "errorCents": 7.463939316682886e-05
+        },
+        {
+          "expectedHz": 375,
+          "measuredHz": 375.0,
+          "errorCents": 0.0
+        },
+        {
+          "expectedHz": 373,
+          "measuredHz": 373.0000120902568,
+          "errorCents": 5.611545291748355e-05
+        },
+        {
+          "expectedHz": 370,
+          "measuredHz": 370.00000851656796,
+          "errorCents": 3.984911425662576e-05
+        },
+        {
+          "expectedHz": 368,
+          "measuredHz": 368.0000000000001,
+          "errorCents": 3.8441118045779003e-13
+        },
+        {
+          "expectedHz": 366,
+          "measuredHz": 365.9999897600606,
+          "errorCents": 4.84364262029972e-05
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 377,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-69-VI-A.wav",
+      "sha256": "0a8f9640176bfb3c9b8a3b0aba9615047ad84cbc287d4a0eea1c95af1f40ce6f",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 364,
+          "measuredHz": 364.00000079824565,
+          "errorCents": 3.7965659035600784e-06
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 363,
+      "b": 377,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-70-VI-A.wav",
+      "sha256": "2feb9026b3a457c2f6059fdd60e1631277b282d752ab263f1b802189ac3f58d6",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 363,
+          "measuredHz": 363.00002946936496,
+          "errorCents": 0.00014054646266695777
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 377,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-71-VI-B.wav",
+      "sha256": "6f7299062a80c043598706c93ddbce3bb182f4887d51c3dbf215f2aa2be9a4ee",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 377,
+          "measuredHz": 377.0000020220377,
+          "errorCents": 9.285465493447961e-06
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 380,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-72-VI-B.wav",
+      "sha256": "60b6326e48865b6a083bdc046f7d7d6110a1b30690b3642ae3aa4448c2795421",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 380,
+          "measuredHz": 379.999996184647,
+          "errorCents": 1.7382286970083043e-05
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 375,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-73-VI-B.wav",
+      "sha256": "577ec68a802878affdac7478b48febe28dc87a1c8d4ccae802242cc035b46be8",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 375,
+          "measuredHz": 375.0,
+          "errorCents": 0.0
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 373,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-74-VI-B.wav",
+      "sha256": "5057fceb80cc7db1bda4bce987a091e03422b529344e33772b152852a90c7c63",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 373,
+          "measuredHz": 373.00000058188147,
+          "errorCents": 2.7007318728866294e-06
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 370,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-75-VI-B.wav",
+      "sha256": "317cb6e4c645da09e4947145a1eeeb1cf03913841dc1ba73fab62f7c62bf4c97",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 370,
+          "measuredHz": 370.0000294191134,
+          "errorCents": 0.00013765234798282326
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 368,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-76-VI-B.wav",
+      "sha256": "105e233b1d67cb16f790ad81398a0f9ca3c23b91ab65e4a637760f445b6e96e5",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 368,
+          "measuredHz": 368.0000015804302,
+          "errorCents": 7.435039626227812e-06
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 366,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-77-VI-B.wav",
+      "sha256": "8756bb43dcdb139e340ea41296f9bf1b5f6c214aeeaad7816e8969873e9073ad",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 366,
+          "measuredHz": 366.0000011913132,
+          "errorCents": 5.635087329271575e-06
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 362,
+      "b": 406,
+      "mode": "pair",
+      "browser": "chromium",
+      "file": "chromium-78-VII-pair.wav",
+      "sha256": "16e7bff0f8b4116aae14a437c22c4f11caf2e672f0051589c1608117ba183a95",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 362,
+          "measuredHz": 361.9999991507263,
+          "errorCents": 4.061578788089343e-06
+        },
+        {
+          "expectedHz": 406,
+          "measuredHz": 406.0000060825661,
+          "errorCents": 2.593681145353811e-05
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 362,
+      "b": 406,
+      "mode": "reference",
+      "browser": "chromium",
+      "file": "chromium-79-VII-reference.wav",
+      "sha256": "70955a85450fdfebc71e2fde3f3618458239dabaa7206854c1d89693f526e1d8",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 406,
+          "measuredHz": 405.99999449284667,
+          "errorCents": 2.3483180784338765e-05
+        },
+        {
+          "expectedHz": 415.3046975799451,
+          "measuredHz": 415.30467662670674,
+          "errorCents": 8.734541377557382e-05
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 362,
+      "b": 406,
+      "mode": "observations",
+      "browser": "chromium",
+      "file": "chromium-80-VII-observations.wav",
+      "sha256": "10907ddbe5eee6eebd6e4ea5ecc11028376857bcd903f638a09bfb647072f7f1",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 406,
+          "measuredHz": 406.00000153664945,
+          "errorCents": 6.5524626967677334e-06
+        },
+        {
+          "expectedHz": 404,
+          "measuredHz": 404.00003393257737,
+          "errorCents": 0.0001454089873065279
+        },
+        {
+          "expectedHz": 402,
+          "measuredHz": 402.0000403212007,
+          "errorCents": 0.00017364535325983886
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 362,
+      "b": 406,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-81-VII-A.wav",
+      "sha256": "8ead3d177d8a01b7f2af10ab865ffb366598f45b2a4ab25bcb83fdb485cb896d",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 362,
+          "measuredHz": 361.9999991507263,
+          "errorCents": 4.061578788089343e-06
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 363,
+      "b": 406,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-82-VII-A.wav",
+      "sha256": "2feb9026b3a457c2f6059fdd60e1631277b282d752ab263f1b802189ac3f58d6",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 363,
+          "measuredHz": 363.00002946936496,
+          "errorCents": 0.00014054646266695777
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 364,
+      "b": 406,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-83-VII-A.wav",
+      "sha256": "0a8f9640176bfb3c9b8a3b0aba9615047ad84cbc287d4a0eea1c95af1f40ce6f",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 364,
+          "measuredHz": 364.00000079824565,
+          "errorCents": 3.7965659035600784e-06
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 362,
+      "b": 406,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-84-VII-B.wav",
+      "sha256": "ecf5b4742f2bf8ce49add1b8cb954c9abad7a41b5865dafe43abdaa46c106e3e",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 406,
+          "measuredHz": 405.99999449284667,
+          "errorCents": 2.3483180784338765e-05
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 362,
+      "b": 404,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-85-VII-B.wav",
+      "sha256": "a39bb28fb6567beca40e2f5e173ec9126df0ca391eadf51bccd1576a8ca46637",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 404,
+          "measuredHz": 403.9999856682706,
+          "errorCents": 6.141479791410818e-05
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 362,
+      "b": 402,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-86-VII-B.wav",
+      "sha256": "186bd38982c850912486d0f79db4135adeac3ad64db7b9f10473a40377c47679",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 402,
+          "measuredHz": 402.0000081279116,
+          "errorCents": 3.500327660957551e-05
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 409,
+      "mode": "pair",
+      "browser": "chromium",
+      "file": "chromium-87-VIII-pair.wav",
+      "sha256": "71704efaade44012807b3d15d86bbd6d12f7952da1ead5d4a97745a8b74254a3",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 379,
+          "measuredHz": 378.99999588060143,
+          "errorCents": 1.8817000231589693e-05
+        },
+        {
+          "expectedHz": 409,
+          "measuredHz": 408.99999126612096,
+          "errorCents": 3.696916612971146e-05
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 409,
+      "mode": "reference",
+      "browser": "chromium",
+      "file": "chromium-88-VIII-reference.wav",
+      "sha256": "e875332ff7da88f48a8b1a3d8e5b8852ad6f563f11729c9a49c7fefe516d6492",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 409,
+          "measuredHz": 409.00000663329007,
+          "errorCents": 2.807769569337194e-05
+        },
+        {
+          "expectedHz": 415.3046975799451,
+          "measuredHz": 415.30467662670674,
+          "errorCents": 8.734541377557382e-05
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 409,
+      "mode": "observations",
+      "browser": "chromium",
+      "file": "chromium-89-VIII-observations.wav",
+      "sha256": "b269b5dec20101d4013a7adaec588dba2b57f27a114febcf6fc234391c881114",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 409,
+          "measuredHz": 409.0000013645463,
+          "errorCents": 5.77591444271227e-06
+        },
+        {
+          "expectedHz": 410,
+          "measuredHz": 410.0000514923231,
+          "errorCents": 0.00021742745723454788
+        },
+        {
+          "expectedHz": 408,
+          "measuredHz": 407.9999450825628,
+          "errorCents": 0.0002330268223110467
+        },
+        {
+          "expectedHz": 403,
+          "measuredHz": 402.999970476232,
+          "errorCents": 0.00012683015949199015
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 409,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-90-VIII-A.wav",
+      "sha256": "a431aa035ae6f3b73c4d5f69bbdb9edfaba25d919fc27d408f000ce990639625",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 379,
+          "measuredHz": 378.99999588060143,
+          "errorCents": 1.8817000231589693e-05
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 381,
+      "b": 409,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-91-VIII-A.wav",
+      "sha256": "6e5cf2e581e443c17a2daada631ac83c84283a69b207fabd62961cade3b11581",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 381,
+          "measuredHz": 381.0000117393096,
+          "errorCents": 5.334249911080002e-05
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 377,
+      "b": 409,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-92-VIII-A.wav",
+      "sha256": "6f7299062a80c043598706c93ddbce3bb182f4887d51c3dbf215f2aa2be9a4ee",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 377,
+          "measuredHz": 377.0000020220377,
+          "errorCents": 9.285465493447961e-06
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 409,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-93-VIII-B.wav",
+      "sha256": "5016c612be843e9647e9ce5300ed2529188a1aeb5ab15e788a7a1d49bdba784b",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 409,
+          "measuredHz": 409.00000663329007,
+          "errorCents": 2.807769569337194e-05
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 410,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-94-VIII-B.wav",
+      "sha256": "d8516d32f216291831d015b1ee98ba7ec85d889df3d27fc9b4814f797c4176a0",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 410,
+          "measuredHz": 410.00002031443705,
+          "errorCents": 8.577815679955891e-05
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 408,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-95-VIII-B.wav",
+      "sha256": "ac10aba8a609f6ce503f74de81da89dee070312f4e598b28f6c7bc43cb6e1659",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 408,
+          "measuredHz": 407.99997656641733,
+          "errorCents": 9.943386615604509e-05
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 403,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-96-VIII-B.wav",
+      "sha256": "75e0733c368fa0b1a09fe9e6eb0afeeda0ea9822eb0cfece4fa55496c6886c3d",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 403,
+          "measuredHz": 402.9999940874056,
+          "errorCents": 2.539971426266675e-05
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 423,
+      "mode": "pair",
+      "browser": "chromium",
+      "file": "chromium-97-IX-pair.wav",
+      "sha256": "245520a58b15c035ec89ca66af34e4c7b6b8c8b265cd90b92f56cbd4cd98cbec",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 402,
+          "measuredHz": 402.0000081279116,
+          "errorCents": 3.500327660957551e-05
+        },
+        {
+          "expectedHz": 423,
+          "measuredHz": 423.0000021814713,
+          "errorCents": 8.928220652992346e-06
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 423,
+      "mode": "reference",
+      "browser": "chromium",
+      "file": "chromium-98-IX-reference.wav",
+      "sha256": "d5dc103bfd0b9b164220c027aad8594e4f89d3231fd7e547503451f3c293b423",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 423,
+          "measuredHz": 423.0000125090441,
+          "errorCents": 5.1196413050269114e-05
+        },
+        {
+          "expectedHz": 415.3046975799451,
+          "measuredHz": 415.30467662670674,
+          "errorCents": 8.734541377557382e-05
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 423,
+      "mode": "observations",
+      "browser": "chromium",
+      "file": "chromium-99-IX-observations.wav",
+      "sha256": "cfa25256cf04d949e7a15e1dcdd4fc05e5d29ee88b0bdb9bf3c872671423b97d",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 423,
+          "measuredHz": 422.99999339392815,
+          "errorCents": 2.7037013187098798e-05
+        },
+        {
+          "expectedHz": 420,
+          "measuredHz": 420.00002070762037,
+          "errorCents": 8.535651580152484e-05
+        },
+        {
+          "expectedHz": 412,
+          "measuredHz": 411.99999029138223,
+          "errorCents": 4.079584920172365e-05
+        },
+        {
+          "expectedHz": 409,
+          "measuredHz": 409.0000086729913,
+          "errorCents": 3.671143686980996e-05
+        },
+        {
+          "expectedHz": 403,
+          "measuredHz": 403.0000018624296,
+          "errorCents": 8.00074834273588e-06
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 423,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-100-IX-A.wav",
+      "sha256": "186bd38982c850912486d0f79db4135adeac3ad64db7b9f10473a40377c47679",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 402,
+          "measuredHz": 402.0000081279116,
+          "errorCents": 3.500327660957551e-05
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 423,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-101-IX-B.wav",
+      "sha256": "630e435984a07fed5bdac53f0ba4a9789a60d199ae5e9f4f0ab463da896f0ef0",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 423,
+          "measuredHz": 423.0000125090441,
+          "errorCents": 5.1196413050269114e-05
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 420,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-102-IX-B.wav",
+      "sha256": "edb65835c51f43c64cc478bff24d8976d71aff1f5f317b41db616c23ffa02307",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 420,
+          "measuredHz": 420.0000207149632,
+          "errorCents": 8.538678279873681e-05
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 412,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-103-IX-B.wav",
+      "sha256": "df05619f61eb5b9bf64bd4ba534772b5d0fffb42115c0e74b297542e44d0bd4a",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 412,
+          "measuredHz": 412.0000119215401,
+          "errorCents": 5.009460145591561e-05
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 409,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-104-IX-B.wav",
+      "sha256": "5016c612be843e9647e9ce5300ed2529188a1aeb5ab15e788a7a1d49bdba784b",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 409,
+          "measuredHz": 409.00000663329007,
+          "errorCents": 2.807769569337194e-05
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 403,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-105-IX-B.wav",
+      "sha256": "75e0733c368fa0b1a09fe9e6eb0afeeda0ea9822eb0cfece4fa55496c6886c3d",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 403,
+          "measuredHz": 402.9999940874056,
+          "errorCents": 2.539971426266675e-05
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 437,
+      "mode": "pair",
+      "browser": "chromium",
+      "file": "chromium-106-X-pair.wav",
+      "sha256": "d64c48f5d7700576dde0d7540ab9ffe39ccdf09dd513b86f147cdad2076856d5",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 410,
+          "measuredHz": 410.00002031443705,
+          "errorCents": 8.577815679955891e-05
+        },
+        {
+          "expectedHz": 437,
+          "measuredHz": 436.9999582415647,
+          "errorCents": 0.00016543164426277562
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 437,
+      "mode": "reference",
+      "browser": "chromium",
+      "file": "chromium-107-X-reference.wav",
+      "sha256": "5dc4356b0896417d5133bbec45885c5cfd351ec352441bf3f8882f0b0659c0f1",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 437,
+          "measuredHz": 436.9999582415647,
+          "errorCents": 0.00016543164426277562
+        },
+        {
+          "expectedHz": 440.0,
+          "measuredHz": 439.9999736059138,
+          "errorCents": 0.000103850777595403
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 437,
+      "mode": "observations",
+      "browser": "chromium",
+      "file": "chromium-108-X-observations.wav",
+      "sha256": "72a5a1e7b0b046dd94ad1e49350252fe666d07617e791492398ff73e157bf77c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 437,
+          "measuredHz": 436.9999533446961,
+          "errorCents": 0.00018483124706189201
+        },
+        {
+          "expectedHz": 434,
+          "measuredHz": 433.999993696995,
+          "errorCents": 2.5142804194381837e-05
+        },
+        {
+          "expectedHz": 431,
+          "measuredHz": 430.99996359797603,
+          "errorCents": 0.00014621908579814084
+        },
+        {
+          "expectedHz": 427,
+          "measuredHz": 426.9999744607168,
+          "errorCents": 0.00010354678675333304
+        },
+        {
+          "expectedHz": 423,
+          "measuredHz": 422.9999933939283,
+          "errorCents": 2.703701261048202e-05
+        },
+        {
+          "expectedHz": 420,
+          "measuredHz": 420.00002070762037,
+          "errorCents": 8.535651580152484e-05
+        },
+        {
+          "expectedHz": 413,
+          "measuredHz": 413.0000170924676,
+          "errorCents": 7.164905876992535e-05
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 437,
+      "mode": "A",
+      "browser": "chromium",
+      "file": "chromium-109-X-A.wav",
+      "sha256": "d8516d32f216291831d015b1ee98ba7ec85d889df3d27fc9b4814f797c4176a0",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 410,
+          "measuredHz": 410.00002031443705,
+          "errorCents": 8.577815679955891e-05
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 437,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-110-X-B.wav",
+      "sha256": "e7e7739d1be996282eedd72cc8424f350658f85b7707167790e8d5ab96f1064a",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 437,
+          "measuredHz": 436.9999582415647,
+          "errorCents": 0.00016543164426277562
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 434,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-111-X-B.wav",
+      "sha256": "5b1adfb4567c31ae96f914abbb80feb33152f8843666d4514599985c0fa77390",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 434,
+          "measuredHz": 434.00000816877485,
+          "errorCents": 3.2585394143949934e-05
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 431,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-112-X-B.wav",
+      "sha256": "0413c471965991474ce734b210d4da3012f9e74edc3f2aca7affa3b7bd0255f6",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 431,
+          "measuredHz": 431.00000705856485,
+          "errorCents": 2.8352732662638677e-05
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 427,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-113-X-B.wav",
+      "sha256": "2f0b1eedc97de19db3f20964e5428e27bc900d44e82ccfaf7d2bb7cf8f5dc765",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 427,
+          "measuredHz": 426.999972020067,
+          "errorCents": 0.00011344218811715758
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 423,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-114-X-B.wav",
+      "sha256": "630e435984a07fed5bdac53f0ba4a9789a60d199ae5e9f4f0ab463da896f0ef0",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 423,
+          "measuredHz": 423.0000125090441,
+          "errorCents": 5.1196413050269114e-05
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 420,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-115-X-B.wav",
+      "sha256": "edb65835c51f43c64cc478bff24d8976d71aff1f5f317b41db616c23ffa02307",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 420,
+          "measuredHz": 420.0000207149632,
+          "errorCents": 8.538678279873681e-05
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 413,
+      "mode": "B",
+      "browser": "chromium",
+      "file": "chromium-116-X-B.wav",
+      "sha256": "dfb46ac5b7f3ecd8700d65d80cad50b074748d93d54dcf9d0ea786943814d1af",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 413,
+          "measuredHz": 413.00002282118123,
+          "errorCents": 9.56629657284196e-05
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 283,
+      "mode": "reference",
+      "reference": 430,
+      "browser": "chromium",
+      "file": "chromium-117-I-reference.wav",
+      "sha256": "3cf109a1b55af055009a91590b8b2cbbeb19554af10e3dd8f70e846dc041449c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 283,
+          "measuredHz": 283.00002290019603,
+          "errorCents": 0.00014009045032816587
+        },
+        {
+          "expectedHz": 286.9905686465574,
+          "measuredHz": 286.99057983367135,
+          "errorCents": 6.748483871684463e-05
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 283,
+      "mode": "reference",
+      "reference": 450,
+      "browser": "chromium",
+      "file": "chromium-118-I-reference.wav",
+      "sha256": "216136c4c37cb4ef70b8a203f0c87d1d4b06d71b2da5097b02b36227a3c79acd",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 283,
+          "measuredHz": 283.00002290019603,
+          "errorCents": 0.00014009045032816587
+        },
+        {
+          "expectedHz": 283.48223622634646,
+          "measuredHz": 283.4822352556592,
+          "errorCents": 5.928014626473905e-06
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 437,
+      "mode": "reference",
+      "reference": 430,
+      "browser": "chromium",
+      "file": "chromium-119-X-reference.wav",
+      "sha256": "0b96286e2bfd63bea676193798bd1b8db1fae0e9c1cf24174c17085509491ac9",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 437,
+          "measuredHz": 436.9999582415647,
+          "errorCents": 0.00016543164426277562
+        },
+        {
+          "expectedHz": 430.0,
+          "measuredHz": 429.99998987758966,
+          "errorCents": 4.075409695699163e-05
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 437,
+      "mode": "reference",
+      "reference": 450,
+      "browser": "chromium",
+      "file": "chromium-120-X-reference.wav",
+      "sha256": "0bbbaa17140c56c5275ee2bebd08b736485912b18d076e600abe481d7d1ecf74",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 437,
+          "measuredHz": 436.9999582415647,
+          "errorCents": 0.00016543164426277562
+        },
+        {
+          "expectedHz": 424.7434407067621,
+          "measuredHz": 424.7434513216094,
+          "errorCents": 4.326561197939653e-05
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 283,
+      "mode": "pair",
+      "browser": "firefox",
+      "file": "firefox-0-I-pair.wav",
+      "sha256": "d0b410f2982e687b38733bc808fbbbfc6ea974cce90dfc4b1f5d5f344f358de0",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0003947061594,
+          "errorCents": 0.002440458074752303
+        },
+        {
+          "expectedHz": 283,
+          "measuredHz": 282.999589845517,
+          "errorCents": 0.002509095126973868
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 283,
+      "mode": "reference",
+      "browser": "firefox",
+      "file": "firefox-1-I-reference.wav",
+      "sha256": "f0a7795b8d0934614fc77bdca5a92120bc79cf217a4b0372ce770987cd955c0a",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 283,
+          "measuredHz": 282.999589845517,
+          "errorCents": 0.002509095126973868
+        },
+        {
+          "expectedHz": 277.1826309768721,
+          "measuredHz": 277.18211285597374,
+          "errorCents": 0.0032360951907876084
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 283,
+      "mode": "observations",
+      "browser": "firefox",
+      "file": "firefox-2-I-observations.wav",
+      "sha256": "5192460f916efb7b35687efe5c2d7cadd8cd4c5ff42a783cfed6080144f0f6cf",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 283,
+          "measuredHz": 282.9996212154579,
+          "errorCents": 0.00231719129112285
+        },
+        {
+          "expectedHz": 282,
+          "measuredHz": 282.00029729428866,
+          "errorCents": 0.001825126680154454
+        },
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0004289222257,
+          "errorCents": 0.0026520149740014757
+        },
+        {
+          "expectedHz": 278,
+          "measuredHz": 278.00039532083883,
+          "errorCents": 0.0024618432009429715
+        },
+        {
+          "expectedHz": 276,
+          "measuredHz": 276.00048495702333,
+          "errorCents": 0.003041932512859559
+        },
+        {
+          "expectedHz": 274,
+          "measuredHz": 274.00050167803846,
+          "errorCents": 0.003169785791062947
+        },
+        {
+          "expectedHz": 269,
+          "measuredHz": 269.00012232744035,
+          "errorCents": 0.0007872765118088473
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 283,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-3-I-A.wav",
+      "sha256": "62d5dce4f71aeecd135009669759109e2a0b23c91481cd9ff2b9008760236e23",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0003947061594,
+          "errorCents": 0.002440458074752303
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 279,
+      "b": 283,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-4-I-A.wav",
+      "sha256": "7e5d412724f1bc5029fbd2f6451b4838c0caf33e33f0e288ed7ed545bbf952d6",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 279,
+          "measuredHz": 278.9996419864324,
+          "errorCents": 0.002221525720204262
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 283,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-5-I-B.wav",
+      "sha256": "85b94eedacbf04fd1d9a0f60072cadb1e6e55c1b813b94ca3227d0ef288a8f0c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 283,
+          "measuredHz": 282.999589845517,
+          "errorCents": 0.002509095126973868
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 282,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-6-I-B.wav",
+      "sha256": "e88019f71ae5e04614818000912156f84c3903e11ce58bafbd63238df9baaf75",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 282,
+          "measuredHz": 282.0002933117567,
+          "errorCents": 0.0018006774331401647
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 280,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-7-I-B.wav",
+      "sha256": "62d5dce4f71aeecd135009669759109e2a0b23c91481cd9ff2b9008760236e23",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0003947061594,
+          "errorCents": 0.002440458074752303
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 278,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-8-I-B.wav",
+      "sha256": "5a57adaaea7ca08a013e0c336fd898bc1cf85e068b6505cfc4cd8cf768706048",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 278,
+          "measuredHz": 278.00036642970855,
+          "errorCents": 0.00228192507162411
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 276,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-9-I-B.wav",
+      "sha256": "def1c5c856dc457396ccb233c6d6255340abfc6e0c10dd0c1e152db571108d9d",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 276,
+          "measuredHz": 276.0004746039907,
+          "errorCents": 0.0029769923263302466
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 274,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-10-I-B.wav",
+      "sha256": "c89e5a748f18edc87d153688c0f727e54307f28fc3417b62097db26898e6d6ff",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 274,
+          "measuredHz": 274.00052489308075,
+          "errorCents": 0.0033164667996102588
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 269,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-11-I-B.wav",
+      "sha256": "14425df0333a8830f13b6d3a18568080e714bc1a74c30b551c306d92ac17b3d7",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 269,
+          "measuredHz": 269.00014369328085,
+          "errorCents": 0.0009247830258618206
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 296,
+      "mode": "pair",
+      "browser": "firefox",
+      "file": "firefox-12-II-pair.wav",
+      "sha256": "fa8668fff6b0012fd65783460dc5aa3577d485e7172ebb872bb2d8b2e0267f66",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0003947061594,
+          "errorCents": 0.002440458074752303
+        },
+        {
+          "expectedHz": 296,
+          "measuredHz": 296.0002861383136,
+          "errorCents": 0.001673554566985487
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 296,
+      "mode": "reference",
+      "browser": "firefox",
+      "file": "firefox-13-II-reference.wav",
+      "sha256": "063257ecbc7ed9e89aaa50c4b155a62dbbe95c5dc818b5870735fff880118b55",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 296,
+          "measuredHz": 296.0002861383136,
+          "errorCents": 0.001673554566985487
+        },
+        {
+          "expectedHz": 293.6647679174076,
+          "measuredHz": 293.6650885551798,
+          "errorCents": 0.0018902462478903076
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 296,
+      "mode": "observations",
+      "browser": "firefox",
+      "file": "firefox-14-II-observations.wav",
+      "sha256": "0f944e300026e8c0191dd03b1359cfb919b0bf09b5c1871dc6f4f299bd670de4",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 296,
+          "measuredHz": 296.00027002396456,
+          "errorCents": 0.0015793056360496344
+        },
+        {
+          "expectedHz": 302,
+          "measuredHz": 301.9999900951388,
+          "errorCents": 5.678024257576995e-05
+        },
+        {
+          "expectedHz": 290,
+          "measuredHz": 290.00045432612137,
+          "errorCents": 0.002712221498582045
+        },
+        {
+          "expectedHz": 288,
+          "measuredHz": 288.0005436360711,
+          "errorCents": 0.003267918014797062
+        },
+        {
+          "expectedHz": 286,
+          "measuredHz": 286.0000819644725,
+          "errorCents": 0.0004961526758061873
+        },
+        {
+          "expectedHz": 283,
+          "measuredHz": 282.99962121545815,
+          "errorCents": 0.0023171912895852036
+        },
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.00042892222535,
+          "errorCents": 0.0026520149720794224
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 296,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-15-II-A.wav",
+      "sha256": "62d5dce4f71aeecd135009669759109e2a0b23c91481cd9ff2b9008760236e23",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0003947061594,
+          "errorCents": 0.002440458074752303
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 279,
+      "b": 296,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-16-II-A.wav",
+      "sha256": "7e5d412724f1bc5029fbd2f6451b4838c0caf33e33f0e288ed7ed545bbf952d6",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 279,
+          "measuredHz": 278.9996419864324,
+          "errorCents": 0.002221525720204262
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 296,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-17-II-B.wav",
+      "sha256": "4453cd3d7da02690a5fa8f3b16760aa361e95a9d6a3312dd4034dc347a1c4cb1",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 296,
+          "measuredHz": 296.0002861383136,
+          "errorCents": 0.001673554566985487
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 302,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-18-II-B.wav",
+      "sha256": "80f234aabcf45e4b14d60718eccd7a4098ba8877b2a1637e51715a27e560008c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 302,
+          "measuredHz": 301.9999773363186,
+          "errorCents": 0.00012992098821799322
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 290,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-19-II-B.wav",
+      "sha256": "0adcf25869057b044d86e2a4077acec1a7923e4fdbb5aaf192e98431a8474f50",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 290,
+          "measuredHz": 290.00044787539576,
+          "errorCents": 0.002673712193614921
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 288,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-20-II-B.wav",
+      "sha256": "d03d7fe7e8a08860bfd3ae33d5ddcea71d37d21fd3061e10a7935368fa18d610",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 288,
+          "measuredHz": 288.0005454555785,
+          "errorCents": 0.003278855470527172
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 286,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-21-II-B.wav",
+      "sha256": "e139820878f2378c2ebc7cff63ff97c3462d3cff96e39cfb5b6467ba764ef236",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 286,
+          "measuredHz": 286.00007878580686,
+          "errorCents": 0.0004769113728284312
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 283,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-22-II-B.wav",
+      "sha256": "85b94eedacbf04fd1d9a0f60072cadb1e6e55c1b813b94ca3227d0ef288a8f0c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 283,
+          "measuredHz": 282.999589845517,
+          "errorCents": 0.002509095126973868
+        }
+      ]
+    },
+    {
+      "bell": "II",
+      "a": 280,
+      "b": 280,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-23-II-B.wav",
+      "sha256": "62d5dce4f71aeecd135009669759109e2a0b23c91481cd9ff2b9008760236e23",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 280,
+          "measuredHz": 280.0003947061594,
+          "errorCents": 0.002440458074752303
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 350,
+      "mode": "pair",
+      "browser": "firefox",
+      "file": "firefox-24-III-pair.wav",
+      "sha256": "cc9b3fc1548a0f698db8b7f7f6203b40a1096a4da372a147cfce508bb388a575",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 313,
+          "measuredHz": 313.0002257861233,
+          "errorCents": 0.0012488449948981864
+        },
+        {
+          "expectedHz": 350,
+          "measuredHz": 350.0004816208828,
+          "errorCents": 0.002382279706695563
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 350,
+      "mode": "reference",
+      "browser": "firefox",
+      "file": "firefox-25-III-reference.wav",
+      "sha256": "5a7db315897e1a34dbcd3111d77476a1b125c3c76d8f8ba8afe09d156119fe30",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 350,
+          "measuredHz": 350.0004816208828,
+          "errorCents": 0.002382279706695563
+        },
+        {
+          "expectedHz": 349.2282314330039,
+          "measuredHz": 349.2284116830362,
+          "errorCents": 0.0008935558028794434
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 350,
+      "mode": "observations",
+      "browser": "firefox",
+      "file": "firefox-26-III-observations.wav",
+      "sha256": "fe3bbfe666e44b549485a3f603621c81d94103029b0a48c9945be98b06a9c4ed",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 350,
+          "measuredHz": 350.00047360153957,
+          "errorCents": 0.0023426130176930305
+        },
+        {
+          "expectedHz": 347,
+          "measuredHz": 346.99938531882555,
+          "errorCents": 0.003066737524613077
+        },
+        {
+          "expectedHz": 343,
+          "measuredHz": 342.9995808647844,
+          "errorCents": 0.0021155148682110137
+        },
+        {
+          "expectedHz": 337,
+          "measuredHz": 336.9997970102672,
+          "errorCents": 0.0010427977533953776
+        },
+        {
+          "expectedHz": 335,
+          "measuredHz": 334.9998436250393,
+          "errorCents": 0.0008081245358466118
+        },
+        {
+          "expectedHz": 330,
+          "measuredHz": 329.99941346012713,
+          "errorCents": 0.003077086974072584
+        },
+        {
+          "expectedHz": 321,
+          "measuredHz": 321.0004138772823,
+          "errorCents": 0.002232143243998587
+        },
+        {
+          "expectedHz": 315,
+          "measuredHz": 315.00016978154576,
+          "errorCents": 0.0009331159163881242
+        },
+        {
+          "expectedHz": 306,
+          "measuredHz": 305.9997689599062,
+          "errorCents": 0.0013071393076127293
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 350,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-27-III-A.wav",
+      "sha256": "1ba0172575075280ef5c6607c51b931136a05eff32c43d56c1f6b2055f7c096a",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 313,
+          "measuredHz": 313.0002257861233,
+          "errorCents": 0.0012488449948981864
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 312,
+      "b": 350,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-28-III-A.wav",
+      "sha256": "d387a1dce540415db5aac1aee61479b7f207ffb5cdf1e43b82a349c5a6339973",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 312,
+          "measuredHz": 311.9996438614324,
+          "errorCents": 0.0019761524560784737
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 350,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-29-III-B.wav",
+      "sha256": "9dfea692320d3dfaff627d6c9df6f7027134b4a81a9951f5f3673491b0547e98",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 350,
+          "measuredHz": 350.0004816208828,
+          "errorCents": 0.002382279706695563
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 347,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-30-III-B.wav",
+      "sha256": "efb23020912df272345e13dd728878455cd243d20dae69c686ad7d5367efd1c4",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 347,
+          "measuredHz": 346.99939689202114,
+          "errorCents": 0.0030089970480304106
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 343,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-31-III-B.wav",
+      "sha256": "94ed08962343d038c379bfa86f4a57b037cf5f0e76c996b86737ca7dd3afda71",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 343,
+          "measuredHz": 342.9995879113054,
+          "errorCents": 0.002079948710984672
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 337,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-32-III-B.wav",
+      "sha256": "4574bc70cee3bbee7347c189c95d7b6243def6b5fd50edabab83d033e4f7602e",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 337,
+          "measuredHz": 336.99977683015913,
+          "errorCents": 0.0011464669293497077
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 335,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-33-III-B.wav",
+      "sha256": "4d098934dfbb3bae8627538974fbd7d4e18fc738a09eeeca100b6f330fa3e195",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 335,
+          "measuredHz": 334.9998389469556,
+          "errorCents": 0.0008323002423606108
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 330,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-34-III-B.wav",
+      "sha256": "48700b1282d84096c29baa0a2cebc87eebeb59ea345ee84d4adb2fb9ef425d43",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 330,
+          "measuredHz": 329.99943728850275,
+          "errorCents": 0.0029520791952894593
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 321,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-35-III-B.wav",
+      "sha256": "16c8325ea236b1f9ab2bdb7e761ced6b71b94d46558d09027e8e1cd32b26e946",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 321,
+          "measuredHz": 321.00039155484563,
+          "errorCents": 0.002111752858036327
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 315,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-36-III-B.wav",
+      "sha256": "1f72905a0a3f5d523d09bd60550573c09c13b810eaba53e697336371b8d4349c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 315,
+          "measuredHz": 315.00015075458737,
+          "errorCents": 0.0008285441660168814
+        }
+      ]
+    },
+    {
+      "bell": "III",
+      "a": 313,
+      "b": 306,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-37-III-B.wav",
+      "sha256": "18a03f7e2ae4dc4c7fbdc8eb304e409edd123466eed1d63f186b7f4ef83ed248",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 306,
+          "measuredHz": 305.9997886859718,
+          "errorCents": 0.001195536493482667
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 326,
+      "mode": "pair",
+      "browser": "firefox",
+      "file": "firefox-38-IV-pair.wav",
+      "sha256": "ff7a2c5be46101e52867044b4f19dc78e5e7719778ec4aac15b15f48698a6198",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 313,
+          "measuredHz": 313.0002257861233,
+          "errorCents": 0.0012488449948981864
+        },
+        {
+          "expectedHz": 326,
+          "measuredHz": 325.9996317023155,
+          "errorCents": 0.0019558584409617203
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 326,
+      "mode": "reference",
+      "browser": "firefox",
+      "file": "firefox-39-IV-reference.wav",
+      "sha256": "78a7c49389abfe0c1ae19c2bbc0c762d30064579ed067b2ddecdc638559fcd46",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 326,
+          "measuredHz": 325.9996317023156,
+          "errorCents": 0.0019558584405773086
+        },
+        {
+          "expectedHz": 329.6275569128699,
+          "measuredHz": 329.6270155064235,
+          "errorCents": 0.002843518463489673
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 326,
+      "mode": "observations",
+      "browser": "firefox",
+      "file": "firefox-40-IV-observations.wav",
+      "sha256": "baa683f0e5db1bb830e8b02fca3b0266dc2010074b6725a7589d032b8be419dc",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 326,
+          "measuredHz": 325.99962618242836,
+          "errorCents": 0.0019851720222089945
+        },
+        {
+          "expectedHz": 323,
+          "measuredHz": 323.0003272737011,
+          "errorCents": 0.0017541395901370265
+        },
+        {
+          "expectedHz": 319,
+          "measuredHz": 319.00047457722684,
+          "errorCents": 0.0025755600091220687
+        },
+        {
+          "expectedHz": 315,
+          "measuredHz": 315.00016978154576,
+          "errorCents": 0.0009331159163881242
+        },
+        {
+          "expectedHz": 313,
+          "measuredHz": 313.00026794151637,
+          "errorCents": 0.0014820104719439247
+        },
+        {
+          "expectedHz": 311,
+          "measuredHz": 311.0003240005659,
+          "errorCents": 0.001803602956402276
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 326,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-41-IV-A.wav",
+      "sha256": "1ba0172575075280ef5c6607c51b931136a05eff32c43d56c1f6b2055f7c096a",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 313,
+          "measuredHz": 313.0002257861233,
+          "errorCents": 0.0012488449948981864
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 314,
+      "b": 326,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-42-IV-A.wav",
+      "sha256": "8ee339efb3a9f2a74c1322e02001f01a3912d9d8021b8aaafbb659faabc16e06",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 314,
+          "measuredHz": 313.9995415568964,
+          "errorCents": 0.0025276206683155947
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 326,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-43-IV-B.wav",
+      "sha256": "bf285fdb7951ef2d3707e98c4ef883adb86d0fc9ec1b91ab71574560acb15b2c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 326,
+          "measuredHz": 325.9996317023156,
+          "errorCents": 0.0019558584405773086
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 323,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-44-IV-B.wav",
+      "sha256": "067a798757048d0418b21efd28bbcab1ad46683b3eeb305a06661f53536b5d3c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 323,
+          "measuredHz": 323.0003159701606,
+          "errorCents": 0.0016935542818822889
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 319,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-45-IV-B.wav",
+      "sha256": "2c66e98a981152c52dc4994cafb0c4dea93c8f2d9dfaf42ddfac6559a7f5cbe0",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 319,
+          "measuredHz": 319.0004870926455,
+          "errorCents": 0.0026434819095477293
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 315,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-46-IV-B.wav",
+      "sha256": "1f72905a0a3f5d523d09bd60550573c09c13b810eaba53e697336371b8d4349c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 315,
+          "measuredHz": 315.00015075458737,
+          "errorCents": 0.0008285441660168814
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 313,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-47-IV-B.wav",
+      "sha256": "1ba0172575075280ef5c6607c51b931136a05eff32c43d56c1f6b2055f7c096a",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 313,
+          "measuredHz": 313.0002257861233,
+          "errorCents": 0.0012488449948981864
+        }
+      ]
+    },
+    {
+      "bell": "IV",
+      "a": 313,
+      "b": 311,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-48-IV-B.wav",
+      "sha256": "7934d3e77699754f273e139e665d6e1a43cc55f6e474277fa37616fcbb252606",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 311,
+          "measuredHz": 311.00032971025007,
+          "errorCents": 0.0018353868447396537
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 355,
+      "mode": "pair",
+      "browser": "firefox",
+      "file": "firefox-49-V-pair.wav",
+      "sha256": "0f2937672fe2f71a1d041405b10bd092eb2d0d57ec25e296065900ce2ff7dcc8",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 325,
+          "measuredHz": 325.00033611637696,
+          "errorCents": 0.0017904486624090775
+        },
+        {
+          "expectedHz": 355,
+          "measuredHz": 354.999715262482,
+          "errorCents": 0.0013885844615361823
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 355,
+      "mode": "reference",
+      "browser": "firefox",
+      "file": "firefox-50-V-reference.wav",
+      "sha256": "ac797635a8f5dda7aaa4a47da32ff95522b5ab47f3f7be14c2760e0f45552750",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 355,
+          "measuredHz": 354.999715262482,
+          "errorCents": 0.0013885844615361823
+        },
+        {
+          "expectedHz": 349.2282314330039,
+          "measuredHz": 349.2284116830362,
+          "errorCents": 0.0008935558028794434
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 355,
+      "mode": "observations",
+      "browser": "firefox",
+      "file": "firefox-51-V-observations.wav",
+      "sha256": "8ac9e7c5872f79ac03a7a4688ef9d23257a6089523411f089ab3d179e232e410",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 355,
+          "measuredHz": 354.9997094452031,
+          "errorCents": 0.001416953699623736
+        },
+        {
+          "expectedHz": 360,
+          "measuredHz": 360.000103514936,
+          "errorCents": 0.0004978015444324056
+        },
+        {
+          "expectedHz": 358,
+          "measuredHz": 358.0002049491563,
+          "errorCents": 0.0009911029499191004
+        },
+        {
+          "expectedHz": 351,
+          "measuredHz": 350.99970775575747,
+          "errorCents": 0.001441434170695517
+        },
+        {
+          "expectedHz": 347,
+          "measuredHz": 346.99938531882543,
+          "errorCents": 0.003066737525189695
+        },
+        {
+          "expectedHz": 342,
+          "measuredHz": 342.0002947900517,
+          "errorCents": 0.001492252499752278
+        },
+        {
+          "expectedHz": 338,
+          "measuredHz": 338.0003923557264,
+          "errorCents": 0.0020096425992323667
+        },
+        {
+          "expectedHz": 333,
+          "measuredHz": 332.9999510441476,
+          "errorCents": 0.00025451665101166335
+        },
+        {
+          "expectedHz": 330,
+          "measuredHz": 329.99941346012673,
+          "errorCents": 0.003077086976186849
+        },
+        {
+          "expectedHz": 328,
+          "measuredHz": 327.99955227640896,
+          "errorCents": 0.0023631550438661503
+        },
+        {
+          "expectedHz": 326,
+          "measuredHz": 325.9996261824278,
+          "errorCents": 0.001985172025092082
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 355,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-52-V-A.wav",
+      "sha256": "b8b0e6879427fa7985d9b83cb8c4d3622aecb4fa961ff0e223c57814a01f2cc3",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 325,
+          "measuredHz": 325.00033611637696,
+          "errorCents": 0.0017904486624090775
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 326,
+      "b": 355,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-53-V-A.wav",
+      "sha256": "bf285fdb7951ef2d3707e98c4ef883adb86d0fc9ec1b91ab71574560acb15b2c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 326,
+          "measuredHz": 325.9996317023156,
+          "errorCents": 0.0019558584405773086
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 327,
+      "b": 355,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-54-V-A.wav",
+      "sha256": "a3be0c26803db3dc16e047a4ea2fd5d8db007a52bfbc27be9896800696619987",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 327,
+          "measuredHz": 327.00023194065705,
+          "errorCents": 0.0012279615303324356
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 355,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-55-V-B.wav",
+      "sha256": "a5c39f65b834e4b161f486a0e6635686dd2edafb84ed34bb0d2d6450d67bbef6",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 355,
+          "measuredHz": 354.999715262482,
+          "errorCents": 0.0013885844615361823
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 360,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-56-V-B.wav",
+      "sha256": "15c4c69bee3400df672738ce2ac3d32bd7301020ea6110ed56ea8ccc83fdf5de",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 360,
+          "measuredHz": 360.00009652253436,
+          "errorCents": 0.00046417520998216327
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 358,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-57-V-B.wav",
+      "sha256": "c4a64a3126c725de5ed16e08d98ff5982c6978602d63ef19f55646b437e2b711",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 358,
+          "measuredHz": 358.0001929243062,
+          "errorCents": 0.0009329526193754958
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 351,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-58-V-B.wav",
+      "sha256": "47062b71ba9a94d5e3b26367934274ff177dca189560bc597a7e0a6fcef44824",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 351,
+          "measuredHz": 350.99973220071973,
+          "errorCents": 0.0013208644136213999
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 347,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-59-V-B.wav",
+      "sha256": "efb23020912df272345e13dd728878455cd243d20dae69c686ad7d5367efd1c4",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 347,
+          "measuredHz": 346.99939689202114,
+          "errorCents": 0.0030089970480304106
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 342,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-60-V-B.wav",
+      "sha256": "69cd41bd5bfd0ad25a7345d1d27cb25511131bf864bc7242439379ba474124c5",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 342,
+          "measuredHz": 342.0003016260543,
+          "errorCents": 0.0015268569153296175
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 338,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-61-V-B.wav",
+      "sha256": "bb975d77a170a768984fa41bbd0c9187096e80edb345fcf3a8f72300f6a33a56",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 338,
+          "measuredHz": 338.0003728350489,
+          "errorCents": 0.001909657915233082
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 333,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-62-V-B.wav",
+      "sha256": "dcbc2c044d237bb63a376038739d7acf88515989a1add6391ed645c89b413354",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 333,
+          "measuredHz": 332.9999462512413,
+          "errorCents": 0.00027943450067445346
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 330,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-63-V-B.wav",
+      "sha256": "48700b1282d84096c29baa0a2cebc87eebeb59ea345ee84d4adb2fb9ef425d43",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 330,
+          "measuredHz": 329.99943728850275,
+          "errorCents": 0.0029520791952894593
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 328,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-64-V-B.wav",
+      "sha256": "028b6d4522e3514874b43214100d728b66f563ff861d349b2fafc0078b9a08f3",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 328,
+          "measuredHz": 327.9995353561597,
+          "errorCents": 0.0024524628255469397
+        }
+      ]
+    },
+    {
+      "bell": "V",
+      "a": 325,
+      "b": 326,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-65-V-B.wav",
+      "sha256": "bf285fdb7951ef2d3707e98c4ef883adb86d0fc9ec1b91ab71574560acb15b2c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 326,
+          "measuredHz": 325.9996317023156,
+          "errorCents": 0.0019558584405773086
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 377,
+      "mode": "pair",
+      "browser": "firefox",
+      "file": "firefox-66-VI-pair.wav",
+      "sha256": "95dc5dcb08dc220938aeddb294a89da2c38de4204bee9006d97773fc9f87c3c7",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 364,
+          "measuredHz": 363.9999281579089,
+          "errorCents": 0.00034169089698936887
+        },
+        {
+          "expectedHz": 377,
+          "measuredHz": 377.0000746094357,
+          "errorCents": 0.00034261640000015167
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 377,
+      "mode": "reference",
+      "browser": "firefox",
+      "file": "firefox-67-VI-reference.wav",
+      "sha256": "cfbbc879972d26d8624f120aa1f5cd834a474e62d7d62e9fa7033974119587ee",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 377,
+          "measuredHz": 377.0000746094357,
+          "errorCents": 0.00034261640000015167
+        },
+        {
+          "expectedHz": 369.9944227116344,
+          "measuredHz": 369.9947812362979,
+          "errorCents": 0.0016775652983188922
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 377,
+      "mode": "observations",
+      "browser": "firefox",
+      "file": "firefox-68-VI-observations.wav",
+      "sha256": "03f5fa12f760b9826d7cf9b16c1f4e35bad9f6bf3b6de3f989aea8823230e31d",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 377,
+          "measuredHz": 377.00007805016577,
+          "errorCents": 0.0003584166857923197
+        },
+        {
+          "expectedHz": 380,
+          "measuredHz": 379.999793590785,
+          "errorCents": 0.0009403756793529807
+        },
+        {
+          "expectedHz": 375,
+          "measuredHz": 375.0001868781629,
+          "errorCents": 0.000862746021221375
+        },
+        {
+          "expectedHz": 373,
+          "measuredHz": 373.0002084810074,
+          "errorCents": 0.0009676389214394416
+        },
+        {
+          "expectedHz": 370,
+          "measuredHz": 369.99963447434436,
+          "errorCents": 0.0017102993876350983
+        },
+        {
+          "expectedHz": 368,
+          "measuredHz": 367.999757726398,
+          "errorCents": 0.001139762084312352
+        },
+        {
+          "expectedHz": 366,
+          "measuredHz": 365.9998194724008,
+          "errorCents": 0.0008539224142284197
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 377,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-69-VI-A.wav",
+      "sha256": "ed4dbb7eba3609ad93668b8649bd64f44fce44a976dd1d7aeaf15f34a8f0d398",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 364,
+          "measuredHz": 363.9999281579089,
+          "errorCents": 0.00034169089698936887
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 363,
+      "b": 377,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-70-VI-A.wav",
+      "sha256": "cd1919426902f85cb07bf7930ed9b47d54338d96934cbb8aaa13ae5bced64d5f",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 363,
+          "measuredHz": 363.0006116406584,
+          "errorCents": 0.002917058516786804
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 377,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-71-VI-B.wav",
+      "sha256": "ac700bfbb8ce46e25556be777463a3b81327138f6c2bea541c791a3defefdb1c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 377,
+          "measuredHz": 377.0000746094357,
+          "errorCents": 0.00034261640000015167
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 380,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-72-VI-B.wav",
+      "sha256": "30a544b59844a28b5c561a4498685edfddb6bba84df132669ee3743e13a3a15c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 380,
+          "measuredHz": 379.9998074274932,
+          "errorCents": 0.0008773372768971494
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 375,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-73-VI-B.wav",
+      "sha256": "46b028f5e395303c2844b7baf65d08dce9e4335719b02139d7f8607b24bd1daa",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 375,
+          "measuredHz": 375.0001815217799,
+          "errorCents": 0.0008380176263385378
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 373,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-74-VI-B.wav",
+      "sha256": "19ffdcb4731c987df9de143e8f72abb1df346de8e4dbcec4f715894e9ca16a1e",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 373,
+          "measuredHz": 373.0002176238041,
+          "errorCents": 0.0010100740739361802
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 370,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-75-VI-B.wav",
+      "sha256": "b305fdaa1d365265a800e8f63b84e5becb4dd54d963a45d01cba84449eb524a3",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 370,
+          "measuredHz": 369.9996311258084,
+          "errorCents": 0.0017259672396514403
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 368,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-76-VI-B.wav",
+      "sha256": "a0290fe467125ae111a539bc54be7d4483672762724ced118ae0d59e765a97b2",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 368,
+          "measuredHz": 367.9997469876742,
+          "errorCents": 0.001190281803910909
+        }
+      ]
+    },
+    {
+      "bell": "VI",
+      "a": 364,
+      "b": 366,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-77-VI-B.wav",
+      "sha256": "96e0d63bef482b073a3051f71e32a66e710c6fb9226cfe4da2bff219f8d70502",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 366,
+          "measuredHz": 365.99980394399336,
+          "errorCents": 0.0009273741123967939
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 362,
+      "b": 406,
+      "mode": "pair",
+      "browser": "firefox",
+      "file": "firefox-78-VII-pair.wav",
+      "sha256": "9fe897aec659fe0be633f271409bac8ba43417b4f65326c8b4c4a6275d1625ed",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 362,
+          "measuredHz": 361.9999991507263,
+          "errorCents": 4.061578788089343e-06
+        },
+        {
+          "expectedHz": 406,
+          "measuredHz": 406.0001398201623,
+          "errorCents": 0.0005962103054011927
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 362,
+      "b": 406,
+      "mode": "reference",
+      "browser": "firefox",
+      "file": "firefox-79-VII-reference.wav",
+      "sha256": "d5866fde0491107193eddfe4a5371c09c4942918f93d83652fd1844e8515ca9c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 406,
+          "measuredHz": 406.00013982016236,
+          "errorCents": 0.0005962103057856038
+        },
+        {
+          "expectedHz": 415.3046975799451,
+          "measuredHz": 415.30467662670674,
+          "errorCents": 8.734541377557382e-05
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 362,
+      "b": 406,
+      "mode": "observations",
+      "browser": "firefox",
+      "file": "firefox-80-VII-observations.wav",
+      "sha256": "81a4c2c558680774ae5952dbff383988ce3d3babdc63b45149148385c6818526",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 406,
+          "measuredHz": 406.00011759172156,
+          "errorCents": 0.0005014255240507128
+        },
+        {
+          "expectedHz": 404,
+          "measuredHz": 404.00026547541165,
+          "errorCents": 0.001137623566541011
+        },
+        {
+          "expectedHz": 402,
+          "measuredHz": 402.0003037518934,
+          "errorCents": 0.0013081229395858075
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 362,
+      "b": 406,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-81-VII-A.wav",
+      "sha256": "1d3ce740e8fe93c8e2e1df14e6bdbf1219cb8e17be0e0ecdc86580b13eef84c0",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 362,
+          "measuredHz": 361.9999991507263,
+          "errorCents": 4.061578788089343e-06
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 363,
+      "b": 406,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-82-VII-A.wav",
+      "sha256": "cd1919426902f85cb07bf7930ed9b47d54338d96934cbb8aaa13ae5bced64d5f",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 363,
+          "measuredHz": 363.0006116406584,
+          "errorCents": 0.002917058516786804
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 364,
+      "b": 406,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-83-VII-A.wav",
+      "sha256": "ed4dbb7eba3609ad93668b8649bd64f44fce44a976dd1d7aeaf15f34a8f0d398",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 364,
+          "measuredHz": 363.9999281579089,
+          "errorCents": 0.00034169089698936887
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 362,
+      "b": 406,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-84-VII-B.wav",
+      "sha256": "281822d99fa05c125ad5fe1489985c49733df8c18593e9aafb8de3e03cf1dd43",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 406,
+          "measuredHz": 406.00013982016236,
+          "errorCents": 0.0005962103057856038
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 362,
+      "b": 404,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-85-VII-B.wav",
+      "sha256": "a7fba269a159c5aa4d29f21432031d365b87f4f1b77ea74d42537132a2c50dd4",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 404,
+          "measuredHz": 404.00026106013064,
+          "errorCents": 0.0011187030716102123
+        }
+      ]
+    },
+    {
+      "bell": "VII",
+      "a": 362,
+      "b": 402,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-86-VII-B.wav",
+      "sha256": "93f0bd152846a3b3755c3086213ab5b2c2c2c52ddcc08aedc3b667b7ad734e39",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 402,
+          "measuredHz": 402.0003105790678,
+          "errorCents": 0.001337524500928924
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 409,
+      "mode": "pair",
+      "browser": "firefox",
+      "file": "firefox-87-VIII-pair.wav",
+      "sha256": "d41dc1a0540b50b1af48083e2e3b8938a3f825ac2c0ef6a7ec42610c95ae9fd6",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 379,
+          "measuredHz": 379.0005041959005,
+          "errorCents": 0.0023031148541877867
+        },
+        {
+          "expectedHz": 409,
+          "measuredHz": 408.999867037453,
+          "errorCents": 0.0005628100882356216
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 409,
+      "mode": "reference",
+      "browser": "firefox",
+      "file": "firefox-88-VIII-reference.wav",
+      "sha256": "491fbbd972da43649005ae234ab9f76435b22529ca7bf9664ef8177be6931a3e",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 409,
+          "measuredHz": 408.99986703745304,
+          "errorCents": 0.0005628100878512102
+        },
+        {
+          "expectedHz": 415.3046975799451,
+          "measuredHz": 415.30467662670674,
+          "errorCents": 8.734541377557382e-05
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 409,
+      "mode": "observations",
+      "browser": "firefox",
+      "file": "firefox-89-VIII-observations.wav",
+      "sha256": "4c1275ea1ab432538ed1f54955818aa324ebee82f2df91efe9133c55aad4b1f4",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 409,
+          "measuredHz": 408.99987734248936,
+          "errorCents": 0.0005191904416833661
+        },
+        {
+          "expectedHz": 410,
+          "measuredHz": 410.00044946686876,
+          "errorCents": 0.0018978827333165841
+        },
+        {
+          "expectedHz": 408,
+          "measuredHz": 408.0005674810477,
+          "errorCents": 0.0024079456586236342
+        },
+        {
+          "expectedHz": 403,
+          "measuredHz": 402.9996265831801,
+          "errorCents": 0.0016041494109311713
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 409,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-90-VIII-A.wav",
+      "sha256": "8c87e301ef5d75090b4eb78f23123b173cf1fb2cc2ec5ce6117c97e79a8ca952",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 379,
+          "measuredHz": 379.0005041959005,
+          "errorCents": 0.0023031148541877867
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 381,
+      "b": 409,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-91-VIII-A.wav",
+      "sha256": "7db3e2623b81616efd534efe40a2f88cf179d8d1646dd5a4c1f1245b4c92f1f6",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 381,
+          "measuredHz": 381.0004273707204,
+          "errorCents": 0.001941937867934539
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 377,
+      "b": 409,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-92-VIII-A.wav",
+      "sha256": "ac700bfbb8ce46e25556be777463a3b81327138f6c2bea541c791a3defefdb1c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 377,
+          "measuredHz": 377.0000746094357,
+          "errorCents": 0.00034261640000015167
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 409,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-93-VIII-B.wav",
+      "sha256": "e341f6e640faf14081f17cb04bd41b2b892cb4ad4d48ae16b11f457ed2b22c3c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 409,
+          "measuredHz": 408.99986703745304,
+          "errorCents": 0.0005628100878512102
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 410,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-94-VIII-B.wav",
+      "sha256": "3b6303e5ab37cae78e97c2eb33656762b503428499ee3d1393cc235c5f83b2c0",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 410,
+          "measuredHz": 410.0004700997141,
+          "errorCents": 0.001985005280331862
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 408,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-95-VIII-B.wav",
+      "sha256": "b1237df2cb60b2c2271f9f4625bebc4148f3fa25ea4b823b6cd48bfef5dbf04f",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 408,
+          "measuredHz": 408.0005922314361,
+          "errorCents": 0.0025129668699006213
+        }
+      ]
+    },
+    {
+      "bell": "VIII",
+      "a": 379,
+      "b": 403,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-96-VIII-B.wav",
+      "sha256": "67b6486625ca187f4e00cae2e0131254615a3c6d4be69eb7b0831d0caf04d114",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 403,
+          "measuredHz": 402.99961284893806,
+          "errorCents": 0.001663149931724013
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 423,
+      "mode": "pair",
+      "browser": "firefox",
+      "file": "firefox-97-IX-pair.wav",
+      "sha256": "c3930171e2dff1cc4148e1514f2c7ce792594872e23dc2545ee6abfa761244fc",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 402,
+          "measuredHz": 402.0003105790678,
+          "errorCents": 0.001337524500928924
+        },
+        {
+          "expectedHz": 423,
+          "measuredHz": 422.99933026818036,
+          "errorCents": 0.002741048339844715
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 423,
+      "mode": "reference",
+      "browser": "firefox",
+      "file": "firefox-98-IX-reference.wav",
+      "sha256": "c75a92aba89d9120950c05dc51173834aa6c08406e70400b1134c3817d58b11e",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 423,
+          "measuredHz": 422.99933026818036,
+          "errorCents": 0.002741048339844715
+        },
+        {
+          "expectedHz": 415.3046975799451,
+          "measuredHz": 415.30467662670674,
+          "errorCents": 8.734541377557382e-05
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 423,
+      "mode": "observations",
+      "browser": "firefox",
+      "file": "firefox-99-IX-observations.wav",
+      "sha256": "814382dbac0bc413dc70a6c09badffa28ae98a5431013c33ea7490d9b1eb20b4",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 423,
+          "measuredHz": 422.9993451099994,
+          "errorCents": 0.002680304361896734
+        },
+        {
+          "expectedHz": 420,
+          "measuredHz": 420.0000978150634,
+          "errorCents": 0.00040319225827116875
+        },
+        {
+          "expectedHz": 412,
+          "measuredHz": 412.0004122442581,
+          "errorCents": 0.001732259560901849
+        },
+        {
+          "expectedHz": 409,
+          "measuredHz": 408.9998773424894,
+          "errorCents": 0.0005191904414911605
+        },
+        {
+          "expectedHz": 403,
+          "measuredHz": 402.9996265831801,
+          "errorCents": 0.0016041494109311713
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 423,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-100-IX-A.wav",
+      "sha256": "93f0bd152846a3b3755c3086213ab5b2c2c2c52ddcc08aedc3b667b7ad734e39",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 402,
+          "measuredHz": 402.0003105790678,
+          "errorCents": 0.001337524500928924
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 423,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-101-IX-B.wav",
+      "sha256": "3e23d76ba364d6589fea8fa49154e5f1b3b77e9a2da5ecb399587955e96007bb",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 423,
+          "measuredHz": 422.99933026818036,
+          "errorCents": 0.002741048339844715
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 420,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-102-IX-B.wav",
+      "sha256": "ea9ab2a18bc439694b1006ad162d1e151632852667add9ecbe7cef1488e04988",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 420,
+          "measuredHz": 420.00012946855315,
+          "errorCents": 0.0005336674593844054
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 412,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-103-IX-B.wav",
+      "sha256": "08cdc7bfba95bd47f1ac00fbce8c192da5c16c73dd0456fe9ee5190df814f882",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 412,
+          "measuredHz": 412.0003984319721,
+          "errorCents": 0.0016742200551335396
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 409,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-104-IX-B.wav",
+      "sha256": "e341f6e640faf14081f17cb04bd41b2b892cb4ad4d48ae16b11f457ed2b22c3c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 409,
+          "measuredHz": 408.99986703745304,
+          "errorCents": 0.0005628100878512102
+        }
+      ]
+    },
+    {
+      "bell": "IX",
+      "a": 402,
+      "b": 403,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-105-IX-B.wav",
+      "sha256": "67b6486625ca187f4e00cae2e0131254615a3c6d4be69eb7b0831d0caf04d114",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 403,
+          "measuredHz": 402.99961284893806,
+          "errorCents": 0.001663149931724013
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 437,
+      "mode": "pair",
+      "browser": "firefox",
+      "file": "firefox-106-X-pair.wav",
+      "sha256": "196486a4a9f21c33202822674ca4a31bebfd8363638420e64d74833905c3dbfb",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 410,
+          "measuredHz": 410.0004700997141,
+          "errorCents": 0.001985005280331862
+        },
+        {
+          "expectedHz": 437,
+          "measuredHz": 437.00010278366784,
+          "errorCents": 0.0004071912230332657
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 437,
+      "mode": "reference",
+      "browser": "firefox",
+      "file": "firefox-107-X-reference.wav",
+      "sha256": "fa3c857ab382558980495b2814b8613e39c9c05faa4b6593631f2dc5e44221b4",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 437,
+          "measuredHz": 437.00010278366784,
+          "errorCents": 0.0004071912230332657
+        },
+        {
+          "expectedHz": 440.0,
+          "measuredHz": 439.9998284384966,
+          "errorCents": 0.000675029941132839
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 437,
+      "mode": "observations",
+      "browser": "firefox",
+      "file": "firefox-108-X-observations.wav",
+      "sha256": "8ac1cdd5b4c55eea3b9a4b7791e394fec931a5c681062dd4cb9266d57452132f",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 437,
+          "measuredHz": 437.00007728616373,
+          "errorCents": 0.0003061794652914479
+        },
+        {
+          "expectedHz": 434,
+          "measuredHz": 433.999526277637,
+          "errorCents": 0.0018896883230407457
+        },
+        {
+          "expectedHz": 431,
+          "measuredHz": 431.0003994115001,
+          "errorCents": 0.0016043491142085785
+        },
+        {
+          "expectedHz": 427,
+          "measuredHz": 427.00048461210605,
+          "errorCents": 0.001964816165015409
+        },
+        {
+          "expectedHz": 423,
+          "measuredHz": 422.9993451099996,
+          "errorCents": 0.002680304361127911
+        },
+        {
+          "expectedHz": 420,
+          "measuredHz": 420.0000978150635,
+          "errorCents": 0.00040319225903999087
+        },
+        {
+          "expectedHz": 413,
+          "measuredHz": 412.99966536510016,
+          "errorCents": 0.0014027398724561777
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 437,
+      "mode": "A",
+      "browser": "firefox",
+      "file": "firefox-109-X-A.wav",
+      "sha256": "3b6303e5ab37cae78e97c2eb33656762b503428499ee3d1393cc235c5f83b2c0",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 410,
+          "measuredHz": 410.0004700997141,
+          "errorCents": 0.001985005280331862
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 437,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-110-X-B.wav",
+      "sha256": "447ff2d0ee02ebf52c19398ba0440f24e1d49a5dd8e30bb6618b2a5da638058f",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 437,
+          "measuredHz": 437.00010278366784,
+          "errorCents": 0.0004071912230332657
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 434,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-111-X-B.wav",
+      "sha256": "83a745a448acc394112c6536d763fcb76999f19b4550ee65a08452b7e32d8070",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 434,
+          "measuredHz": 433.99957405716384,
+          "errorCents": 0.0016990947069358765
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 431,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-112-X-B.wav",
+      "sha256": "65c5cbf479e9e6c10842187dd32769acdea2b5129ab79129ba17249c8f85fbc4",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 431,
+          "measuredHz": 431.0003692304797,
+          "errorCents": 0.001483118571972898
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 427,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-113-X-B.wav",
+      "sha256": "bdf998f29979a17524535abfea62a9ef93928fcca0cf7fbfa5e09825556b43ca",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 427,
+          "measuredHz": 427.0004804219753,
+          "errorCents": 0.0019478276664239016
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 423,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-114-X-B.wav",
+      "sha256": "3e23d76ba364d6589fea8fa49154e5f1b3b77e9a2da5ecb399587955e96007bb",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 423,
+          "measuredHz": 422.99933026818036,
+          "errorCents": 0.002741048339844715
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 420,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-115-X-B.wav",
+      "sha256": "ea9ab2a18bc439694b1006ad162d1e151632852667add9ecbe7cef1488e04988",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 420,
+          "measuredHz": 420.00012946855315,
+          "errorCents": 0.0005336674593844054
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 413,
+      "mode": "B",
+      "browser": "firefox",
+      "file": "firefox-116-X-B.wav",
+      "sha256": "f627c0f8579463d6e31ba1d6be6cc33c0bb21c17df2ba73fcfbb9500c3a58f08",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 413,
+          "measuredHz": 412.999660143277,
+          "errorCents": 0.001424628989674905
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 283,
+      "mode": "reference",
+      "reference": 430,
+      "browser": "firefox",
+      "file": "firefox-117-I-reference.wav",
+      "sha256": "7a15bd85a8b127d8a524d6e3100bc694ddc064be6177241ee5fc4d196987a7a7",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 283,
+          "measuredHz": 282.999589845517,
+          "errorCents": 0.002509095126973868
+        },
+        {
+          "expectedHz": 286.9905686465574,
+          "measuredHz": 286.99086234300256,
+          "errorCents": 0.0017716854885769825
+        }
+      ]
+    },
+    {
+      "bell": "I",
+      "a": 280,
+      "b": 283,
+      "mode": "reference",
+      "reference": 450,
+      "browser": "firefox",
+      "file": "firefox-118-I-reference.wav",
+      "sha256": "de0361cdb1faaafbc313076ac38ec6cef1240de6fbee9c367437c1fa5942e10d",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 283,
+          "measuredHz": 282.999589845517,
+          "errorCents": 0.002509095126973868
+        },
+        {
+          "expectedHz": 283.48223622634646,
+          "measuredHz": 283.48269966641453,
+          "errorCents": 0.002830239313910817
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 437,
+      "mode": "reference",
+      "reference": 430,
+      "browser": "firefox",
+      "file": "firefox-119-X-reference.wav",
+      "sha256": "57db683f5b0e47a1da785303fbc502e450614cc62e6df63adc670daf4ccd897b",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 437,
+          "measuredHz": 437.00010278366784,
+          "errorCents": 0.0004071912230332657
+        },
+        {
+          "expectedHz": 430.0,
+          "measuredHz": 429.99962715820146,
+          "errorCents": 0.0015011085962300323
+        }
+      ]
+    },
+    {
+      "bell": "X",
+      "a": 410,
+      "b": 437,
+      "mode": "reference",
+      "reference": 450,
+      "browser": "firefox",
+      "file": "firefox-120-X-reference.wav",
+      "sha256": "45b64880799b5b41d302a55fce43afa544b61c4ff5b81c30860395a012630e3c",
+      "peak": 0.16000854518265328,
+      "measurements": [
+        {
+          "expectedHz": 437,
+          "measuredHz": 437.00010278366784,
+          "errorCents": 0.0004071912230332657
+        },
+        {
+          "expectedHz": 424.7434407067621,
+          "measuredHz": 424.7431200790636,
+          "errorCents": 0.0013068637324474867
+        }
+      ]
+    }
+  ]
+}

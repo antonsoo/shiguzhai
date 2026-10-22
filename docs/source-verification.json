@@ -1,0 +1,214 @@
+{
+  "source": "Li et al. 2024, Table 1, publisher HTML, ten June 1993 bells",
+  "sourceSha256": "0afa79c6b8354480cd9a9e697536d3f4fc47b2af8d261825442247bf3673cfe2",
+  "objects": 10,
+  "reportedEntries": 87,
+  "dimensionsAndIdentity": "all match source table",
+  "coverage": [
+    {
+      "group": "burial",
+      "values": "leading",
+      "reference": 430,
+      "entries": 20,
+      "keys": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "group": "burial",
+      "values": "leading",
+      "reference": 440,
+      "entries": 20,
+      "keys": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "group": "burial",
+      "values": "leading",
+      "reference": 450,
+      "entries": 20,
+      "keys": [
+        61,
+        62,
+        63,
+        65,
+        66,
+        67,
+        68
+      ]
+    },
+    {
+      "group": "burial",
+      "values": "all",
+      "reference": 430,
+      "entries": 87,
+      "keys": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "group": "burial",
+      "values": "all",
+      "reference": 440,
+      "entries": 87,
+      "keys": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "group": "burial",
+      "values": "all",
+      "reference": 450,
+      "entries": 87,
+      "keys": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ]
+    },
+    {
+      "group": "decoration",
+      "values": "leading",
+      "reference": 430,
+      "entries": 18,
+      "keys": [
+        62,
+        63,
+        64,
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "group": "decoration",
+      "values": "leading",
+      "reference": 440,
+      "entries": 18,
+      "keys": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "group": "decoration",
+      "values": "leading",
+      "reference": 450,
+      "entries": 18,
+      "keys": [
+        61,
+        62,
+        63,
+        65,
+        66,
+        67,
+        68
+      ]
+    },
+    {
+      "group": "decoration",
+      "values": "all",
+      "reference": 430,
+      "entries": 76,
+      "keys": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "group": "decoration",
+      "values": "all",
+      "reference": 440,
+      "entries": 76,
+      "keys": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ]
+    },
+    {
+      "group": "decoration",
+      "values": "all",
+      "reference": 450,
+      "entries": 76,
+      "keys": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ]
+    }
+  ],
+  "pitchCalculation": "Python Decimal ln, 50 decimal digits, independent of JavaScript",
+  "maximumCentsError": 8.65085780787922e-13,
+  "pitchCases": 1827,
+  "planCases": 148,
+  "csv": "all 87 rows preserve identity, source order, position and hertz",
+  "limits": "Checks transcription and modern reference calculations; does not validate the original acoustic experiment."
+}

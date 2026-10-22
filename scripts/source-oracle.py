@@ -4,7 +4,6 @@ import csv
 import hashlib
 import io
 import json
-import math
 from decimal import Decimal, localcontext
 from html.parser import HTMLParser
 from pathlib import Path
@@ -87,16 +86,16 @@ def main():
         errors.append(abs(entry["cents"] - cents))
     coverage = []
     for group, values, reference in ((g,v,r) for g in ("burial","decoration") for v in ("leading","all") for r in (430,440,450)):
-            entries = [(bell["id"], position, hz)
-                       for bell in bells if group == "burial" or bell["id"] != "III"
-                       for position in ("A", "B")
-                       for hz in (bell[position] if values == "all" else bell[position][:1])]
-            expected = {"group": group, "values": values, "reference": reference, "entries": len(entries),
-                        "keys": sorted({modern_pitch(hz,reference)[0] for _, _, hz in entries})}
-            match = next(c for c in actual["coverage"] if c["group"] == group and c["values"] == values and c["reference"]==reference)
-            assert match["entries"] == expected["entries"] and match["keys"] == expected["keys"]
-            assert [(r["bell"], r["position"], r["hz"]) for r in match["rows"]] == entries
-            coverage.append(expected)
+        entries = [(bell["id"], position, hz)
+                   for bell in bells if group == "burial" or bell["id"] != "III"
+                   for position in ("A", "B")
+                   for hz in (bell[position] if values == "all" else bell[position][:1])]
+        expected = {"group": group, "values": values, "reference": reference, "entries": len(entries),
+                    "keys": sorted({modern_pitch(hz,reference)[0] for _, _, hz in entries})}
+        match = next(c for c in actual["coverage"] if c["group"] == group and c["values"] == values and c["reference"]==reference)
+        assert match["entries"] == expected["entries"] and match["keys"] == expected["keys"]
+        assert [(r["bell"], r["position"], r["hz"]) for r in match["rows"]] == entries
+        coverage.append(expected)
     csv_rows = list(csv.DictReader(io.StringIO(actual["csv"])))
     expected_rows = [(f'CsM {b["id"]}', b["accession"], pos, str(i+1), str(hz))
                      for b in bells for pos in ("A", "B") for i, hz in enumerate(b[pos])]

@@ -1,15 +1,15 @@
 """Measure native browser PCM using the publisher table and independent zero crossings."""
 import array
 import hashlib
-from importlib.machinery import SourceFileLoader
+import runpy
 import json
 import math
 from pathlib import Path
 import sys
 import wave
 
-oracle = SourceFileLoader('source_oracle', str(Path(__file__).with_name('source-oracle.py'))).load_module()
-bells = {b['id']: b for b in oracle.published_bells()}
+oracle = runpy.run_path(str(Path(__file__).with_name('source-oracle.py')))
+bells = {b['id']: b for b in oracle['published_bells']()}
 report_path = Path(sys.argv[1])
 report = json.loads(report_path.read_text())
 results = []
@@ -24,7 +24,7 @@ for item in report['audio']:
     else:
         step, duration = 1.25, 1
         frequencies = ([item['a']] if mode == 'A' else [item['b']] if mode == 'B'
-                       else [item['b'], item.get('reference',440) * 2 ** ((oracle.modern_pitch(item['b'],item.get('reference',440))[0] - 69) / 12)]
+                       else [item['b'], item.get('reference',440) * 2 ** ((oracle['modern_pitch'](item['b'],item.get('reference',440))[0] - 69) / 12)]
                        if mode == 'reference' else [item['a'], item['b']])
     with wave.open(str(file), 'rb') as wav:
         assert (wav.getnchannels(), wav.getsampwidth(), wav.getframerate()) == (1, 2, 48000)
