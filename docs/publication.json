@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-22T04:00:58.787505+00:00",
+  "repository": "https://github.com/antonsoo/shiguzhai",
+  "site": "https://antonsoo.github.io/shiguzhai/",
+  "sourceCommit": "b9f913956aeca8dae9270c31b59c0042d1c523fb",
+  "runtimeSourceCommit": "8c94eef2ae7d16c09a745478e071f6bfc1d667f7",
+  "pagesCommit": "703e8bd38dfa443751847cad04a9679448c0105a",
+  "buildCommand": "npm run build",
+  "output": "dist/",
+  "deployment": "Non-force push of the clean build to gh-pages; Pages serves that branch.",
+  "canonicalHostedFiles": 16,
+  "hostedBrowserConfigurations": 4,
+  "ci": "No CI execution claim."
+}

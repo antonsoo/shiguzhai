@@ -53,4 +53,8 @@ coordinates and synthesized outputs. They do not repeat the museum experiment,
 validate its instruments, recover ancient tuning intentions, or establish the
 original performance. Automated accessibility checks supplement rather than
 replace a screen-reader study. Public deployment is recorded separately in
-`publication.json` and `hosted-verification.json` once verified.
+`publication.json` and `hosted-verification.json` after independent hosted verification.
+
+The published site was checked in four fresh browser configurations. All sixteen
+canonical files and the directory entry match the reviewed clean build. Shared
+439 Hz state, keyboard reset, audio and offline illustrated exports passed.

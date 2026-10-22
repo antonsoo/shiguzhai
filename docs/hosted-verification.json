@@ -1,0 +1,157 @@
+{
+  "checkedAt": "2026-10-22T03:57:13.575Z",
+  "url": "https://antonsoo.github.io/shiguzhai/",
+  "inventory": [
+    {
+      "file": "assets/index-CBatit1h.css",
+      "bytes": 14489,
+      "sha256": "b2e19a258bc9a9a0d09984b78d082f69d272b78546e0300a9aff2e1d7325c11d"
+    },
+    {
+      "file": "assets/index-CpVmswLQ.js",
+      "bytes": 42953,
+      "sha256": "567f9ab518c6f61a508ffe41adc8c97ab70920e387c63bccd71e34ce960b748d"
+    },
+    {
+      "file": "favicon.svg",
+      "bytes": 379,
+      "sha256": "b78fd707d8a0d882b7e1442decf6dd4cce1c1ffb1ccffb9f27c1d74d3a214d4c"
+    },
+    {
+      "file": "fonts/Atkinson-OFL.txt",
+      "bytes": 4431,
+      "sha256": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030"
+    },
+    {
+      "file": "fonts/AtkinsonHyperlegibleNext.ttf",
+      "bytes": 114552,
+      "sha256": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745"
+    },
+    {
+      "file": "fonts/NotoCJK-OFL.txt",
+      "bytes": 4353,
+      "sha256": "a01a391b3cc44676298e459fca4a0afdac011d2219fecbe7bb8f6a0f7ece23e4"
+    },
+    {
+      "file": "fonts/NotoSansCJK-subset.woff2",
+      "bytes": 7628,
+      "sha256": "6cdf4a4357f72b5de6e63f76919dfcec1eff5b929f03b4d8f49de16f91740877"
+    },
+    {
+      "file": "index.html",
+      "bytes": 1055,
+      "sha256": "e8638099f1d03dd8e1174157c0eb827845b466dd9e418e548b78a7ee699dc10f"
+    },
+    {
+      "file": "sources/li-2024-figure-1.jpg",
+      "bytes": 290913,
+      "sha256": "0eee43d9543d83eafd2d9533f2e969355951575f9d68d39142879b25398f6a4b"
+    },
+    {
+      "file": "sources/li-2024-figure-2.jpg",
+      "bytes": 313023,
+      "sha256": "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63"
+    },
+    {
+      "file": "sources/li-2024-figure-3.jpg",
+      "bytes": 424211,
+      "sha256": "3ff569a427d00d181217ce7b03924d3b44e9929b6cd4ea853786c413264c84bf"
+    },
+    {
+      "file": "sources/li-2024-figure-5.jpg",
+      "bytes": 106243,
+      "sha256": "f01c769b4e8781a16ccbcbf8e8ba77ce6cceb5ee19c4e6c6f2567f534708c13d"
+    },
+    {
+      "file": "sources/li-2024-shiguzhai.pdf",
+      "bytes": 2762411,
+      "sha256": "431eacc7f75f338349109161f320bd9f1a6e22da7b13db33fab5f759cbb72edd"
+    },
+    {
+      "file": "sources/li-2024-table-1.html",
+      "bytes": 15392,
+      "sha256": "0afa79c6b8354480cd9a9e697536d3f4fc47b2af8d261825442247bf3673cfe2"
+    },
+    {
+      "file": "sources/li-2024-table-1.jpg",
+      "bytes": 516142,
+      "sha256": "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968"
+    },
+    {
+      "file": "sw.js",
+      "bytes": 4207,
+      "sha256": "c5fe0e6cfdab3609a5afa93609e640a548136cc4e2e1d70d44d77f9114027661"
+    }
+  ],
+  "directoryEntryExact": true,
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "shared439HzReading": true,
+      "keyboard440HzReset": true,
+      "audioAndStop": true,
+      "sourceImagesExact": [
+        "f01c769b4e8781a16ccbcbf8e8ba77ce6cceb5ee19c4e6c6f2567f534708c13d",
+        "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63",
+        "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968"
+      ],
+      "standaloneReadingSha256": "4ef750d64f8e34f2ff94623f6b23740e5a15ea77110b0528bf3a63abd471e187",
+      "offlineReloadAudioAndExport": true,
+      "errors": [],
+      "external": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "shared439HzReading": true,
+      "keyboard440HzReset": true,
+      "audioAndStop": true,
+      "sourceImagesExact": [
+        "f01c769b4e8781a16ccbcbf8e8ba77ce6cceb5ee19c4e6c6f2567f534708c13d",
+        "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63",
+        "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968"
+      ],
+      "standaloneReadingSha256": "4ef750d64f8e34f2ff94623f6b23740e5a15ea77110b0528bf3a63abd471e187",
+      "offlineReloadAudioAndExport": true,
+      "errors": [],
+      "external": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "shared439HzReading": true,
+      "keyboard440HzReset": true,
+      "audioAndStop": true,
+      "sourceImagesExact": [
+        "f01c769b4e8781a16ccbcbf8e8ba77ce6cceb5ee19c4e6c6f2567f534708c13d",
+        "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63",
+        "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968"
+      ],
+      "standaloneReadingSha256": "4ef750d64f8e34f2ff94623f6b23740e5a15ea77110b0528bf3a63abd471e187",
+      "offlineReloadAudioAndExport": true,
+      "errors": [],
+      "external": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "shared439HzReading": true,
+      "keyboard440HzReset": true,
+      "audioAndStop": true,
+      "sourceImagesExact": [
+        "f01c769b4e8781a16ccbcbf8e8ba77ce6cceb5ee19c4e6c6f2567f534708c13d",
+        "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63",
+        "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968"
+      ],
+      "standaloneReadingSha256": "4ef750d64f8e34f2ff94623f6b23740e5a15ea77110b0528bf3a63abd471e187",
+      "offlineReloadAudioAndExport": true,
+      "errors": [],
+      "external": []
+    }
+  ]
+}
