@@ -327,6 +327,26 @@ try {
         }));
         assert.equal(paper.status, 200);
         assert.equal(paper.bytes, (await readFile("public/sources/li-2024-shiguzhai.pdf")).length);
+        const tablePage = await context.newPage();
+        await tablePage.goto(`${base}sources/li-2024-table-1.html`);
+        assert.equal(await tablePage.locator('thead th[scope="col"]').count(), 13);
+        assert.equal(await tablePage.locator('tbody th[scope="row"]').count(), 9);
+        await tablePage.locator(".table-scroll").focus();
+        for (let step = 0; step < 4; step++) await tablePage.keyboard.press("ArrowRight");
+        await tablePage.waitForFunction(
+          () => document.querySelector(".table-scroll").scrollLeft > 0,
+        );
+        assert(
+          await tablePage.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1),
+        );
+        const tableAudit = await new AxeBuilder({ page: tablePage })
+          .withTags(["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa"])
+          .analyze();
+        assert.deepEqual(
+          tableAudit.violations.map((v) => v.id),
+          [],
+        );
+        await tablePage.close();
         const standalone = await context.newPage(),
           standaloneRequests = [];
         standalone.on("request", (r) => {
