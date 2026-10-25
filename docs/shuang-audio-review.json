@@ -1,0 +1,881 @@
+{
+  "checkedAtUtc": "2026-10-25T01:28:09.717630+00:00",
+  "method": "Python wave decoding, NumPy Hann-window FFT with log-parabolic peak interpolation and least-squares PCM coefficients against source-table Hz",
+  "numpy": "2.4.4",
+  "files": 72,
+  "sampleRate": 44100,
+  "channels": 1,
+  "bitsPerSample": 16,
+  "durationSeconds": 2,
+  "sourceSha256": "d195502f8197b135e3fe44c8d20f11ee48e6cadfd260366b8b125e70585c3367",
+  "maxPeakErrorHz": 4.096905513506499e-06,
+  "maxCoefficientError": 2.550941239909399e-07,
+  "maxResidualRms": 8.837317556124068e-06,
+  "allSourceNoticesRetained": true,
+  "cases": [
+    {
+      "file": "p01-measured-0.wav",
+      "bytes": 176884,
+      "sha256": "17df15fdcfb49efbe658121a4b7b2a70bb707aca87eb2b837069f997d41a8539",
+      "expectedHz": [
+        364.07,
+        458.7
+      ],
+      "peakErrorHz": 2.6631606147020648e-06,
+      "coefficientError": 5.5498354803176214e-08,
+      "residualRms": 8.83073244975558e-06
+    },
+    {
+      "file": "p01-measured-22.wav",
+      "bytes": 176886,
+      "sha256": "814aa66796164425d7e103a417b794d3911343eef0f730905eb68a598687f622",
+      "expectedHz": [
+        364.07,
+        458.7
+      ],
+      "peakErrorHz": 2.6933142862617387e-06,
+      "coefficientError": 1.0188880966710556e-07,
+      "residualRms": 8.790986842943021e-06
+    },
+    {
+      "file": "p01-measured-45.wav",
+      "bytes": 176886,
+      "sha256": "7aec5e5fa020364af705f929f2f6fa56b3821af742dfc72c2274876102b34e0d",
+      "expectedHz": [
+        364.07,
+        458.7
+      ],
+      "peakErrorHz": 1.9502394366099907e-06,
+      "coefficientError": 4.0559126901113976e-08,
+      "residualRms": 8.812987435949274e-06
+    },
+    {
+      "file": "p01-semitone-0.wav",
+      "bytes": 176946,
+      "sha256": "1e97219a7fa174cf3f582c6b1c964172a9b34341a838a6dd345a6df9e39385ad",
+      "expectedHz": [
+        364.07,
+        458.69945663522645
+      ],
+      "peakErrorHz": 2.6631606147020648e-06,
+      "coefficientError": 5.56587051893818e-08,
+      "residualRms": 8.83073236927326e-06
+    },
+    {
+      "file": "p01-semitone-22.wav",
+      "bytes": 176948,
+      "sha256": "59302a4c824abf153130d40e786784a56800bd3142054bef1f51070c093c78a3",
+      "expectedHz": [
+        364.07,
+        458.69945663522645
+      ],
+      "peakErrorHz": 2.7812617418021546e-06,
+      "coefficientError": 5.762634419648194e-08,
+      "residualRms": 8.825995133200913e-06
+    },
+    {
+      "file": "p01-semitone-45.wav",
+      "bytes": 176948,
+      "sha256": "0ec1c1d1739c6034716313b246ef8af9003ff87f17b6da1781a82866993f6130",
+      "expectedHz": [
+        364.07,
+        458.69945663522645
+      ],
+      "peakErrorHz": 1.8958238570121466e-06,
+      "coefficientError": 1.173655276576202e-07,
+      "residualRms": 8.821255246250911e-06
+    },
+    {
+      "file": "p02-measured-0.wav",
+      "bytes": 176886,
+      "sha256": "86a9511e967722be4518a5795d0f983a574838b5b7923e5d65e91a95ed7a9ca4",
+      "expectedHz": [
+        408.95,
+        487.51
+      ],
+      "peakErrorHz": 3.1204552328745194e-06,
+      "coefficientError": 1.0167270596712138e-07,
+      "residualRms": 8.794162783312596e-06
+    },
+    {
+      "file": "p02-measured-22.wav",
+      "bytes": 176888,
+      "sha256": "db2abe245e9d6c4b7c525f9b9c0c3eead1d114da38d751029f63e723a70ac752",
+      "expectedHz": [
+        408.95,
+        487.51
+      ],
+      "peakErrorHz": 1.821636715249042e-06,
+      "coefficientError": 7.858541720140444e-08,
+      "residualRms": 8.813508085277905e-06
+    },
+    {
+      "file": "p02-measured-45.wav",
+      "bytes": 176888,
+      "sha256": "1d46180ddb227e7900dce86ddcb5685de6525d6a2e6e59728320c6c0311653b7",
+      "expectedHz": [
+        408.95,
+        487.51
+      ],
+      "peakErrorHz": 2.4435478849227366e-06,
+      "coefficientError": 1.0307095008044165e-07,
+      "residualRms": 8.806396698868999e-06
+    },
+    {
+      "file": "p02-semitone-0.wav",
+      "bytes": 176956,
+      "sha256": "16b5bc2d9e8a001d57b9e9cec3ce731ffc725e8ab3d69b3e9028d282163ac0e6",
+      "expectedHz": [
+        408.65475792799344,
+        485.9751457076844
+      ],
+      "peakErrorHz": 3.4165228157689853e-06,
+      "coefficientError": 1.481464768082752e-07,
+      "residualRms": 8.82808645262586e-06
+    },
+    {
+      "file": "p02-semitone-22.wav",
+      "bytes": 176958,
+      "sha256": "03c2bc202865f8a9cf9303c2ec194cf01087cb950bdae527fd84275ac3f050dd",
+      "expectedHz": [
+        408.65475792799344,
+        485.9751457076844
+      ],
+      "peakErrorHz": 7.861716539991903e-07,
+      "coefficientError": 5.62938743536856e-08,
+      "residualRms": 8.823695140109456e-06
+    },
+    {
+      "file": "p02-semitone-45.wav",
+      "bytes": 176958,
+      "sha256": "5c85f7d65631087d702749787d97d8d8be34c5d9671e5d8e30575380a88e9cb0",
+      "expectedHz": [
+        408.65475792799344,
+        485.9751457076844
+      ],
+      "peakErrorHz": 2.105066926105792e-06,
+      "coefficientError": 2.3135991791822796e-07,
+      "residualRms": 8.807729181499579e-06
+    },
+    {
+      "file": "p03-measured-0.wav",
+      "bytes": 176884,
+      "sha256": "b59273b175f66c8179243122bb40141d38e7fc9cab02f76239778f75f51477f0",
+      "expectedHz": [
+        453.15,
+        543.5
+      ],
+      "peakErrorHz": 2.8978919317523832e-06,
+      "coefficientError": 1.494418297869369e-07,
+      "residualRms": 8.80348316463089e-06
+    },
+    {
+      "file": "p03-measured-22.wav",
+      "bytes": 176886,
+      "sha256": "0d1d861032e4a726763fc36e634c58431379fc677daa57f3fce47f7f62603363",
+      "expectedHz": [
+        453.15,
+        543.5
+      ],
+      "peakErrorHz": 1.4464081914411508e-06,
+      "coefficientError": 1.1362771504264124e-07,
+      "residualRms": 8.796926136929376e-06
+    },
+    {
+      "file": "p03-measured-45.wav",
+      "bytes": 176886,
+      "sha256": "b1d3f29a957d059a3b398c541eb3516bfb99a91bda7712ab334383c49240c5ef",
+      "expectedHz": [
+        453.15,
+        543.5
+      ],
+      "peakErrorHz": 7.553895784440101e-07,
+      "coefficientError": 4.0585941052384555e-08,
+      "residualRms": 8.808008728143926e-06
+    },
+    {
+      "file": "p03-semitone-0.wav",
+      "bytes": 176956,
+      "sha256": "dd90cffd2b1e096d8b096b33164c2bfdb955f87f06b5d549af0626a21a0d8546",
+      "expectedHz": [
+        458.69945663522645,
+        545.4886574784935
+      ],
+      "peakErrorHz": 1.8958238570121466e-06,
+      "coefficientError": 1.1733396418356357e-07,
+      "residualRms": 8.82127879201861e-06
+    },
+    {
+      "file": "p03-semitone-22.wav",
+      "bytes": 176958,
+      "sha256": "d1999b5b08ad0e957c5076bb8fc877197b8f363f58c0153eb62a33b649769109",
+      "expectedHz": [
+        458.69945663522645,
+        545.4886574784935
+      ],
+      "peakErrorHz": 1.8345925809626351e-06,
+      "coefficientError": 9.394406466634031e-08,
+      "residualRms": 8.820989896670095e-06
+    },
+    {
+      "file": "p03-semitone-45.wav",
+      "bytes": 176958,
+      "sha256": "fb996532da2025fcd8490120be2cb845c407229bf692ebbe82db4ea2ded091a0",
+      "expectedHz": [
+        458.69945663522645,
+        545.4886574784935
+      ],
+      "peakErrorHz": 1.837330046328134e-06,
+      "coefficientError": 1.198520508671752e-07,
+      "residualRms": 8.79420728169352e-06
+    },
+    {
+      "file": "p04-measured-0.wav",
+      "bytes": 176886,
+      "sha256": "5f87cb611d82de1f4bcd263330860bc57119c004a0b3c20f57778ded0233fd24",
+      "expectedHz": [
+        596.14,
+        714.18
+      ],
+      "peakErrorHz": 8.590544666731148e-07,
+      "coefficientError": 1.4440264395428683e-07,
+      "residualRms": 8.812823157193397e-06
+    },
+    {
+      "file": "p04-measured-22.wav",
+      "bytes": 176888,
+      "sha256": "7fd090573b0f13a8ba33f88de39223fbfa071b979fbe63d97d35b558b5b4b78d",
+      "expectedHz": [
+        596.14,
+        714.18
+      ],
+      "peakErrorHz": 1.9458633460089914e-06,
+      "coefficientError": 4.908343427534323e-08,
+      "residualRms": 8.795083901252079e-06
+    },
+    {
+      "file": "p04-measured-45.wav",
+      "bytes": 176888,
+      "sha256": "f6adbd81b42033e7da1f324d83a990dd399e0da596d581e9014b7a9658281f00",
+      "expectedHz": [
+        596.14,
+        714.18
+      ],
+      "peakErrorHz": 1.3662398714586743e-06,
+      "coefficientError": 1.40230040256739e-07,
+      "residualRms": 8.806319548713535e-06
+    },
+    {
+      "file": "p04-semitone-0.wav",
+      "bytes": 176944,
+      "sha256": "d8aa23d0c51be13f70a7b9e4ad934ab03e6162d24bc033218549be5a25e98a87",
+      "expectedHz": [
+        612.2903158028397,
+        728.14
+      ],
+      "peakErrorHz": 8.365904022866744e-07,
+      "coefficientError": 7.335917392992108e-08,
+      "residualRms": 8.803113287432956e-06
+    },
+    {
+      "file": "p04-semitone-22.wav",
+      "bytes": 176946,
+      "sha256": "5089948e1f81fe307b22bb29785d5b325f41267da21d088e1eff76f8b08cec90",
+      "expectedHz": [
+        612.2903158028397,
+        728.14
+      ],
+      "peakErrorHz": 3.31371620632126e-06,
+      "coefficientError": 1.0935113585464062e-07,
+      "residualRms": 8.81119660581267e-06
+    },
+    {
+      "file": "p04-semitone-45.wav",
+      "bytes": 176946,
+      "sha256": "dad80892d35b1bad771912724ca961d44577a6fe9a2ab4f74365b8d2d6d6ac40",
+      "expectedHz": [
+        612.2903158028397,
+        728.14
+      ],
+      "peakErrorHz": 1.2970432408110355e-06,
+      "coefficientError": 1.0131647341492821e-07,
+      "residualRms": 8.799075472516659e-06
+    },
+    {
+      "file": "p05-measured-0.wav",
+      "bytes": 176886,
+      "sha256": "d94a5ccf1581e2df5646265a406a384d73023fcc408b8542d34117d47fc1cbae",
+      "expectedHz": [
+        684.07,
+        810.09
+      ],
+      "peakErrorHz": 1.4346881016535917e-06,
+      "coefficientError": 7.711878535765493e-08,
+      "residualRms": 8.805611492427142e-06
+    },
+    {
+      "file": "p05-measured-22.wav",
+      "bytes": 176888,
+      "sha256": "df40e1d085d77ae660f471dc3ece9078f6f9303a1a22f89c7960d2ee1ec225fa",
+      "expectedHz": [
+        684.07,
+        810.09
+      ],
+      "peakErrorHz": 2.2614808585785795e-06,
+      "coefficientError": 9.373934170553433e-09,
+      "residualRms": 8.811056923963484e-06
+    },
+    {
+      "file": "p05-measured-45.wav",
+      "bytes": 176888,
+      "sha256": "056c0fba050a2b5be306108bd53d17ff41a5a246a7e1f043c6b613fa10201523",
+      "expectedHz": [
+        684.07,
+        810.09
+      ],
+      "peakErrorHz": 2.3778221702741575e-06,
+      "coefficientError": 1.1650242978666903e-07,
+      "residualRms": 8.801427536139539e-06
+    },
+    {
+      "file": "p05-semitone-0.wav",
+      "bytes": 176956,
+      "sha256": "e487cf9a8e7a943c40ada14c247cc649885eb08de20848f745b3675ca039f08e",
+      "expectedHz": [
+        687.2726420360482,
+        817.3095158559869
+      ],
+      "peakErrorHz": 1.1382828688510926e-06,
+      "coefficientError": 1.2196597268254727e-07,
+      "residualRms": 8.826777556219217e-06
+    },
+    {
+      "file": "p05-semitone-22.wav",
+      "bytes": 176958,
+      "sha256": "7f0bc7c42a2ff2cd3fed32bc80ebb5bf890f3d43c5bf701faa09af927790d396",
+      "expectedHz": [
+        687.2726420360482,
+        817.3095158559869
+      ],
+      "peakErrorHz": 3.1939115388013306e-06,
+      "coefficientError": 1.9361519403016114e-07,
+      "residualRms": 8.816430474356327e-06
+    },
+    {
+      "file": "p05-semitone-45.wav",
+      "bytes": 176958,
+      "sha256": "e213efcc0c3ad5c453f518039d3aa02273af93ed893d83ba8228447a6e4f4741",
+      "expectedHz": [
+        687.2726420360482,
+        817.3095158559869
+      ],
+      "peakErrorHz": 1.6177256156879594e-06,
+      "coefficientError": 1.488740426662831e-07,
+      "residualRms": 8.818346787974912e-06
+    },
+    {
+      "file": "p06-measured-0.wav",
+      "bytes": 176884,
+      "sha256": "21718ff29b58874473739c184c5e010c0b4115007871ee87a0dcafd2669a0b52",
+      "expectedHz": [
+        730.3,
+        922.91
+      ],
+      "peakErrorHz": 6.565223884535953e-07,
+      "coefficientError": 2.022775590738827e-07,
+      "residualRms": 8.825082163051673e-06
+    },
+    {
+      "file": "p06-measured-22.wav",
+      "bytes": 176886,
+      "sha256": "f8b2670b42a2d4d18d30b6eeda3abe8c79dd663070172db6677642997457d032",
+      "expectedHz": [
+        730.3,
+        922.91
+      ],
+      "peakErrorHz": 1.7484077261542552e-06,
+      "coefficientError": 8.622435568317321e-08,
+      "residualRms": 8.799276879377104e-06
+    },
+    {
+      "file": "p06-measured-45.wav",
+      "bytes": 176886,
+      "sha256": "27fc415f51f0c644a53991a6ea30a47c42c15e8ff83345fc8f141ad4ba560eac",
+      "expectedHz": [
+        730.3,
+        922.91
+      ],
+      "peakErrorHz": 2.408274212939432e-06,
+      "coefficientError": 1.9847082189073322e-07,
+      "residualRms": 8.80447682190727e-06
+    },
+    {
+      "file": "p06-semitone-0.wav",
+      "bytes": 176944,
+      "sha256": "9048506057678ea96a04d4ebb1426febe33287c8fd794506af8555695fff6103",
+      "expectedHz": [
+        728.14,
+        917.3989132704529
+      ],
+      "peakErrorHz": 1.2970432408110355e-06,
+      "coefficientError": 8.622026170801433e-08,
+      "residualRms": 8.799121679963751e-06
+    },
+    {
+      "file": "p06-semitone-22.wav",
+      "bytes": 176946,
+      "sha256": "f79e63f1db15f4ae3e76c1d2f4ee24570687454bbc33c26540addfc71b25b779",
+      "expectedHz": [
+        728.14,
+        917.3989132704529
+      ],
+      "peakErrorHz": 2.9409237640720676e-06,
+      "coefficientError": 1.7820338131524505e-07,
+      "residualRms": 8.791134940383851e-06
+    },
+    {
+      "file": "p06-semitone-45.wav",
+      "bytes": 176946,
+      "sha256": "fa35e045a1d0eeea7bc27c673831613ad53bc22681c2de7f373f3b43bc653883",
+      "expectedHz": [
+        728.14,
+        917.3989132704529
+      ],
+      "peakErrorHz": 9.493884363109828e-07,
+      "coefficientError": 9.975584510950373e-08,
+      "residualRms": 8.802682653874257e-06
+    },
+    {
+      "file": "p07-measured-0.wav",
+      "bytes": 176886,
+      "sha256": "47dd7b2185311a85e1154d6d1c3002138aba9fe26f63bdd66c2fa935e96f98a8",
+      "expectedHz": [
+        906.32,
+        1089.2
+      ],
+      "peakErrorHz": 2.2164068695929018e-06,
+      "coefficientError": 1.51626992813685e-08,
+      "residualRms": 8.80771829801643e-06
+    },
+    {
+      "file": "p07-measured-22.wav",
+      "bytes": 176888,
+      "sha256": "9294235666725f24216aa15356910a43d7799fd01c78f7e7baed006122b051f7",
+      "expectedHz": [
+        906.32,
+        1089.2
+      ],
+      "peakErrorHz": 2.0449986095627537e-06,
+      "coefficientError": 8.723875377647516e-08,
+      "residualRms": 8.8191713419795e-06
+    },
+    {
+      "file": "p07-measured-45.wav",
+      "bytes": 176888,
+      "sha256": "a20ca5fd975c47baff0c84f8ab2a689da00a2bf421e0b46fbbc4ed0775761ff6",
+      "expectedHz": [
+        906.32,
+        1089.2
+      ],
+      "peakErrorHz": 2.717363031479181e-06,
+      "coefficientError": 2.503715399448936e-07,
+      "residualRms": 8.790448175890418e-06
+    },
+    {
+      "file": "p07-semitone-0.wav",
+      "bytes": 176956,
+      "sha256": "4e55b072a90481d665d33e71d2e857505a82b2a1c4c1aaae268172db1a060f45",
+      "expectedHz": [
+        917.3989132704529,
+        1090.977314956987
+      ],
+      "peakErrorHz": 9.493884363109828e-07,
+      "coefficientError": 1.3465530692646495e-07,
+      "residualRms": 8.802645597013022e-06
+    },
+    {
+      "file": "p07-semitone-22.wav",
+      "bytes": 176958,
+      "sha256": "5db14f1342b6d0813c9d2e6bdda6fe6a968289bbf81aa7ea2d42edb2733a2225",
+      "expectedHz": [
+        917.3989132704529,
+        1090.977314956987
+      ],
+      "peakErrorHz": 4.096905513506499e-06,
+      "coefficientError": 6.727312530652174e-08,
+      "residualRms": 8.815813852060987e-06
+    },
+    {
+      "file": "p07-semitone-45.wav",
+      "bytes": 176958,
+      "sha256": "443811e7043abdae1920fc94d4e3da93e46c553480fd464b831932fa6dfa6ac8",
+      "expectedHz": [
+        917.3989132704529,
+        1090.977314956987
+      ],
+      "peakErrorHz": 2.076919145110878e-06,
+      "coefficientError": 2.1657298884814047e-07,
+      "residualRms": 8.777977351022585e-06
+    },
+    {
+      "file": "p08-measured-0.wav",
+      "bytes": 176886,
+      "sha256": "f93487c789a03745e16dd33a755aac15740c08a05b4bb6566e06435a043b2fa4",
+      "expectedHz": [
+        1214.1,
+        1486.8
+      ],
+      "peakErrorHz": 6.442883204726968e-07,
+      "coefficientError": 6.885680295387608e-08,
+      "residualRms": 8.806113042424573e-06
+    },
+    {
+      "file": "p08-measured-22.wav",
+      "bytes": 176888,
+      "sha256": "f9c1fce3125f6bd8c8eca222fb70bf1121c91387d7f9232c8e139a8f01543b4b",
+      "expectedHz": [
+        1214.1,
+        1486.8
+      ],
+      "peakErrorHz": 1.0945400390482973e-06,
+      "coefficientError": 5.2360633981396454e-08,
+      "residualRms": 8.79886770873197e-06
+    },
+    {
+      "file": "p08-measured-45.wav",
+      "bytes": 176888,
+      "sha256": "d3986a13c8c927abe565fd033916b35d7243cd41eb1f780ed5493ea89011bdcb",
+      "expectedHz": [
+        1214.1,
+        1486.8
+      ],
+      "peakErrorHz": 2.4809719434415456e-07,
+      "coefficientError": 1.4978225565690453e-07,
+      "residualRms": 8.808763903036936e-06
+    },
+    {
+      "file": "p08-semitone-0.wav",
+      "bytes": 176946,
+      "sha256": "1987b84bfc3698ddcf28b1d6c2bf7a419bc3376e63ff8eb96e20cf45e2aa6e62",
+      "expectedHz": [
+        1224.5806316056794,
+        1456.28
+      ],
+      "peakErrorHz": 7.671922048757551e-07,
+      "coefficientError": 1.7841419377995216e-07,
+      "residualRms": 8.807392275411886e-06
+    },
+    {
+      "file": "p08-semitone-22.wav",
+      "bytes": 176948,
+      "sha256": "e43a49eccaa2e4486b783a7ba8a7cbd1f741c3913e4f6cc9595acef33fb6fd6b",
+      "expectedHz": [
+        1224.5806316056794,
+        1456.28
+      ],
+      "peakErrorHz": 2.0960615074727684e-06,
+      "coefficientError": 1.0989611329281779e-07,
+      "residualRms": 8.814154421249851e-06
+    },
+    {
+      "file": "p08-semitone-45.wav",
+      "bytes": 176948,
+      "sha256": "a9de2522deca749214a007ba0e7a7fb30c4984d1e8d08789a8da83a6fbd01a8f",
+      "expectedHz": [
+        1224.5806316056794,
+        1456.28
+      ],
+      "peakErrorHz": 2.3971219889062922e-06,
+      "coefficientError": 1.8835867912625481e-07,
+      "residualRms": 8.815074520874254e-06
+    },
+    {
+      "file": "p09-measured-0.wav",
+      "bytes": 176884,
+      "sha256": "e602a9beb2dcf91e2e2d86f7c39062ea41fd950ac5e5aff5ed3aeb044d59250f",
+      "expectedHz": [
+        1339.6,
+        1603.0
+      ],
+      "peakErrorHz": 1.9722460820048582e-07,
+      "coefficientError": 3.037068696531975e-08,
+      "residualRms": 8.80025897651292e-06
+    },
+    {
+      "file": "p09-measured-22.wav",
+      "bytes": 176886,
+      "sha256": "6777dff7778b1070555eb596c2cecc4556cb4c3eac8aab76b651d0e82e957ddd",
+      "expectedHz": [
+        1339.6,
+        1603.0
+      ],
+      "peakErrorHz": 9.678058177087223e-07,
+      "coefficientError": 1.0931990118701052e-08,
+      "residualRms": 8.812199671576072e-06
+    },
+    {
+      "file": "p09-measured-45.wav",
+      "bytes": 176886,
+      "sha256": "0691889fca4302240ab3063888b73b87140825587a4fdd3d00a00bb8fa9746ca",
+      "expectedHz": [
+        1339.6,
+        1603.0
+      ],
+      "peakErrorHz": 1.4141821793600684e-06,
+      "coefficientError": 1.1928344134659596e-07,
+      "residualRms": 8.814066435578968e-06
+    },
+    {
+      "file": "p09-semitone-0.wav",
+      "bytes": 176958,
+      "sha256": "4f797cee873cbae4c9aa37c0ea5f28b7f9e0d241a0a8011e4fcc8c65ed844b5b",
+      "expectedHz": [
+        1374.5452840720966,
+        1634.6190317119733
+      ],
+      "peakErrorHz": 2.1099549485370517e-06,
+      "coefficientError": 1.7348230859379344e-07,
+      "residualRms": 8.794401254286766e-06
+    },
+    {
+      "file": "p09-semitone-22.wav",
+      "bytes": 176960,
+      "sha256": "da75431db4f9a0ba44c2ee04bad933d3ec14d6f3a56c090c16cc5853209dd773",
+      "expectedHz": [
+        1374.5452840720966,
+        1634.6190317119733
+      ],
+      "peakErrorHz": 2.738456259976374e-06,
+      "coefficientError": 8.814954147173815e-08,
+      "residualRms": 8.797892066543128e-06
+    },
+    {
+      "file": "p09-semitone-45.wav",
+      "bytes": 176960,
+      "sha256": "8a6e49b3bf34114d3f41ab4b7801e4b3fc33dba05f9948c01b64f93f69decdfb",
+      "expectedHz": [
+        1374.5452840720966,
+        1634.6190317119733
+      ],
+      "peakErrorHz": 2.091158194161835e-06,
+      "coefficientError": 2.8905175392113236e-08,
+      "residualRms": 8.808507367835441e-06
+    },
+    {
+      "file": "p10-measured-0.wav",
+      "bytes": 176888,
+      "sha256": "ddae33201cdf724f6d2a27c3903a0686bfe88a2356e3a4ff052ec79573459c19",
+      "expectedHz": [
+        1604.7,
+        1965.4
+      ],
+      "peakErrorHz": 2.5354274839628488e-06,
+      "coefficientError": 1.0849723366644478e-07,
+      "residualRms": 8.837317556124068e-06
+    },
+    {
+      "file": "p10-measured-22.wav",
+      "bytes": 176888,
+      "sha256": "079a6932f2f6b62fce68fc5cae1c214584c5c3f60a94f6bec22b1e398128ce2f",
+      "expectedHz": [
+        1604.7,
+        1965.4
+      ],
+      "peakErrorHz": 2.2947201614442747e-06,
+      "coefficientError": 1.485382699895066e-07,
+      "residualRms": 8.791623103570026e-06
+    },
+    {
+      "file": "p10-measured-45.wav",
+      "bytes": 176888,
+      "sha256": "f5c0e9e1b0cdf633f94468a5c1ad2da80969a9c874a02a44b5b9b3d4f42e3959",
+      "expectedHz": [
+        1604.7,
+        1965.4
+      ],
+      "peakErrorHz": 2.7176379262527917e-06,
+      "coefficientError": 1.0395207718579431e-07,
+      "residualRms": 8.790281043187561e-06
+    },
+    {
+      "file": "p10-semitone-0.wav",
+      "bytes": 176960,
+      "sha256": "6ccaa449c53df6925003a7daf6cf03fe57479189696696161acca51d97aa7e7a",
+      "expectedHz": [
+        1634.6190317119733,
+        1943.9005828307372
+      ],
+      "peakErrorHz": 2.091158194161835e-06,
+      "coefficientError": 8.236910736579812e-08,
+      "residualRms": 8.80847683271682e-06
+    },
+    {
+      "file": "p10-semitone-22.wav",
+      "bytes": 176960,
+      "sha256": "64173bc25643e05e46f613ac12fb89a610951297f334671ced1e5622a7ccddcd",
+      "expectedHz": [
+        1634.6190317119733,
+        1943.9005828307372
+      ],
+      "peakErrorHz": 3.414547563806991e-06,
+      "coefficientError": 6.34762559043045e-08,
+      "residualRms": 8.828422993237705e-06
+    },
+    {
+      "file": "p10-semitone-45.wav",
+      "bytes": 176960,
+      "sha256": "26aa3590ae3a0378d785af14710dbaf5e8448e574764c2bfd393a04c5f6c1000",
+      "expectedHz": [
+        1634.6190317119733,
+        1943.9005828307372
+      ],
+      "peakErrorHz": 9.943250915966928e-07,
+      "coefficientError": 1.7975277667206658e-07,
+      "residualRms": 8.821652891617891e-06
+    },
+    {
+      "file": "p11-measured-0.wav",
+      "bytes": 176888,
+      "sha256": "8a094b2152aefa7a3c8afa27878d2a7ea5ae58988487878d3125ee0cb369de65",
+      "expectedHz": [
+        1803.1,
+        2160.7
+      ],
+      "peakErrorHz": 1.929007567014196e-06,
+      "coefficientError": 2.4416436117391527e-07,
+      "residualRms": 8.813775080051434e-06
+    },
+    {
+      "file": "p11-measured-22.wav",
+      "bytes": 176888,
+      "sha256": "ac6d382dfe8cfd2415dfb2901890bb0a93ea0131b7dda56f90e2e9dd65821941",
+      "expectedHz": [
+        1803.1,
+        2160.7
+      ],
+      "peakErrorHz": 2.1331404695956735e-06,
+      "coefficientError": 1.8260288023319582e-07,
+      "residualRms": 8.813294149096072e-06
+    },
+    {
+      "file": "p11-measured-45.wav",
+      "bytes": 176888,
+      "sha256": "6c889a98b872f38f2b81c3aa0b51587fc37e8f03c5ca8016472cd7cdb8a8e341",
+      "expectedHz": [
+        1803.1,
+        2160.7
+      ],
+      "peakErrorHz": 9.555624274071306e-07,
+      "coefficientError": 1.016018784383288e-07,
+      "residualRms": 8.818273389208459e-06
+    },
+    {
+      "file": "p11-semitone-0.wav",
+      "bytes": 176960,
+      "sha256": "f73482729a32f3681316d29bc1f21eb2a4f305d085a79e788a748c6bc0d837ce",
+      "expectedHz": [
+        1834.7978265409058,
+        2181.9546299139743
+      ],
+      "peakErrorHz": 1.8462460502632894e-06,
+      "coefficientError": 1.1551873180248862e-07,
+      "residualRms": 8.791406875958582e-06
+    },
+    {
+      "file": "p11-semitone-22.wav",
+      "bytes": 176960,
+      "sha256": "c31bad9437c6e94b67ad7f99ba8d87c4395287194f1fcfc0f3e6995415ee7fd8",
+      "expectedHz": [
+        1834.7978265409058,
+        2181.9546299139743
+      ],
+      "peakErrorHz": 1.7146633126685629e-06,
+      "coefficientError": 1.5184637161547165e-07,
+      "residualRms": 8.808280339299547e-06
+    },
+    {
+      "file": "p11-semitone-45.wav",
+      "bytes": 176960,
+      "sha256": "0b8532361ec7da8b22b61cb1782429954c262c174b16dcdc1aaa9b0e78c7f62a",
+      "expectedHz": [
+        1834.7978265409058,
+        2181.9546299139743
+      ],
+      "peakErrorHz": 1.9358121789991856e-06,
+      "coefficientError": 4.4040668613485467e-08,
+      "residualRms": 8.800417420413849e-06
+    },
+    {
+      "file": "p12-measured-0.wav",
+      "bytes": 176888,
+      "sha256": "b02149d315582e599984865fdc867e6abea952a761c248d76cbcb00f6bf6bf30",
+      "expectedHz": [
+        2426.8,
+        2885.7
+      ],
+      "peakErrorHz": 1.4369525160873309e-06,
+      "coefficientError": 2.550941239909399e-07,
+      "residualRms": 8.823110305176121e-06
+    },
+    {
+      "file": "p12-measured-22.wav",
+      "bytes": 176888,
+      "sha256": "523bfaa0dd86110f626465e4c8da3256101fb0feb1623863032d1dc521e81364",
+      "expectedHz": [
+        2426.8,
+        2885.7
+      ],
+      "peakErrorHz": 1.1907964108104352e-06,
+      "coefficientError": 1.0254049749580663e-07,
+      "residualRms": 8.81286115823048e-06
+    },
+    {
+      "file": "p12-measured-45.wav",
+      "bytes": 176888,
+      "sha256": "fe9298d6a165cd33ed295b00e4e74e6495bd057fbd7469a8570eee6e46a791f7",
+      "expectedHz": [
+        2426.8,
+        2885.7
+      ],
+      "peakErrorHz": 4.402108970680274e-07,
+      "coefficientError": 4.144934214784698e-08,
+      "residualRms": 8.805211601441806e-06
+    },
+    {
+      "file": "p12-semitone-0.wav",
+      "bytes": 176948,
+      "sha256": "7cb9b7f8c05220741ed5a261480c44788ccbd17b428b67177cdf2c1a580a8e39",
+      "expectedHz": [
+        2449.161263211359,
+        2912.56
+      ],
+      "peakErrorHz": 2.7832370506075677e-06,
+      "coefficientError": 1.1595639308256372e-07,
+      "residualRms": 8.803403314186602e-06
+    },
+    {
+      "file": "p12-semitone-22.wav",
+      "bytes": 176948,
+      "sha256": "34fd7a0cfa1007051cde2163985083dcb5a1820508b30fc25ed33864d1374f0e",
+      "expectedHz": [
+        2449.161263211359,
+        2912.56
+      ],
+      "peakErrorHz": 2.8156641747045796e-06,
+      "coefficientError": 1.771812072476342e-07,
+      "residualRms": 8.814176503851593e-06
+    },
+    {
+      "file": "p12-semitone-45.wav",
+      "bytes": 176948,
+      "sha256": "c0b2644380b02434c779e5007c2684691c1b2e354a80583b34560771fedaf65e",
+      "expectedHz": [
+        2449.161263211359,
+        2912.56
+      ],
+      "peakErrorHz": 1.7791330719774123e-06,
+      "coefficientError": 2.3798618459247578e-07,
+      "residualRms": 8.810661576530965e-06
+    }
+  ]
+}

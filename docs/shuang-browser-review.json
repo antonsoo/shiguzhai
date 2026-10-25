@@ -1,0 +1,208 @@
+{
+  "checkedAtUtc": "2026-10-25T01:29:05.990Z",
+  "base": "http://127.0.0.1:4350/shiguzhai/shuang.html",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "nativeBellSelections": 14,
+      "reportedPitchPairs": 12,
+      "unreportedPairsPreserved": 2,
+      "keyboard": true,
+      "unchangedFrequenciesAfterStrike": true,
+      "webAudioPcmMatchesDownloadedWav": true,
+      "wav": {
+        "bytes": 176888,
+        "sha256": "f9c1fce3125f6bd8c8eca222fb70bf1121c91387d7f9232c8e139a8f01543b4b",
+        "rate": 44100,
+        "frames": 88200,
+        "sourceNotice": true
+      },
+      "sharedState": true,
+      "history": true,
+      "repeatedAuditionPreservesHistory": true,
+      "scaleAssumptions": true,
+      "chineseReadings": 6,
+      "competingProportions": true,
+      "sourceImage": {
+        "width": 463,
+        "sha256": "810cc1016b40d1d9fd6b039292743092e68be934a64b02c4e960db5fc74a15ab"
+      },
+      "downloads": {
+        "csvRows": 14,
+        "missingCellsPreserved": true,
+        "svgParses": true,
+        "studyBytes": 1764702,
+        "scriptFree": true,
+        "embeddedAudio": 3,
+        "embeddedAudioActuallyPlayed": true,
+        "embeddedWavMatches": true,
+        "embeddedCsvMatches": true,
+        "unreportedBellHasNoInventedAudio": true
+      },
+      "offline": "Browser context disconnected after the complete edition was installed; listening, reload and new study exports operated",
+      "twoRoomsOffline": true,
+      "rejectedChangedSource": true,
+      "axeViolations": 0,
+      "errors": [],
+      "consoleErrors": [],
+      "external": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "nativeBellSelections": 14,
+      "reportedPitchPairs": 12,
+      "unreportedPairsPreserved": 2,
+      "keyboard": true,
+      "unchangedFrequenciesAfterStrike": true,
+      "webAudioPcmMatchesDownloadedWav": true,
+      "wav": {
+        "bytes": 176888,
+        "sha256": "f9c1fce3125f6bd8c8eca222fb70bf1121c91387d7f9232c8e139a8f01543b4b",
+        "rate": 44100,
+        "frames": 88200,
+        "sourceNotice": true
+      },
+      "sharedState": true,
+      "history": true,
+      "repeatedAuditionPreservesHistory": true,
+      "scaleAssumptions": true,
+      "chineseReadings": 6,
+      "competingProportions": true,
+      "sourceImage": {
+        "width": 463,
+        "sha256": "810cc1016b40d1d9fd6b039292743092e68be934a64b02c4e960db5fc74a15ab"
+      },
+      "downloads": {
+        "csvRows": 14,
+        "missingCellsPreserved": true,
+        "svgParses": true,
+        "studyBytes": 1764702,
+        "scriptFree": true,
+        "embeddedAudio": 3,
+        "embeddedAudioActuallyPlayed": true,
+        "embeddedWavMatches": true,
+        "embeddedCsvMatches": true,
+        "unreportedBellHasNoInventedAudio": true
+      },
+      "offline": "Browser context disconnected after the complete edition was installed; listening, reload and new study exports operated",
+      "twoRoomsOffline": true,
+      "rejectedChangedSource": false,
+      "axeViolations": 0,
+      "errors": [],
+      "consoleErrors": [],
+      "external": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "nativeBellSelections": 14,
+      "reportedPitchPairs": 12,
+      "unreportedPairsPreserved": 2,
+      "keyboard": true,
+      "unchangedFrequenciesAfterStrike": true,
+      "webAudioPcmMatchesDownloadedWav": true,
+      "wav": {
+        "bytes": 176888,
+        "sha256": "f9c1fce3125f6bd8c8eca222fb70bf1121c91387d7f9232c8e139a8f01543b4b",
+        "rate": 44100,
+        "frames": 88200,
+        "sourceNotice": true
+      },
+      "sharedState": true,
+      "history": true,
+      "repeatedAuditionPreservesHistory": true,
+      "scaleAssumptions": true,
+      "chineseReadings": 6,
+      "competingProportions": true,
+      "sourceImage": {
+        "width": 463,
+        "sha256": "810cc1016b40d1d9fd6b039292743092e68be934a64b02c4e960db5fc74a15ab"
+      },
+      "downloads": {
+        "csvRows": 14,
+        "missingCellsPreserved": true,
+        "svgParses": true,
+        "studyBytes": 1764702,
+        "scriptFree": true,
+        "embeddedAudio": 3,
+        "embeddedAudioActuallyPlayed": true,
+        "embeddedWavMatches": true,
+        "embeddedCsvMatches": true,
+        "unreportedBellHasNoInventedAudio": true
+      },
+      "offline": "Browser context disconnected after the complete edition was installed; listening, reload and new study exports operated",
+      "twoRoomsOffline": true,
+      "rejectedChangedSource": false,
+      "axeViolations": 0,
+      "errors": [],
+      "consoleErrors": [],
+      "external": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "nativeBellSelections": 14,
+      "reportedPitchPairs": 12,
+      "unreportedPairsPreserved": 2,
+      "keyboard": true,
+      "unchangedFrequenciesAfterStrike": true,
+      "webAudioPcmMatchesDownloadedWav": true,
+      "wav": {
+        "bytes": 176888,
+        "sha256": "f9c1fce3125f6bd8c8eca222fb70bf1121c91387d7f9232c8e139a8f01543b4b",
+        "rate": 44100,
+        "frames": 88200,
+        "sourceNotice": true
+      },
+      "sharedState": true,
+      "history": true,
+      "repeatedAuditionPreservesHistory": true,
+      "scaleAssumptions": true,
+      "chineseReadings": 6,
+      "competingProportions": true,
+      "sourceImage": {
+        "width": 463,
+        "sha256": "810cc1016b40d1d9fd6b039292743092e68be934a64b02c4e960db5fc74a15ab"
+      },
+      "downloads": {
+        "csvRows": 14,
+        "missingCellsPreserved": true,
+        "svgParses": true,
+        "studyBytes": 1764702,
+        "scriptFree": true,
+        "embeddedAudio": 3,
+        "embeddedAudioActuallyPlayed": true,
+        "embeddedWavMatches": true,
+        "embeddedCsvMatches": true,
+        "unreportedBellHasNoInventedAudio": true
+      },
+      "offline": "Browser context disconnected after the complete edition was installed; listening, reload and new study exports operated",
+      "twoRoomsOffline": true,
+      "rejectedChangedSource": false,
+      "axeViolations": 0,
+      "errors": [],
+      "consoleErrors": [],
+      "external": []
+    }
+  ],
+  "audioResumeRaces": [
+    {
+      "browser": "chromium",
+      "selectionDuringPendingResume": "cancelled before playback and animation",
+      "twoPendingStrikes": "only the latest starts",
+      "stop": "no late animation restarts"
+    },
+    {
+      "browser": "firefox",
+      "selectionDuringPendingResume": "cancelled before playback and animation",
+      "twoPendingStrikes": "only the latest starts",
+      "stop": "no late animation restarts"
+    }
+  ]
+}

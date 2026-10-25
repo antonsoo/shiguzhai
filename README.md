@@ -18,6 +18,10 @@ the assumptions behind a count of musical notes.
 [Saveable illustrated reading](examples/bell-I-reading.html) ·
 [Printed reading](examples/bell-I-reading.pdf)
 
+The [Shuang craft bench](https://antonsoo.github.io/shiguzhai/shuang.html) adds a
+second source set and a different question: how do two bending patterns share
+one rim, and how do surviving dimensions compare with a Chinese maker's rule?
+
 ## Try this
 
 1. Select bell I and choose its 269 Hz B observation. B names a strike position;
@@ -51,6 +55,42 @@ The source gives integer frequencies without measurement error bars.
   offline and prints as an illustrated handout.
 - Complete offline caching after the footer confirms it. No account, runtime
   dependency, analytics, remote font service or external request during use.
+
+## Shuang: read the maker's arithmetic
+
+The new [Piao-shi workshop](https://antonsoo.github.io/shiguzhai/shuang.html)
+uses Takahashi's 1989 measurements of a different bell set. Change an ideal
+strike's coupling to two bending patterns while both resonant frequencies stay
+fixed. The separate patterns show their nodal points; their contour and motion
+are explicitly new teaching analogies.
+
+![The Piao-shi bench with separate bending patterns and unchanged reported frequencies](docs/assets/shuang-bench.png)
+
+No. 8 has reported resonances of **1214.1 Hz** and **1486.8 Hz**, an interval
+of **350.8 cents** from Hz. A modern semitone projection discards that distinction.
+The projection is optional, anchored to 364.07 Hz, and makes no claim about
+ancient equal temperament. Two ROM objects retain real dimensions and unreported
+pitches; their listening controls stay disabled and their studies invent no audio.
+
+Read six selections from the Kaogongji with new English, modern pinyin and
+diagrams locating six measurements. Compare two readings of “remove two parts”:
+
+| Reading                 | Ridge : body : tip width : mouth depth : crown length : crown breadth |
+| ----------------------- | --------------------------------------------------------------------- |
+| Subtract original parts | 10 : 8 : 8 : 6 : 6 : 4                                                |
+| Take four fifths again  | 10 : 8 : 8 : 6.4 : 6.4 : 5.12                                         |
+
+A separate scaling exercise distinguishes growing the wall with the bell from
+keeping its thickness fixed. Save a source-tagged WAV, full CSV, rim SVG or a
+script-free study containing the readings, source photograph, fonts and playable
+audio. The [retained study](examples/shuang-study.html) and
+[printed study](examples/shuang-study.pdf) are actual browser exports.
+
+The two rooms preserve different objects, periods and sources. Shiguzhai's A/B
+are strike-position observation lists; the Piao-shi paper's a/b label two modal
+resonances. The [model notes](docs/shuang-model.md) and
+[direct review](docs/shuang-review.md) explain these limits. Both rooms belong
+to one complete offline edition.
 
 ## Run locally
 
@@ -147,7 +187,10 @@ boundaries and link the dictionaries and museum material.
 See [CONTRIBUTING.md](CONTRIBUTING.md). Corrections should identify the object,
 source passage and observable consequence.
 
-New code, diagrams and teaching text are [MIT](LICENSE). Article material and
+New code, diagrams and the original exhibit's teaching text are [MIT](LICENSE).
+Shuang's new lessons and adapted Chinese selections are CC BY-SA 4.0; its
+separately identified Cleveland Museum photograph is CC0. [Room notices](public/shuang/sources/NOTICES.txt)
+retain the full sources and licenses. Original exhibit article material and
 photographs retain CC BY 4.0 attribution; the source applies CC0 to its data.
 Fonts remain SIL OFL 1.1. Full provenance and changes are listed in
 [THIRD_PARTY.md](THIRD_PARTY.md).

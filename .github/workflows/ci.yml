@@ -16,7 +16,16 @@ jobs:
       - run: npm ci
       - run: npm run check
       - run: python3 scripts/source-oracle.py
+      - run: python3 scripts/shuang-source-review.py
       - run: npx playwright install --with-deps chromium firefox
       - run: node scripts/browser-review.mjs /tmp/shiguzhai-review/browser.json
       - run: python3 scripts/rendered-oracle.py /tmp/shiguzhai-review/browser.json
       - run: python3 scripts/audio-oracle.py /tmp/shiguzhai-review/browser.json
+      - name: Review the craft bench
+        shell: bash
+        run: |
+          node node_modules/vite/bin/vite.js preview --host 127.0.0.1 --port 4350 --strictPort > /tmp/shiguzhai-preview.log 2>&1 &
+          preview_pid=$!
+          trap 'kill "$preview_pid"' EXIT
+          curl --fail --silent --retry 10 --retry-delay 1 --retry-connrefused http://127.0.0.1:4350/shiguzhai/shuang.html > /dev/null
+          node scripts/shuang-browser-review.mjs http://127.0.0.1:4350/shiguzhai/shuang.html /tmp/shuang-review

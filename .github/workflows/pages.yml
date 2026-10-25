@@ -23,7 +23,7 @@ jobs:
         run: |
           git fetch origin gh-pages
           git worktree add --detach "$RUNNER_TEMP/shiguzhai-pages" FETCH_HEAD
-          cp -a dist/. "$RUNNER_TEMP/shiguzhai-pages/"
+          rsync -a --delete --exclude=.git dist/ "$RUNNER_TEMP/shiguzhai-pages/"
           cd "$RUNNER_TEMP/shiguzhai-pages"
           touch .nojekyll
           git config user.name "github-actions[bot]"

@@ -1,0 +1,117 @@
+{
+  "checkedAtUtc": "2026-10-25T01:28:02.693926+00:00",
+  "onlineOriginalsChecked": true,
+  "paperPdfIdentity": "45cb992cd641bdad314d2d9b8a91860dcaf29ecaa701f8888bdc497757857408",
+  "numericalTranscriptionReview": "All 14 Table 1 rows and 24 Table 2 resonances were visually checked against the printed tables; this script does not claim OCR or automatic independent table extraction.",
+  "bells": 14,
+  "reportedResonances": 24,
+  "unreportedPitchPairs": 2,
+  "chineseRevision": 2159477,
+  "fullFuSectionIdentity": "3d777cae80cbfcc25ad00d720a2e192c6a5e7bf4f43fbfa7b35f3e55e669254b",
+  "readings": [
+    {
+      "text": "鳧氏為鐘。",
+      "characterOffsetWithoutPunctuation": 0,
+      "characters": 4,
+      "editorialTerminalFullStop": false
+    },
+    {
+      "text": "兩欒謂之銑，銑間謂之于。",
+      "characterOffsetWithoutPunctuation": 4,
+      "characters": 10,
+      "editorialTerminalFullStop": true
+    },
+    {
+      "text": "于上謂之鼓，鼓上謂之鉦，鉦上謂之舞。",
+      "characterOffsetWithoutPunctuation": 14,
+      "characters": 15,
+      "editorialTerminalFullStop": true
+    },
+    {
+      "text": "十分其銑，去二以為鉦，以其鉦為之銑間。",
+      "characterOffsetWithoutPunctuation": 69,
+      "characters": 16,
+      "editorialTerminalFullStop": true
+    },
+    {
+      "text": "去二分以為之鼓間。",
+      "characterOffsetWithoutPunctuation": 85,
+      "characters": 8,
+      "editorialTerminalFullStop": false
+    },
+    {
+      "text": "以其鼓間為之舞修，去二分以為舞廣。",
+      "characterOffsetWithoutPunctuation": 93,
+      "characters": 15,
+      "editorialTerminalFullStop": false
+    }
+  ],
+  "retainedChineseCharactersAndPunctuation": 38,
+  "fontCoverage": "All CJK characters and full-width punctuation in UI source retained by subset recipe; glyph coverage checked separately with fontTools",
+  "assets": {
+    "fonts/Atkinson-OFL.txt": {
+      "bytes": 4431,
+      "sha256": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030"
+    },
+    "fonts/AtkinsonHyperlegibleNext.ttf": {
+      "bytes": 114552,
+      "sha256": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745"
+    },
+    "fonts/IBMPlex-OFL.txt": {
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    "fonts/IBMPlexSans-Regular.woff2": {
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    "fonts/IBMPlexSans-SemiBold.woff2": {
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    "fonts/NotoCJK-OFL.txt": {
+      "bytes": 4346,
+      "sha256": "af55b908a0ccf969b7bdd0e6cac6f4866a7ed0d1aeb9c7b29516ca0d24422981"
+    },
+    "fonts/NotoCJK-provenance.json": {
+      "bytes": 671,
+      "sha256": "e4f3f5d7d782e566f36e874603b6d0ea046c0409812ee5dd3c2b3e1268ac401c"
+    },
+    "fonts/NotoSansCJK-subset.woff2": {
+      "bytes": 17200,
+      "sha256": "b084f45e8c181e3c9112b595f4ba5cd23dcb07a7ec41c4e40eb413fac83fa5de"
+    },
+    "sources/CC-BY-SA-4.0.txt": {
+      "bytes": 20138,
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    },
+    "sources/CODE-LICENSE.txt": {
+      "bytes": 1071,
+      "sha256": "e26144be8673d69c175126ad8dcd9ed78431464f0b97120b799dc75ec7edb647"
+    },
+    "sources/NOTICES.txt": {
+      "bytes": 3072,
+      "sha256": "d7c2e219bfece2ee252e5c929705b53a5000bd785bcad99205bfeb800f7f545c"
+    },
+    "sources/cleveland-1962.44.jpg": {
+      "bytes": 26775,
+      "sha256": "810cc1016b40d1d9fd6b039292743092e68be934a64b02c4e960db5fc74a15ab"
+    },
+    "sources/kaogongji-fu-revision-2159477.txt": {
+      "bytes": 910,
+      "sha256": "3d777cae80cbfcc25ad00d720a2e192c6a5e7bf4f43fbfa7b35f3e55e669254b"
+    },
+    "sources/kaogongji-selections.txt": {
+      "bytes": 783,
+      "sha256": "0ed797e195ff3b2a4798e87f847e1796af99b953d92d3216f3fbfc930dc05592"
+    },
+    "sources/measurements.json": {
+      "bytes": 4948,
+      "sha256": "d195502f8197b135e3fe44c8d20f11ee48e6cadfd260366b8b125e70585c3367"
+    },
+    "sources/provenance.json": {
+      "bytes": 2303,
+      "sha256": "e9d7e72013d98202545f3520fa9aa00ac101b7ba687e446b7784f2d02d8cd72a"
+    }
+  }
+}

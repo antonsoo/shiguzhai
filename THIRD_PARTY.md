@@ -1,7 +1,15 @@
 # Third-party material
 
-The MIT license covers new application code, diagrams and teaching text. It does
+The MIT license covers new application code, diagrams and the original exhibit's teaching text. It does
 not replace the licenses of the following sources.
+
+The new Shuang room has separate [complete notices](public/shuang/sources/NOTICES.txt).
+Its new teaching text and adapted Wikisource selections are CC BY-SA 4.0.
+The Cleveland Museum photograph is CC0 and is explicitly a different object from
+the Piao-shi measurement tables. Takahashi's 1989 paper is linked; only factual
+numerical transcriptions are retained. Its figures and PDF are not redistributed.
+The complete pinned Fu craft section, source identities and all font notices
+remain under `public/shuang/`.
 
 ## Article, data and photographs
 

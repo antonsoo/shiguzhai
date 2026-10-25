@@ -19,3 +19,8 @@ The application has no runtime dependencies or external requests. Keep the
 375-pixel layout and keyboard controls usable. Review screenshots and printed
 readings after changing their layout. The build command is `npm run build`;
 GitHub Pages serves its `dist/` output from the `gh-pages` branch.
+
+The second room is `shuang.html`. Its source, sound, browser, print and font
+review recipes are in [docs/shuang-contributing.md](docs/shuang-contributing.md).
+Keep Shiguzhai's A/B observation lists distinct from Piao-shi's a/b modal labels.
+The shared offline edition must contain both rooms before readiness is shown.

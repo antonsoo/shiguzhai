@@ -1,0 +1,58 @@
+{
+  "checkedAtUtc": "2026-10-25T01:35:16.549Z",
+  "priorFixture": {
+    "canonicalURL": "https://antonsoo.github.io/shiguzhai/",
+    "canonicalCheckedAt": "2026-10-25T01:29:09.343Z",
+    "files": 16,
+    "workerSha256": "c5fe0e6cfdab3609a5afa93609e640a548136cc4e2e1d70d44d77f9114027661"
+  },
+  "currentLocalBuild": {
+    "files": 37,
+    "workerSha256": "2be8387c5bd4dd12bd0ca0703c5e2f2d9599e4f473b0aedcbb02ccdbfee88300",
+    "edition": "97500ac26a855d8d038770512b723ad12aa3ca75f3f5fbd3f6d43f5c1e3cf817"
+  },
+  "records": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "priorHostedEdition": "1c97e782f256d4809b8178ffc58e12ccafd122bb2f4e38c01725f970c5c255bf",
+      "priorTimeoutReproduced": "Offline download unavailable; exhibit still works online",
+      "delayedUpgradeSeconds": 9,
+      "statusAfterFormerTimeout": "Downloading the updated bells & evidence…",
+      "currentEdition": "97500ac26a855d8d038770512b723ad12aa3ca75f3f5fbd3f6d43f5c1e3cf817",
+      "currentComplete": true,
+      "onlyCurrentCacheAfterActivation": true,
+      "originDisabledAfterUpgrade": true,
+      "twoRoomsAndNewExportOffline": true,
+      "inspectionAfterCacheDeletion": {
+        "complete": false,
+        "recreatedCaches": 0
+      }
+    },
+    {
+      "browser": "chromium",
+      "scenario": "cold two-room installation",
+      "delayedSourceSeconds": 9,
+      "statusAfterFormerTimeout": "Downloading bells & evidence for offline use…",
+      "eventuallyComplete": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "priorHostedEdition": "1c97e782f256d4809b8178ffc58e12ccafd122bb2f4e38c01725f970c5c255bf",
+      "priorTimeoutReproduced": null,
+      "delayedUpgradeSeconds": 9,
+      "statusAfterFormerTimeout": "Downloading the updated bells & evidence…",
+      "currentEdition": "97500ac26a855d8d038770512b723ad12aa3ca75f3f5fbd3f6d43f5c1e3cf817",
+      "currentComplete": true,
+      "onlyCurrentCacheAfterActivation": true,
+      "originDisabledAfterUpgrade": true,
+      "twoRoomsAndNewExportOffline": true,
+      "inspectionAfterCacheDeletion": {
+        "complete": false,
+        "recreatedCaches": 0
+      }
+    }
+  ],
+  "scope": "Prior bytes independently matched canonical hosted files before this review. Local HTTP fixture controls the source delay and upgrade, then disables its origin. Cache deletion checks that inspection does not recreate a retired or missing cache. These are local upgrade observations, separate from publication of the new build."
+}

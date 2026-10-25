@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.2.0 - 2026-10-24
+
+- Add Shuang, a second room with the Piao-shi measurements, separate model
+  bending patterns, a conditional thickness comparison and six Chinese readings.
+- Compare two interpretations of the Kaogongji bell-proportion rule with real
+  dimensions; retain unreported ROM pitches and mass as missing.
+- Export complete listening studies, source-tagged synthesized WAVs, CSV and SVG.
+- Keep both source sets separately labeled and available in one offline edition.
+- Follow slow installations and upgrades until completion rather than leaving
+  an eight-second timeout message; inspect caches without recreating retired ones.
+
 ## 0.1.0 — 2026-10-21
 
 - Source-based exhibit of ten Shiguzhai bells: all 87 reported frequencies,
