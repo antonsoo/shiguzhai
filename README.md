@@ -92,6 +92,8 @@ resonances. The [model notes](docs/shuang-model.md) and
 [direct review](docs/shuang-review.md) explain these limits. Both rooms belong
 to one complete offline edition.
 
+[Public source, canonical hosted files and browser evidence](docs/shuang-publication.md).
+
 ## Run locally
 
 With Node.js 24 or newer, inside this checkout:

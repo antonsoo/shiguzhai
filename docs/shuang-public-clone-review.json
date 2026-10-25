@@ -1,0 +1,15 @@
+{
+  "checkedAtUtc": "2026-10-25T01:45:36.806102+00:00",
+  "publicSource": "311710c",
+  "node": "v24.21.0",
+  "freshInstallAndCheck": true,
+  "identicalStaticFiles": 37,
+  "workerSha256": "2be8387c5bd4dd12bd0ca0703c5e2f2d9599e4f473b0aedcbb02ccdbfee88300",
+  "documentedDevelopmentServer": {
+    "command": "npm run dev",
+    "port": 4350,
+    "room": "/shiguzhai/shuang.html",
+    "nativeReadout": "1214.1 Hz",
+    "pageErrors": []
+  }
+}

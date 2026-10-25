@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 1,
+  "node": "v26.7.0",
+  "requestTimeoutMs": 10000,
+  "retryWindowMs": 180000,
+  "pollIntervalMs": 5000,
+  "concurrency": 6,
+  "baseURL": "https://antonsoo.github.io/shiguzhai/",
+  "state": "verified",
+  "attempts": 7,
+  "startedAtUtc": "2026-10-25T01:40:23.017Z",
+  "checkedAtUtc": "2026-10-25T01:40:57.746Z",
+  "buildManifestSha256": "71731fc90609c1f8d0714d4b0c71420a78d2d5267ecc202756863c881da5b099",
+  "expectedFileCount": 37,
+  "checkedFileCount": 37,
+  "verifiedFileCount": 37,
+  "rootBefore": {
+    "path": "index.html",
+    "bytes": 1141,
+    "sha256": "d9b04baccb329520ad7e8d7a5fa7885fc08a7a4baa4b8ab8d583513756a2ea32",
+    "url": "https://antonsoo.github.io/shiguzhai/",
+    "httpStatus": 200,
+    "observedBytes": 1141,
+    "observedSha256": "d9b04baccb329520ad7e8d7a5fa7885fc08a7a4baa4b8ab8d583513756a2ea32",
+    "state": "verified"
+  },
+  "rootAfter": {
+    "path": "index.html",
+    "bytes": 1141,
+    "sha256": "d9b04baccb329520ad7e8d7a5fa7885fc08a7a4baa4b8ab8d583513756a2ea32",
+    "url": "https://antonsoo.github.io/shiguzhai/",
+    "httpStatus": 200,
+    "observedBytes": 1141,
+    "observedSha256": "d9b04baccb329520ad7e8d7a5fa7885fc08a7a4baa4b8ab8d583513756a2ea32",
+    "state": "verified"
+  },
+  "files": [
+    {
+      "path": "assets/main-CGaLmNp8.js",
+      "bytes": 42161,
+      "sha256": "9119bf791d0983f32a5ee6f08e34c3e5409002d7282724deadef42f813c74a51",
+      "url": "https://antonsoo.github.io/shiguzhai/assets/main-CGaLmNp8.js",
+      "httpStatus": 200,
+      "observedBytes": 42161,
+      "observedSha256": "9119bf791d0983f32a5ee6f08e34c3e5409002d7282724deadef42f813c74a51",
+      "state": "verified"
+    },
+    {
+      "path": "assets/main-DWXhK1do.css",
+      "bytes": 14504,
+      "sha256": "36df4171278c97633955efa21374dc613ce590eec101974206e03b7f76543174",
+      "url": "https://antonsoo.github.io/shiguzhai/assets/main-DWXhK1do.css",
+      "httpStatus": 200,
+      "observedBytes": 14504,
+      "observedSha256": "36df4171278c97633955efa21374dc613ce590eec101974206e03b7f76543174",
+      "state": "verified"
+    },
+    {
+      "path": "assets/offline-DLhE6mXN.js",
+      "bytes": 2645,
+      "sha256": "bec5204fab7b078a1128838fb73e8949c1dc74ef185bbb26eba4688f5fbc6a28",
+      "url": "https://antonsoo.github.io/shiguzhai/assets/offline-DLhE6mXN.js",
+      "httpStatus": 200,
+      "observedBytes": 2645,
+      "observedSha256": "bec5204fab7b078a1128838fb73e8949c1dc74ef185bbb26eba4688f5fbc6a28",
+      "state": "verified"
+    },
+    {
+      "path": "assets/shuang-CEtm3Ulf.css",
+      "bytes": 9828,
+      "sha256": "dd70cd89735fe3f943467f9c445b4f99bafc1819ccfc7b0e5b7e10f446e51c1a",
+      "url": "https://antonsoo.github.io/shiguzhai/assets/shuang-CEtm3Ulf.css",
+      "httpStatus": 200,
+      "observedBytes": 9828,
+      "observedSha256": "dd70cd89735fe3f943467f9c445b4f99bafc1819ccfc7b0e5b7e10f446e51c1a",
+      "state": "verified"
+    },
+    {
+      "path": "assets/shuang-CRVi9D5o.js",
+      "bytes": 47869,
+      "sha256": "c5786ea3ba511d87715e4f532db06358dc10d14c6ca89dd5ec001fff273eee65",
+      "url": "https://antonsoo.github.io/shiguzhai/assets/shuang-CRVi9D5o.js",
+      "httpStatus": 200,
+      "observedBytes": 47869,
+      "observedSha256": "c5786ea3ba511d87715e4f532db06358dc10d14c6ca89dd5ec001fff273eee65",
+      "state": "verified"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 379,
+      "sha256": "b78fd707d8a0d882b7e1442decf6dd4cce1c1ffb1ccffb9f27c1d74d3a214d4c",
+      "url": "https://antonsoo.github.io/shiguzhai/favicon.svg",
+      "httpStatus": 200,
+      "observedBytes": 379,
+      "observedSha256": "b78fd707d8a0d882b7e1442decf6dd4cce1c1ffb1ccffb9f27c1d74d3a214d4c",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/Atkinson-OFL.txt",
+      "bytes": 4431,
+      "sha256": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030",
+      "url": "https://antonsoo.github.io/shiguzhai/fonts/Atkinson-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4431,
+      "observedSha256": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/AtkinsonHyperlegibleNext.ttf",
+      "bytes": 114552,
+      "sha256": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745",
+      "url": "https://antonsoo.github.io/shiguzhai/fonts/AtkinsonHyperlegibleNext.ttf",
+      "httpStatus": 200,
+      "observedBytes": 114552,
+      "observedSha256": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/NotoCJK-OFL.txt",
+      "bytes": 4353,
+      "sha256": "a01a391b3cc44676298e459fca4a0afdac011d2219fecbe7bb8f6a0f7ece23e4",
+      "url": "https://antonsoo.github.io/shiguzhai/fonts/NotoCJK-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4353,
+      "observedSha256": "a01a391b3cc44676298e459fca4a0afdac011d2219fecbe7bb8f6a0f7ece23e4",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/NotoSansCJK-subset.woff2",
+      "bytes": 7628,
+      "sha256": "6cdf4a4357f72b5de6e63f76919dfcec1eff5b929f03b4d8f49de16f91740877",
+      "url": "https://antonsoo.github.io/shiguzhai/fonts/NotoSansCJK-subset.woff2",
+      "httpStatus": 200,
+      "observedBytes": 7628,
+      "observedSha256": "6cdf4a4357f72b5de6e63f76919dfcec1eff5b929f03b4d8f49de16f91740877",
+      "state": "verified"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1141,
+      "sha256": "d9b04baccb329520ad7e8d7a5fa7885fc08a7a4baa4b8ab8d583513756a2ea32",
+      "url": "https://antonsoo.github.io/shiguzhai/index.html",
+      "httpStatus": 200,
+      "observedBytes": 1141,
+      "observedSha256": "d9b04baccb329520ad7e8d7a5fa7885fc08a7a4baa4b8ab8d583513756a2ea32",
+      "state": "verified"
+    },
+    {
+      "path": "shuang.html",
+      "bytes": 768,
+      "sha256": "b5f262f3868c3ac446645f6590dac9bc27b9d8beefde1f0d8349edb97f23d304",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang.html",
+      "httpStatus": 200,
+      "observedBytes": 768,
+      "observedSha256": "b5f262f3868c3ac446645f6590dac9bc27b9d8beefde1f0d8349edb97f23d304",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/favicon.svg",
+      "bytes": 285,
+      "sha256": "38bc37ca370dde3b1b5417d690feed16c27816566f78ad465754e22bb02fa499",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/favicon.svg",
+      "httpStatus": 200,
+      "observedBytes": 285,
+      "observedSha256": "38bc37ca370dde3b1b5417d690feed16c27816566f78ad465754e22bb02fa499",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/fonts/Atkinson-OFL.txt",
+      "bytes": 4431,
+      "sha256": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/fonts/Atkinson-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4431,
+      "observedSha256": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/fonts/AtkinsonHyperlegibleNext.ttf",
+      "bytes": 114552,
+      "sha256": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/fonts/AtkinsonHyperlegibleNext.ttf",
+      "httpStatus": 200,
+      "observedBytes": 114552,
+      "observedSha256": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/fonts/IBMPlex-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4456,
+      "observedSha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/fonts/IBMPlexSans-Regular.woff2",
+      "httpStatus": 200,
+      "observedBytes": 63020,
+      "observedSha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/fonts/IBMPlexSans-SemiBold.woff2",
+      "httpStatus": 200,
+      "observedBytes": 67060,
+      "observedSha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/fonts/NotoCJK-OFL.txt",
+      "bytes": 4346,
+      "sha256": "af55b908a0ccf969b7bdd0e6cac6f4866a7ed0d1aeb9c7b29516ca0d24422981",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/fonts/NotoCJK-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4346,
+      "observedSha256": "af55b908a0ccf969b7bdd0e6cac6f4866a7ed0d1aeb9c7b29516ca0d24422981",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/fonts/NotoCJK-provenance.json",
+      "bytes": 671,
+      "sha256": "e4f3f5d7d782e566f36e874603b6d0ea046c0409812ee5dd3c2b3e1268ac401c",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/fonts/NotoCJK-provenance.json",
+      "httpStatus": 200,
+      "observedBytes": 671,
+      "observedSha256": "e4f3f5d7d782e566f36e874603b6d0ea046c0409812ee5dd3c2b3e1268ac401c",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/fonts/NotoSansCJK-subset.woff2",
+      "bytes": 17200,
+      "sha256": "b084f45e8c181e3c9112b595f4ba5cd23dcb07a7ec41c4e40eb413fac83fa5de",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/fonts/NotoSansCJK-subset.woff2",
+      "httpStatus": 200,
+      "observedBytes": 17200,
+      "observedSha256": "b084f45e8c181e3c9112b595f4ba5cd23dcb07a7ec41c4e40eb413fac83fa5de",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/sources/CC-BY-SA-4.0.txt",
+      "bytes": 20138,
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/sources/CC-BY-SA-4.0.txt",
+      "httpStatus": 200,
+      "observedBytes": 20138,
+      "observedSha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/sources/CODE-LICENSE.txt",
+      "bytes": 1071,
+      "sha256": "e26144be8673d69c175126ad8dcd9ed78431464f0b97120b799dc75ec7edb647",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/sources/CODE-LICENSE.txt",
+      "httpStatus": 200,
+      "observedBytes": 1071,
+      "observedSha256": "e26144be8673d69c175126ad8dcd9ed78431464f0b97120b799dc75ec7edb647",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/sources/NOTICES.txt",
+      "bytes": 3072,
+      "sha256": "d7c2e219bfece2ee252e5c929705b53a5000bd785bcad99205bfeb800f7f545c",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/sources/NOTICES.txt",
+      "httpStatus": 200,
+      "observedBytes": 3072,
+      "observedSha256": "d7c2e219bfece2ee252e5c929705b53a5000bd785bcad99205bfeb800f7f545c",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/sources/cleveland-1962.44.jpg",
+      "bytes": 26775,
+      "sha256": "810cc1016b40d1d9fd6b039292743092e68be934a64b02c4e960db5fc74a15ab",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/sources/cleveland-1962.44.jpg",
+      "httpStatus": 200,
+      "observedBytes": 26775,
+      "observedSha256": "810cc1016b40d1d9fd6b039292743092e68be934a64b02c4e960db5fc74a15ab",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/sources/kaogongji-fu-revision-2159477.txt",
+      "bytes": 910,
+      "sha256": "3d777cae80cbfcc25ad00d720a2e192c6a5e7bf4f43fbfa7b35f3e55e669254b",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/sources/kaogongji-fu-revision-2159477.txt",
+      "httpStatus": 200,
+      "observedBytes": 910,
+      "observedSha256": "3d777cae80cbfcc25ad00d720a2e192c6a5e7bf4f43fbfa7b35f3e55e669254b",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/sources/kaogongji-selections.txt",
+      "bytes": 783,
+      "sha256": "0ed797e195ff3b2a4798e87f847e1796af99b953d92d3216f3fbfc930dc05592",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/sources/kaogongji-selections.txt",
+      "httpStatus": 200,
+      "observedBytes": 783,
+      "observedSha256": "0ed797e195ff3b2a4798e87f847e1796af99b953d92d3216f3fbfc930dc05592",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/sources/measurements.json",
+      "bytes": 4948,
+      "sha256": "d195502f8197b135e3fe44c8d20f11ee48e6cadfd260366b8b125e70585c3367",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/sources/measurements.json",
+      "httpStatus": 200,
+      "observedBytes": 4948,
+      "observedSha256": "d195502f8197b135e3fe44c8d20f11ee48e6cadfd260366b8b125e70585c3367",
+      "state": "verified"
+    },
+    {
+      "path": "shuang/sources/provenance.json",
+      "bytes": 2303,
+      "sha256": "e9d7e72013d98202545f3520fa9aa00ac101b7ba687e446b7784f2d02d8cd72a",
+      "url": "https://antonsoo.github.io/shiguzhai/shuang/sources/provenance.json",
+      "httpStatus": 200,
+      "observedBytes": 2303,
+      "observedSha256": "e9d7e72013d98202545f3520fa9aa00ac101b7ba687e446b7784f2d02d8cd72a",
+      "state": "verified"
+    },
+    {
+      "path": "sources/li-2024-figure-1.jpg",
+      "bytes": 290913,
+      "sha256": "0eee43d9543d83eafd2d9533f2e969355951575f9d68d39142879b25398f6a4b",
+      "url": "https://antonsoo.github.io/shiguzhai/sources/li-2024-figure-1.jpg",
+      "httpStatus": 200,
+      "observedBytes": 290913,
+      "observedSha256": "0eee43d9543d83eafd2d9533f2e969355951575f9d68d39142879b25398f6a4b",
+      "state": "verified"
+    },
+    {
+      "path": "sources/li-2024-figure-2.jpg",
+      "bytes": 313023,
+      "sha256": "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63",
+      "url": "https://antonsoo.github.io/shiguzhai/sources/li-2024-figure-2.jpg",
+      "httpStatus": 200,
+      "observedBytes": 313023,
+      "observedSha256": "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63",
+      "state": "verified"
+    },
+    {
+      "path": "sources/li-2024-figure-3.jpg",
+      "bytes": 424211,
+      "sha256": "3ff569a427d00d181217ce7b03924d3b44e9929b6cd4ea853786c413264c84bf",
+      "url": "https://antonsoo.github.io/shiguzhai/sources/li-2024-figure-3.jpg",
+      "httpStatus": 200,
+      "observedBytes": 424211,
+      "observedSha256": "3ff569a427d00d181217ce7b03924d3b44e9929b6cd4ea853786c413264c84bf",
+      "state": "verified"
+    },
+    {
+      "path": "sources/li-2024-figure-5.jpg",
+      "bytes": 106243,
+      "sha256": "f01c769b4e8781a16ccbcbf8e8ba77ce6cceb5ee19c4e6c6f2567f534708c13d",
+      "url": "https://antonsoo.github.io/shiguzhai/sources/li-2024-figure-5.jpg",
+      "httpStatus": 200,
+      "observedBytes": 106243,
+      "observedSha256": "f01c769b4e8781a16ccbcbf8e8ba77ce6cceb5ee19c4e6c6f2567f534708c13d",
+      "state": "verified"
+    },
+    {
+      "path": "sources/li-2024-shiguzhai.pdf",
+      "bytes": 2762411,
+      "sha256": "431eacc7f75f338349109161f320bd9f1a6e22da7b13db33fab5f759cbb72edd",
+      "url": "https://antonsoo.github.io/shiguzhai/sources/li-2024-shiguzhai.pdf",
+      "httpStatus": 200,
+      "observedBytes": 2762411,
+      "observedSha256": "431eacc7f75f338349109161f320bd9f1a6e22da7b13db33fab5f759cbb72edd",
+      "state": "verified"
+    },
+    {
+      "path": "sources/li-2024-table-1.html",
+      "bytes": 15392,
+      "sha256": "0afa79c6b8354480cd9a9e697536d3f4fc47b2af8d261825442247bf3673cfe2",
+      "url": "https://antonsoo.github.io/shiguzhai/sources/li-2024-table-1.html",
+      "httpStatus": 200,
+      "observedBytes": 15392,
+      "observedSha256": "0afa79c6b8354480cd9a9e697536d3f4fc47b2af8d261825442247bf3673cfe2",
+      "state": "verified"
+    },
+    {
+      "path": "sources/li-2024-table-1.jpg",
+      "bytes": 516142,
+      "sha256": "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968",
+      "url": "https://antonsoo.github.io/shiguzhai/sources/li-2024-table-1.jpg",
+      "httpStatus": 200,
+      "observedBytes": 516142,
+      "observedSha256": "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968",
+      "state": "verified"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 7332,
+      "sha256": "2be8387c5bd4dd12bd0ca0703c5e2f2d9599e4f473b0aedcbb02ccdbfee88300",
+      "url": "https://antonsoo.github.io/shiguzhai/sw.js",
+      "httpStatus": 200,
+      "observedBytes": 7332,
+      "observedSha256": "2be8387c5bd4dd12bd0ca0703c5e2f2d9599e4f473b0aedcbb02ccdbfee88300",
+      "state": "verified"
+    }
+  ],
+  "scope": "Compares canonical responses with this captured build inventory during the recorded pass. Extra hosted files, browser behavior, public source, registry releases and deployment provenance are not established."
+}

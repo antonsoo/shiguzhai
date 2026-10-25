@@ -1,5 +1,8 @@
 # The listening bench: review
 
+The [publication record](shuang-publication.md) separately identifies the public
+source, hosted files and hosted browser workflows.
+
 ## What a learner can do
 
 Choose an ancient Piao-shi bell from the reported set, hear its two published
