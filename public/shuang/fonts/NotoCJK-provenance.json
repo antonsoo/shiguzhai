@@ -1,0 +1,10 @@
+{
+  "source": "https://github.com/notofonts/noto-cjk/blob/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+  "sourceSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "copyright": "© 2014-2021 Adobe (http://www.adobe.com/).",
+  "characters": "。上之二于以修兩其冬分十去周官工廣欒氏為甬禮考聲脩舞衡記謂鉦銑鐘長間雙鳧鼓，",
+  "derivation": "fontTools subset, WOFF2; original glyph shapes unchanged",
+  "fontToolsVersion": "4.67.0",
+  "recipe": "scripts/shuang-prepare-font.py",
+  "sha256": "b084f45e8c181e3c9112b595f4ba5cd23dcb07a7ec41c4e40eb413fac83fa5de"
+}

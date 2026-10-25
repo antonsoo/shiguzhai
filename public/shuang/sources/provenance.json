@@ -1,0 +1,44 @@
+{
+  "paper": {
+    "author": "Junji Takahashi",
+    "title": "Size-frequency relation and tonal system in a set of ancient Chinese bells: Piao-shi bianzhong",
+    "year": 1989,
+    "doi": "10.1250/ast.10.299",
+    "url": "https://www.jstage.jst.go.jp/article/ast1980/10/5/10_5_299/_article",
+    "pdfSha256": "45cb992cd641bdad314d2d9b8a91860dcaf29ecaa701f8888bdc497757857408",
+    "tables": {
+      "dimensions": 300,
+      "resonances": 301
+    },
+    "frequencyCondition": "As reported for 30 degrees Celsius",
+    "rights": "Factual numerical transcription. The copyrighted article and its page images are not redistributed."
+  },
+  "photograph": {
+    "object": "Bell (Bo Zhong)",
+    "accession": "1962.44",
+    "museum": "Cleveland Museum of Art",
+    "date": "early 400s BCE",
+    "credit": "John L. Severance Fund",
+    "url": "https://www.clevelandart.org/art/1962.44",
+    "rights": "CC0 via the museum Open Access initiative",
+    "rightsURL": "https://www.clevelandart.org/open-access",
+    "file": "cleveland-1962.44.jpg",
+    "sha256": "810cc1016b40d1d9fd6b039292743092e68be934a64b02c4e960db5fc74a15ab",
+    "size": [
+      463,
+      600
+    ],
+    "boundary": "A separate object, not one of the Piao-shi bells. No sound recording or measured pitch of this museum object is claimed.",
+    "downloadURL": "https://www.clevelandart.org/_next/image?q=75&url=https%3A%2F%2Fpiction.clevelandart.org%2Fcma%2Fump.di%3Fe%3DE55077B812889A446B83F029A519237469E21A1F49BCE4769BC7C8DE4ECB4C9E%26s%3D24247294%26se%3D116628280%26v%3D0%26f%3D1962.44_o5.jpg&w=640"
+  },
+  "chinese": {
+    "title": "周禮/冬官考工記",
+    "revision": 2159477,
+    "timestamp": "2022-06-29T06:42:07Z",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2159477&title=周禮/冬官考工記",
+    "api": "https://zh.wikisource.org/w/api.php?action=query&prop=revisions&revids=2159477&rvprop=content%7Ctimestamp&rvslots=main&format=json",
+    "retained": "Exact Fu section from 鳧氏為鐘 to before 栗氏為量; terminal blank lines removed",
+    "selectionChanges": "Intervening text omitted; selected clauses receive editorial full stops at excerpt boundaries. Ancient characters retained.",
+    "rights": "Ancient text public domain; digital edition credited to Wikisource contributors, CC BY-SA 4.0."
+  }
+}

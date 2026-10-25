@@ -1,0 +1,76 @@
+export const chineseSource =
+  "https://zh.wikisource.org/w/index.php?oldid=2159477&title=周禮/冬官考工記";
+export const readings = [
+  {
+    title: "The bell-makers",
+    chinese: "鳧氏為鐘。",
+    english: "The Fu craftspeople make bells.",
+    word: "鐘",
+    pinyin: "zhōng",
+    gloss: "bell",
+    note: "This is a craft heading in the transmitted Kaogongji, within the Zhouli. It names a class of work, not a surviving signed measurement sheet for the Piao-shi set. The text and the archaeological objects are different kinds of evidence.",
+    fields: [],
+  },
+  {
+    title: "Name the two tips",
+    chinese: "兩欒謂之銑，銑間謂之于。",
+    english: "The two projecting corners are called xian; the space between the xian is called yu.",
+    word: "銑間",
+    pinyin: "xiǎn jiān",
+    gloss: "the interval between the tips",
+    note: "間 names an interval or intervening space. The measured tip-to-tip width, xianjian, is the representative size used in the published frequency fit. It is not the full bell height and not its wall thickness.",
+    fields: [0, 2],
+  },
+  {
+    title: "A vocabulary of regions",
+    chinese: "于上謂之鼓，鼓上謂之鉦，鉦上謂之舞。",
+    english: "Above the mouth region is what is called gu; above gu is zheng; above zheng is wu.",
+    word: "舞",
+    pinyin: "wǔ",
+    gloss: "the crown or top plate here",
+    note: "A familiar character can have a technical meaning. 舞 names the top plate in this description. The six measured dimensions use these part names; they do not all measure the same direction. The diagram is a new schematic, not a measured contour of an individual bell.",
+    fields: [1, 3, 4, 5],
+  },
+  {
+    title: "Start with ten",
+    chinese: "十分其銑，去二以為鉦，以其鉦為之銑間。",
+    english:
+      "Divide the ridge length into ten parts; remove two to make the body length. Use that body length for the distance between the tips.",
+    word: "十分 … 去二",
+    pinyin: "shí fēn … qù èr",
+    gloss: "divide into ten … remove two",
+    note: "Both interpretations begin with 10 : 8 : 8 for ridge length, body length and tip-to-tip width. The later subtractions create the disagreement. The English explains the operation rather than pretending the text supplies centimetres.",
+    fields: [0, 1, 2],
+  },
+  {
+    title: "Two parts of which whole?",
+    chinese: "去二分以為之鼓間。",
+    english: "Remove two parts to make the distance across the gu region.",
+    word: "分",
+    pinyin: "fēn",
+    gloss: "a part or division",
+    note: "If the two parts still belong to the original ten, eight becomes six. If the new dimension is divided into ten again, eight becomes 6.4. The two readings therefore make different measurable predictions. The paper discusses both interpretations; this control does not establish one as the unique ancient practice.",
+    fields: [2, 3],
+  },
+  {
+    title: "Measure the crown",
+    chinese: "以其鼓間為之舞修，去二分以為舞廣。",
+    english:
+      "Use that gu interval for the crown's long dimension; remove two parts to make its breadth.",
+    word: "廣",
+    pinyin: "guǎng",
+    gloss: "breadth",
+    note: "The fixed-part reading gives a crown 6 by 4, while successive four-fifths reductions give 6.4 by 5.12. Compare both with surviving dimensions. 修 is the transmitted form used here; the 1989 paper prints the variant 脩. Modern Mandarin pinyin is a reading aid, not a reconstruction of ancient pronunciation.",
+    fields: [3, 4, 5],
+  },
+];
+export const museum = {
+  title: "Bell (Bo Zhong)",
+  accession: "1962.44",
+  date: "early 400s BCE",
+  credit: "John L. Severance Fund",
+  museum: "Cleveland Museum of Art",
+  url: "https://www.clevelandart.org/art/1962.44",
+  rights: "https://www.clevelandart.org/open-access",
+  note: "A separate ancient bell, not one of the measured Piao-shi bells. Its photograph illustrates the material object; no sound of this museum object is claimed.",
+};
