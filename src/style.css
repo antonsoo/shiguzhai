@@ -147,6 +147,7 @@ header {
 }
 nav {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   font-size: 16px;
 }

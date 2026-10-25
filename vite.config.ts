@@ -22,6 +22,7 @@ export default defineConfig(async ({ command }) => {
     ...(await filesIn("src")),
     ...(await filesIn("public")),
     "index.html",
+    "shuang.html",
     "vite.config.ts",
     "tsconfig.json",
     "package.json",
@@ -35,6 +36,7 @@ export default defineConfig(async ({ command }) => {
   const edition = command === "build" ? inputHash.digest("hex") : "development";
   return {
     base,
+    build: { rolldownOptions: { input: { main: "index.html", shuang: "shuang.html" } } },
     define: { __SHIGUZHAI_EDITION__: JSON.stringify(edition) },
     plugins: [
       {
@@ -73,10 +75,14 @@ self.addEventListener("activate", event => {
   event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith("shiguzhai-") && key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim()));
 });
 self.addEventListener("message", event => {
+  if (event.data?.type === "SHIGUZHAI_ACTIVATE") {
+    event.waitUntil(self.skipWaiting());
+    return;
+  }
   if (event.data?.type !== "SHIGUZHAI_INSPECT" || !event.ports[0]) return;
-  event.waitUntil(caches.open(CACHE).then(cache => cache.keys()).then(keys => {
-    const saved = new Set(keys.map(request => new URL(request.url).pathname));
-    event.ports[0].postMessage({ type: "SHIGUZHAI_EDITION", edition: EDITION, complete: FILES.every(file => saved.has(file)) });
+  // Inspection must not recreate a retired edition's cache after replacement.
+  event.waitUntil(Promise.all(FILES.map(file => caches.match(file, { cacheName: CACHE }))).then(saved => {
+    event.ports[0].postMessage({ type: "SHIGUZHAI_EDITION", edition: EDITION, complete: saved.every(Boolean) });
   }).catch(() => event.ports[0].postMessage({ type: "SHIGUZHAI_EDITION", edition: EDITION, complete: false })));
 });
 self.addEventListener("fetch", event => {
@@ -84,9 +90,9 @@ self.addEventListener("fetch", event => {
   if (event.request.method !== "GET" || url.origin !== self.location.origin || !url.pathname.startsWith(BASE)) return;
   if (event.request.mode === "navigate") {
     const page = url.pathname === BASE || url.pathname === BASE + "index.html" ? BASE + "index.html" : url.pathname;
-    if (FILES.includes(page)) event.respondWith(fetch(event.request).catch(() => caches.open(CACHE).then(cache => cache.match(page))));
+    if (FILES.includes(page)) event.respondWith(fetch(event.request).catch(() => caches.match(page, { cacheName: CACHE })));
   } else if (FILES.includes(url.pathname)) {
-    event.respondWith(caches.open(CACHE).then(cache => cache.match(url.pathname)).then(cached => cached || fetch(event.request)));
+    event.respondWith(caches.match(url.pathname, { cacheName: CACHE }).then(cached => cached || fetch(event.request)));
   }
 });
 `,

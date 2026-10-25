@@ -1,8 +1,8 @@
 {
   "name": "@antonsoloviev/shiguzhai",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Hear and inspect the reported pitches of ten ancient Chinese bronze bells.",
+  "description": "Ancient Chinese bell evidence: Shiguzhai observations, Piao-shi bending patterns and a Chinese craft-text workshop.",
   "type": "module",
   "author": "Anton Soloviev <anton@praviel.com>",
   "license": "MIT",
@@ -24,7 +24,7 @@
   },
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 4350 --strictPort",
-    "build": "tsc --noEmit && vite build",
+    "build": "node scripts/shuang-assets.mjs && tsc --noEmit && vite build",
     "preview": "vite preview --host 127.0.0.1 --port 4350 --strictPort",
     "lint": "biome check .",
     "format": "biome check --write .",
@@ -32,7 +32,9 @@
     "test": "node --import tsx --test tests/*.test.ts",
     "check": "npm run lint && npm run typecheck && npm test && npm run build",
     "verify:source": "python3 scripts/source-oracle.py",
-    "test:browser": "node scripts/browser-review.mjs"
+    "test:browser": "node scripts/browser-review.mjs",
+    "verify:shuang-source": "python3 scripts/shuang-source-review.py",
+    "test:shuang": "node scripts/shuang-browser-review.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",
