@@ -1,0 +1,55 @@
+SHUANG: SOURCE, IMAGE AND FONT NOTICES
+
+New code and original schematic diagrams: MIT.
+Copyright (c) 2026 Anton Soloviev. See CODE-LICENSE.txt.
+
+New explanatory teaching text, English readings and the adapted reader:
+CC BY-SA 4.0, Anton Soloviev, 2026. See CC-BY-SA-4.0.txt.
+
+MEASURED FACTS
+Junji Takahashi (1989), "Size-frequency relation and tonal system in a set of
+ancient Chinese bells: Piao-shi bianzhong", Journal of the Acoustical Society
+of Japan (E) 10(5), 299-303. DOI 10.1250/ast.10.299.
+https://www.jstage.jst.go.jp/article/ast1980/10/5/10_5_299/_article
+Dimensions and mass: Table 1, printed p. 300. Resonances and printed relative
+pitches: Table 2, p. 301, as reported for 30 degrees Celsius.
+The numerical data are transcribed facts. The copyrighted paper, its page
+images and its figures are not redistributed here. The ROM objects have
+dimensions but no reported frequencies or mass in these tables.
+
+CHINESE TEXT
+Zhouli, Dongguan Kaogongji, Fu craft section. Ancient text: public domain.
+Digital reading credited to Chinese Wikisource contributors, revision 2159477,
+2022-06-29. Selected characters and internal punctuation retained; intervening text omitted.
+Full stops at truncated excerpt boundaries are editorial additions. The complete
+Fu section is retained separately with its original punctuation.
+https://zh.wikisource.org/w/index.php?oldid=2159477&title=周禮/冬官考工記
+Digital selection and adapted reader: CC BY-SA 4.0. English and teaching notes
+are new, not a historical translation. Modern Mandarin pinyin is not ancient
+pronunciation. The character 修 follows the cited digital reading; the 1989
+article prints 脩. Neither reading is silently replaced with the other.
+
+PHOTOGRAPH
+Bell (Bo Zhong), early 400s BCE, China, bronze; Cleveland Museum of Art 1962.44.
+John L. Severance Fund.
+https://www.clevelandart.org/art/1962.44
+Museum Open Access photograph and object data: CC0.
+https://www.clevelandart.org/open-access
+The 463 x 600 JPEG is retained without retouching. Its identity is recorded in
+provenance.json. This is a separate object, not a Piao-shi measurement-table bell.
+No sound recording or measured pitch of the Cleveland object is claimed.
+
+SYNTHESIZED SOUND AND NEW SCHEMATICS
+Each two-second sound is generated from the selected two frequencies and a
+modern, explicitly chosen decay envelope. It omits actual higher modes, impact
+noise, room acoustics and measured damping. It is not a museum recording or a
+reconstruction of ancient timbre. The lens-like rim and quadrupole drawings are
+new teaching analogies, not measured or finite-element mode shapes.
+The optional modern semitone grid is referenced to 364.07 Hz. It does not
+establish ancient equal temperament or an A = 440 Hz reference.
+
+FONTS
+Atkinson Hyperlegible Next, IBM Plex Sans and a subset of Noto Sans CJK SC are
+distributed under the SIL Open Font License 1.1. Full notices are in fonts/.
+The Noto source identity, retained characters and subset recipe are documented
+in fonts/NotoCJK-provenance.json. Glyph shapes are unchanged by subsetting.
