@@ -36,3 +36,7 @@ and the drawings are teaching models, not scanned modes or ancient recordings.
 Later documentation commits retain these receipts without changing application
 inputs. No registry release, remote CI result or further deployment is inferred
 from these checks.
+
+A later [retained-source loader follow-up](source-json-development.md) records
+the development warning correction, updated canonical hosted files and a new
+actual public-browser review. This page retains the earlier publication identity.
