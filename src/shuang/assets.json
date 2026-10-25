@@ -1,0 +1,18 @@
+{
+  "sources/CC-BY-SA-4.0.txt": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+  "sources/CODE-LICENSE.txt": "e26144be8673d69c175126ad8dcd9ed78431464f0b97120b799dc75ec7edb647",
+  "sources/NOTICES.txt": "d7c2e219bfece2ee252e5c929705b53a5000bd785bcad99205bfeb800f7f545c",
+  "sources/cleveland-1962.44.jpg": "810cc1016b40d1d9fd6b039292743092e68be934a64b02c4e960db5fc74a15ab",
+  "sources/kaogongji-fu-revision-2159477.txt": "3d777cae80cbfcc25ad00d720a2e192c6a5e7bf4f43fbfa7b35f3e55e669254b",
+  "sources/kaogongji-selections.txt": "0ed797e195ff3b2a4798e87f847e1796af99b953d92d3216f3fbfc930dc05592",
+  "sources/measurements.json": "d195502f8197b135e3fe44c8d20f11ee48e6cadfd260366b8b125e70585c3367",
+  "sources/provenance.json": "e9d7e72013d98202545f3520fa9aa00ac101b7ba687e446b7784f2d02d8cd72a",
+  "fonts/Atkinson-OFL.txt": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030",
+  "fonts/AtkinsonHyperlegibleNext.ttf": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745",
+  "fonts/IBMPlex-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+  "fonts/IBMPlexSans-Regular.woff2": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+  "fonts/IBMPlexSans-SemiBold.woff2": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+  "fonts/NotoCJK-OFL.txt": "af55b908a0ccf969b7bdd0e6cac6f4866a7ed0d1aeb9c7b29516ca0d24422981",
+  "fonts/NotoCJK-provenance.json": "e4f3f5d7d782e566f36e874603b6d0ea046c0409812ee5dd3c2b3e1268ac401c",
+  "fonts/NotoSansCJK-subset.woff2": "b084f45e8c181e3c9112b595f4ba5cd23dcb07a7ec41c4e40eb413fac83fa5de"
+}
