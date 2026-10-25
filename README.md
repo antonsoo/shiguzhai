@@ -196,3 +196,7 @@ retain the full sources and licenses. Original exhibit article material and
 photographs retain CC BY 4.0 attribution; the source applies CC0 to its data.
 Fonts remain SIL OFL 1.1. Full provenance and changes are listed in
 [THIRD_PARTY.md](THIRD_PARTY.md).
+
+The [retained-source development review](docs/source-json-development.md) records
+Node 24 quickstarts, raw/downloaded JSON identity, source edit/restoration and
+complete study downloads without Vite public-import warnings.
