@@ -37,6 +37,42 @@ an ancient equal-tempered scale, or proof of the exact pitches heard in antiquit
 At 440 Hz, the 269 Hz observation is only about 1.9 cents from a key boundary.
 The source gives integer frequencies without measurement error bars.
 
+## Cross a boundary; keep the sound
+
+The **Boundaries** investigation extends the original comparison in the same
+room. Choose **Try the 269 Hz boundary**, or inspect any label boundary with the
+keyboard. Hold one modern A4 reference while changing the other; both sides
+retain the currently chosen bells and table-entry policy.
+
+At A4 = **439.523 Hz**, the reported 269 Hz is nearest C-sharp4. At **439.524 Hz**,
+it is nearest C4. The full-list count changes from nine keys to ten. Every
+reported frequency stays fixed, and the generated A/B WAV is byte-identical
+within each browser. These extra decimals locate a _modern classification
+boundary_, not additional acoustic measurement precision.
+
+![The same source entries occupy nine or ten modern keys across one boundary](docs/assets/reference-desktop.png)
+
+The ruler solves every half-semitone boundary analytically across the original
+430–450 Hz reference range. With all ten bells, the leading entries occupy
+**seven to nine** modern keys; every listed frequency occupies **nine to ten**.
+Many boundaries change a label without changing the total. Separate entries
+with the same frequency cross together and keep their own source positions.
+
+Save the complete boundary map as CSV, the comparison as SVG, or both references
+in the existing JSON, shared link and illustrated HTML reading. The latter
+retains the source photographs, complete table page and font for offline use.
+[Source, formulas and review](docs/reference-review.md) ·
+[Actual reading, gzip](examples/reference-reading.html.gz) ·
+[Five-page printed reading](examples/reference-reading.pdf) ·
+[Boundary CSV](examples/reference-boundaries.csv) ·
+[Comparison SVG](examples/reference-comparison.svg) ·
+[Comparison JSON](examples/reference-comparison.json).
+
+Decompress the HTML before opening it. The app saves an ordinary HTML file.
+This addition is reviewed locally; the existing public demo can use an earlier
+edition. The source paper's interpretation of a musical set remains distinct
+from this modern sensitivity calculation.
+
 ## What is here
 
 - Ten museum objects from the June 1993 find, with source-order A and B lists,
@@ -144,6 +180,8 @@ service worker also checks complete-build asset integrity before activation.
 npm run check
 npm run verify:source
 npm run test:browser -- /tmp/shiguzhai-review/browser.json
+npm run verify:reference
+npm run test:reference -- /tmp/shiguzhai-reference-review
 ```
 
 The browser command requires Chromium and Firefox. Install them with

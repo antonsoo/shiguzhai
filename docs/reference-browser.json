@@ -1,0 +1,230 @@
+{
+  "at": "2026-10-31T23:21:27.001Z",
+  "scope": "Local production build, two engines at desktop and 375px; native downloads, direct fragments, source identities, unchanged audio, keyboard, offline and script-disabled retained readings. No public deployment claim.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "unchangedWavSha256": "b4ee7a785364750952285d860b4551b7bada01e49df4f046d372ddc53b847708",
+      "analyticalCounts": "9 -> 10; one changed source entry I:B:7",
+      "scopeChoices": 4,
+      "sourceImages": "all three original JPEGs byte-for-byte; original font and OFL retained",
+      "nativeReading": "JavaScript disabled; no HTTP requests; no page overflow",
+      "offline": {
+        "bothRooms": true,
+        "newReadingExported": true,
+        "originRequestsRejected": 0
+      },
+      "artifacts": [
+        {
+          "file": "before.wav",
+          "bytes": 240044,
+          "sha256": "b4ee7a785364750952285d860b4551b7bada01e49df4f046d372ddc53b847708"
+        },
+        {
+          "file": "after.wav",
+          "bytes": 240044,
+          "sha256": "b4ee7a785364750952285d860b4551b7bada01e49df4f046d372ddc53b847708"
+        },
+        {
+          "file": "comparison.json",
+          "bytes": 138909,
+          "sha256": "fa70d62f057c3d8c672e4e84ed017d27909c244832500ba307f32c1c43ce54a8"
+        },
+        {
+          "file": "boundaries.csv",
+          "bytes": 28820,
+          "sha256": "f91efb1eaff494d1b6d1e4efffcd477bcdbd684a5b68a2b6dc2346102f9a9389"
+        },
+        {
+          "file": "comparison.svg",
+          "bytes": 9798,
+          "sha256": "2d609c3f793dbbf6722cfcb4900b0c9522246a236b7db1f42d97c94ea5fcf276"
+        },
+        {
+          "file": "reading.html",
+          "bytes": 1316919,
+          "sha256": "0033c4ed95cb5bdaa22dcf7a0cb00b66b922df9d19ba37d27d76f61a0ccd17d8"
+        },
+        {
+          "file": "labels-without-count-change.json",
+          "bytes": 139643,
+          "sha256": "2417a51c489bd7160322ffc0df4355251ef9928c20fc7421eaf512939776a65e"
+        },
+        {
+          "file": "offline-reading.html",
+          "bytes": 1316919,
+          "sha256": "0033c4ed95cb5bdaa22dcf7a0cb00b66b922df9d19ba37d27d76f61a0ccd17d8"
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "unchangedWavSha256": "b4ee7a785364750952285d860b4551b7bada01e49df4f046d372ddc53b847708",
+      "analyticalCounts": "9 -> 10; one changed source entry I:B:7",
+      "scopeChoices": 4,
+      "sourceImages": "all three original JPEGs byte-for-byte; original font and OFL retained",
+      "nativeReading": "JavaScript disabled; no HTTP requests; no page overflow",
+      "offline": {
+        "bothRooms": true,
+        "newReadingExported": true,
+        "originRequestsRejected": 0
+      },
+      "artifacts": [
+        {
+          "file": "before.wav",
+          "bytes": 240044,
+          "sha256": "b4ee7a785364750952285d860b4551b7bada01e49df4f046d372ddc53b847708"
+        },
+        {
+          "file": "after.wav",
+          "bytes": 240044,
+          "sha256": "b4ee7a785364750952285d860b4551b7bada01e49df4f046d372ddc53b847708"
+        },
+        {
+          "file": "comparison.json",
+          "bytes": 138909,
+          "sha256": "fa70d62f057c3d8c672e4e84ed017d27909c244832500ba307f32c1c43ce54a8"
+        },
+        {
+          "file": "boundaries.csv",
+          "bytes": 28820,
+          "sha256": "f91efb1eaff494d1b6d1e4efffcd477bcdbd684a5b68a2b6dc2346102f9a9389"
+        },
+        {
+          "file": "comparison.svg",
+          "bytes": 9798,
+          "sha256": "2d609c3f793dbbf6722cfcb4900b0c9522246a236b7db1f42d97c94ea5fcf276"
+        },
+        {
+          "file": "reading.html",
+          "bytes": 1316919,
+          "sha256": "0033c4ed95cb5bdaa22dcf7a0cb00b66b922df9d19ba37d27d76f61a0ccd17d8"
+        },
+        {
+          "file": "labels-without-count-change.json",
+          "bytes": 139643,
+          "sha256": "2417a51c489bd7160322ffc0df4355251ef9928c20fc7421eaf512939776a65e"
+        },
+        {
+          "file": "offline-reading.html",
+          "bytes": 1316919,
+          "sha256": "0033c4ed95cb5bdaa22dcf7a0cb00b66b922df9d19ba37d27d76f61a0ccd17d8"
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "unchangedWavSha256": "7ec6c6b21935b02656f7476aa7033f19b9249cb0456bab01768fbe6295fc70b0",
+      "analyticalCounts": "9 -> 10; one changed source entry I:B:7",
+      "scopeChoices": 4,
+      "sourceImages": "all three original JPEGs byte-for-byte; original font and OFL retained",
+      "nativeReading": "JavaScript disabled; no HTTP requests; no page overflow",
+      "offline": {
+        "bothRooms": true,
+        "newReadingExported": true,
+        "originRequestsRejected": 20
+      },
+      "artifacts": [
+        {
+          "file": "before.wav",
+          "bytes": 240044,
+          "sha256": "7ec6c6b21935b02656f7476aa7033f19b9249cb0456bab01768fbe6295fc70b0"
+        },
+        {
+          "file": "after.wav",
+          "bytes": 240044,
+          "sha256": "7ec6c6b21935b02656f7476aa7033f19b9249cb0456bab01768fbe6295fc70b0"
+        },
+        {
+          "file": "comparison.json",
+          "bytes": 138876,
+          "sha256": "6915bd927de08ca076438d314885a9dd4716225c4920209256ae58db8a1b4311"
+        },
+        {
+          "file": "boundaries.csv",
+          "bytes": 28820,
+          "sha256": "f91efb1eaff494d1b6d1e4efffcd477bcdbd684a5b68a2b6dc2346102f9a9389"
+        },
+        {
+          "file": "comparison.svg",
+          "bytes": 9798,
+          "sha256": "2d609c3f793dbbf6722cfcb4900b0c9522246a236b7db1f42d97c94ea5fcf276"
+        },
+        {
+          "file": "reading.html",
+          "bytes": 1316919,
+          "sha256": "0033c4ed95cb5bdaa22dcf7a0cb00b66b922df9d19ba37d27d76f61a0ccd17d8"
+        },
+        {
+          "file": "labels-without-count-change.json",
+          "bytes": 139638,
+          "sha256": "391eadffb8b8225e342bf9c2b025fab6eb4f6246cc3c19619d04466f2c108aea"
+        },
+        {
+          "file": "offline-reading.html",
+          "bytes": 1316919,
+          "sha256": "0033c4ed95cb5bdaa22dcf7a0cb00b66b922df9d19ba37d27d76f61a0ccd17d8"
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "unchangedWavSha256": "7ec6c6b21935b02656f7476aa7033f19b9249cb0456bab01768fbe6295fc70b0",
+      "analyticalCounts": "9 -> 10; one changed source entry I:B:7",
+      "scopeChoices": 4,
+      "sourceImages": "all three original JPEGs byte-for-byte; original font and OFL retained",
+      "nativeReading": "JavaScript disabled; no HTTP requests; no page overflow",
+      "offline": {
+        "bothRooms": true,
+        "newReadingExported": true,
+        "originRequestsRejected": 20
+      },
+      "artifacts": [
+        {
+          "file": "before.wav",
+          "bytes": 240044,
+          "sha256": "7ec6c6b21935b02656f7476aa7033f19b9249cb0456bab01768fbe6295fc70b0"
+        },
+        {
+          "file": "after.wav",
+          "bytes": 240044,
+          "sha256": "7ec6c6b21935b02656f7476aa7033f19b9249cb0456bab01768fbe6295fc70b0"
+        },
+        {
+          "file": "comparison.json",
+          "bytes": 138876,
+          "sha256": "6915bd927de08ca076438d314885a9dd4716225c4920209256ae58db8a1b4311"
+        },
+        {
+          "file": "boundaries.csv",
+          "bytes": 28820,
+          "sha256": "f91efb1eaff494d1b6d1e4efffcd477bcdbd684a5b68a2b6dc2346102f9a9389"
+        },
+        {
+          "file": "comparison.svg",
+          "bytes": 9798,
+          "sha256": "2d609c3f793dbbf6722cfcb4900b0c9522246a236b7db1f42d97c94ea5fcf276"
+        },
+        {
+          "file": "reading.html",
+          "bytes": 1316919,
+          "sha256": "0033c4ed95cb5bdaa22dcf7a0cb00b66b922df9d19ba37d27d76f61a0ccd17d8"
+        },
+        {
+          "file": "labels-without-count-change.json",
+          "bytes": 139638,
+          "sha256": "391eadffb8b8225e342bf9c2b025fab6eb4f6246cc3c19619d04466f2c108aea"
+        },
+        {
+          "file": "offline-reading.html",
+          "bytes": 1316919,
+          "sha256": "0033c4ed95cb5bdaa22dcf7a0cb00b66b922df9d19ba37d27d76f61a0ccd17d8"
+        }
+      ]
+    }
+  ]
+}

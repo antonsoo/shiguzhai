@@ -1,0 +1,156 @@
+{
+  "rendered": {
+    "method": "Python Decimal ln with 50 digits, anchored to the rendered C4 and C-sharp4 grid positions; source list membership verified directly in browser-review.mjs",
+    "configurations": 4,
+    "charts": 48,
+    "marks": 2412,
+    "maximumSvgUnitsError": 5.343281372915953e-12,
+    "toleranceSvgUnits": 1e-09
+  },
+  "audio": {
+    "method": "Python wave + interpolated positive zero crossings; frequencies from publisher table, modern comparison from independent Decimal calculation",
+    "files": 4,
+    "measuredTones": 8,
+    "maximumErrorCents": 0.002440458074752303,
+    "toleranceCents": 0.02,
+    "silentGapsAndEnvelopeChecked": true,
+    "playback": [],
+    "results": [
+      {
+        "file": "chromium-1440-I-280-269.wav",
+        "sha256": "b4ee7a785364750952285d860b4551b7bada01e49df4f046d372ddc53b847708",
+        "bell": "I",
+        "a": 280,
+        "b": 269,
+        "mode": "pair",
+        "browser": "chromium",
+        "peak": 0.16000854518265328,
+        "measurements": [
+          {
+            "expectedHz": 280,
+            "measuredHz": 280.0000311609721,
+            "errorCents": 0.00019266761752899
+          },
+          {
+            "expectedHz": 269,
+            "measuredHz": 268.99997441942185,
+            "errorCents": 0.00016463185865826728
+          }
+        ]
+      },
+      {
+        "file": "chromium-375-I-280-269.wav",
+        "sha256": "b4ee7a785364750952285d860b4551b7bada01e49df4f046d372ddc53b847708",
+        "bell": "I",
+        "a": 280,
+        "b": 269,
+        "mode": "pair",
+        "browser": "chromium",
+        "peak": 0.16000854518265328,
+        "measurements": [
+          {
+            "expectedHz": 280,
+            "measuredHz": 280.0000311609721,
+            "errorCents": 0.00019266761752899
+          },
+          {
+            "expectedHz": 269,
+            "measuredHz": 268.99997441942185,
+            "errorCents": 0.00016463185865826728
+          }
+        ]
+      },
+      {
+        "file": "firefox-1440-I-280-269.wav",
+        "sha256": "7ec6c6b21935b02656f7476aa7033f19b9249cb0456bab01768fbe6295fc70b0",
+        "bell": "I",
+        "a": 280,
+        "b": 269,
+        "mode": "pair",
+        "browser": "firefox",
+        "peak": 0.16000854518265328,
+        "measurements": [
+          {
+            "expectedHz": 280,
+            "measuredHz": 280.0003947061594,
+            "errorCents": 0.002440458074752303
+          },
+          {
+            "expectedHz": 269,
+            "measuredHz": 269.0001436932808,
+            "errorCents": 0.0009247830254774097
+          }
+        ]
+      },
+      {
+        "file": "firefox-375-I-280-269.wav",
+        "sha256": "7ec6c6b21935b02656f7476aa7033f19b9249cb0456bab01768fbe6295fc70b0",
+        "bell": "I",
+        "a": 280,
+        "b": 269,
+        "mode": "pair",
+        "browser": "firefox",
+        "peak": 0.16000854518265328,
+        "measurements": [
+          {
+            "expectedHz": 280,
+            "measuredHz": 280.0003947061594,
+            "errorCents": 0.002440458074752303
+          },
+          {
+            "expectedHz": 269,
+            "measuredHz": 269.0001436932808,
+            "errorCents": 0.0009247830254774097
+          }
+        ]
+      }
+    ]
+  },
+  "craft": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "nativeBellSelections": 14,
+      "reportedPitchPairs": 12,
+      "unreportedPairsPreserved": 2,
+      "keyboard": true,
+      "unchangedFrequenciesAfterStrike": true,
+      "webAudioPcmMatchesDownloadedWav": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "nativeBellSelections": 14,
+      "reportedPitchPairs": 12,
+      "unreportedPairsPreserved": 2,
+      "keyboard": true,
+      "unchangedFrequenciesAfterStrike": true,
+      "webAudioPcmMatchesDownloadedWav": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "nativeBellSelections": 14,
+      "reportedPitchPairs": 12,
+      "unreportedPairsPreserved": 2,
+      "keyboard": true,
+      "unchangedFrequenciesAfterStrike": true,
+      "webAudioPcmMatchesDownloadedWav": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "nativeBellSelections": 14,
+      "reportedPitchPairs": 12,
+      "unreportedPairsPreserved": 2,
+      "keyboard": true,
+      "unchangedFrequenciesAfterStrike": true,
+      "webAudioPcmMatchesDownloadedWav": true
+    }
+  ],
+  "scope": "The original listening exhibit and Piao-shi room on the boundary implementation; later edits adjusted only the new comparison table and explanatory wording."
+}

@@ -1,0 +1,43 @@
+{
+  "source": "Li et al. 2024, Table 1, publisher HTML; not imported from application data",
+  "sourceSha256": "0afa79c6b8354480cd9a9e697536d3f4fc47b2af8d261825442247bf3673cfe2",
+  "method": "Independent 60-digit Decimal exponentials and logarithms; all open intervals and both sides of every boundary",
+  "scopes": [
+    {
+      "group": "burial",
+      "values": "leading",
+      "entries": 20,
+      "boundaries": 17,
+      "minimumCount": 7,
+      "maximumCount": 9
+    },
+    {
+      "group": "burial",
+      "values": "all",
+      "entries": 87,
+      "boundaries": 54,
+      "minimumCount": 9,
+      "maximumCount": 10
+    },
+    {
+      "group": "decoration",
+      "values": "leading",
+      "entries": 18,
+      "boundaries": 17,
+      "minimumCount": 7,
+      "maximumCount": 9
+    },
+    {
+      "group": "decoration",
+      "values": "all",
+      "entries": 76,
+      "boundaries": 49,
+      "minimumCount": 9,
+      "maximumCount": 10
+    }
+  ],
+  "boundariesChecked": 137,
+  "entryPairsChecked": 9068,
+  "maximumBoundaryErrorHz": "7.7957869904793417314584924157388134099320874E-14",
+  "limits": "Modern label sensitivity only. No claim about acoustic measurement accuracy or ancient tuning."
+}

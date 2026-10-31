@@ -1,0 +1,10 @@
+{
+  "retrievedAtUtc": "2026-10-31",
+  "url": "https://www.nature.com/articles/s40494-024-01377-0.pdf",
+  "retainedFile": "public/sources/li-2024-shiguzhai.pdf",
+  "bytes": 2762411,
+  "sha256": "431eacc7f75f338349109161f320bd9f1a6e22da7b13db33fab5f759cbb72edd",
+  "freshPublisherBytesEqual": true,
+  "pageInspected": "Printed page 6, full Table 1, rendered with Poppler; the complete retained page and all ten column frequency lists inspected.",
+  "limits": "Identifies the source bytes; does not independently repeat the physical acoustic experiment."
+}
