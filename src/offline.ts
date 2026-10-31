@@ -1,3 +1,9 @@
+interface Inventory {
+  type: string;
+  complete: boolean;
+  edition: string;
+  files: number;
+}
 export async function offlineStatus(element: HTMLElement) {
   if (!import.meta.env.PROD || !("serviceWorker" in navigator)) {
     element.textContent = import.meta.env.PROD
@@ -5,54 +11,101 @@ export async function offlineStatus(element: HTMLElement) {
       : "Development preview";
     return;
   }
+  const action = document.createElement("button");
+  action.type = "button";
+  action.className = "offline-action";
+  action.hidden = true;
+  action.id = "offline-repair";
+  element.after(action);
   let registration: ServiceWorkerRegistration;
-  let inspection = 0;
+  let request = 0;
   let failed = false;
+  let repairPending = false;
+  let actionType: "repair" | "retry" | "reload" = "repair";
   const pending = () => Boolean(registration?.installing || registration?.waiting);
-  const inspect = async () => {
-    const attempt = ++inspection;
-    // During replacement the active worker belongs to the previous edition.
-    // Do not extend its lifetime with inspection messages while its successor
-    // is trying to activate; wait for controllerchange instead.
-    if (pending()) {
-      element.textContent = registration.active
-        ? "Downloading the updated bells & evidence…"
-        : "Downloading bells & evidence for offline use…";
-      return;
+  function show(text: string, kind?: typeof actionType) {
+    if (element.textContent !== text) element.textContent = text;
+    action.hidden = !kind;
+    if (kind) {
+      actionType = kind;
+      action.textContent =
+        kind === "reload"
+          ? "Reload updated edition"
+          : kind === "retry"
+            ? "Retry offline saving"
+            : "Repair offline files";
     }
-    const worker = navigator.serviceWorker.controller;
-    if (!worker || worker !== registration.active || worker.state !== "activated") {
-      element.textContent = failed
-        ? "Offline download unavailable; exhibit still works online"
-        : "Finishing the offline installation…";
-      return;
-    }
+  }
+  async function message(worker: ServiceWorker, repair: boolean): Promise<Inventory> {
     const channel = new MessageChannel();
     let timer: ReturnType<typeof setTimeout> | undefined;
     try {
-      const saved = await new Promise<{ complete: boolean; edition: string }>((resolve, reject) => {
-        timer = setTimeout(() => reject(new Error("Offline inspection timed out")), 4000);
-        channel.port1.onmessage = (event) => resolve(event.data);
-        worker.postMessage({ type: "SHIGUZHAI_INSPECT" }, [channel.port2]);
+      return await new Promise<Inventory>((resolve, reject) => {
+        timer = setTimeout(
+          () => reject(new Error("Offline check timed out")),
+          repair ? 30000 : 12000,
+        );
+        channel.port1.onmessage = (event) => {
+          const reply = event.data;
+          if (
+            reply?.type !== "SHIGUZHAI_EDITION" ||
+            typeof reply.complete !== "boolean" ||
+            typeof reply.edition !== "string"
+          )
+            reject(new Error("Offline check returned an invalid reply"));
+          else resolve(reply);
+        };
+        worker.postMessage(
+          {
+            type: repair ? "SHIGUZHAI_REPAIR" : "SHIGUZHAI_INSPECT",
+            edition: __SHIGUZHAI_EDITION__,
+          },
+          [channel.port2],
+        );
       });
-      if (attempt !== inspection || worker !== navigator.serviceWorker.controller) return;
-      element.textContent =
-        saved.complete && saved.edition === __SHIGUZHAI_EDITION__
-          ? "Bells & evidence saved offline"
-          : pending()
-            ? "Downloading the updated bells & evidence…"
-            : failed
-              ? "Offline update incomplete; reload online to retry."
-              : "A different offline edition is saved. Reload online to finish updating.";
-    } catch {
-      if (attempt === inspection)
-        element.textContent = "Offline download unavailable; exhibit still works online";
     } finally {
       clearTimeout(timer);
       channel.port1.close();
       channel.port2.close();
     }
-  };
+  }
+  function display(saved: Inventory) {
+    if (saved.edition !== __SHIGUZHAI_EDITION__) {
+      show("This page and the saved edition differ. Reload to use the updated files.", "reload");
+    } else if (saved.complete) show("Bells & evidence saved offline");
+    else show("The offline copy is incomplete. Reconnect and repair its files.", "repair");
+  }
+  async function inspect(quiet = false) {
+    if (repairPending) return;
+    const attempt = ++request;
+    if (pending()) {
+      show(
+        registration.active
+          ? "Downloading the updated bells & evidence…"
+          : "Downloading bells & evidence for offline use…",
+      );
+      return;
+    }
+    const worker = navigator.serviceWorker.controller;
+    if (!worker || worker !== registration.active || worker.state !== "activated") {
+      show(
+        failed
+          ? "Offline saving did not finish. Reconnect and retry."
+          : "Finishing the offline installation…",
+        failed ? "retry" : undefined,
+      );
+      return;
+    }
+    if (!quiet) show("Checking the saved bells & evidence…");
+    try {
+      const saved = await message(worker, false);
+      if (attempt !== request || worker !== navigator.serviceWorker.controller) return;
+      display(saved);
+    } catch {
+      if (attempt === request)
+        show("Offline availability could not be confirmed. Reconnect and retry.", "retry");
+    }
+  }
   const watched = new WeakSet<ServiceWorker>();
   const watch = () => {
     for (const worker of [
@@ -62,8 +115,6 @@ export async function offlineStatus(element: HTMLElement) {
       navigator.serviceWorker.controller,
     ]) {
       if (!worker) continue;
-      // A completed replacement may be waiting when registration resolves.
-      // The worker accepts this only after its integrity-checked install succeeds.
       if (worker.state === "installed") worker.postMessage({ type: "SHIGUZHAI_ACTIVATE" });
       if (watched.has(worker)) continue;
       watched.add(worker);
@@ -78,15 +129,78 @@ export async function offlineStatus(element: HTMLElement) {
     }
     void inspect();
   };
+  action.addEventListener("click", async () => {
+    if (actionType === "reload") {
+      location.reload();
+      return;
+    }
+    if (actionType === "retry") {
+      show("Retrying offline saving…");
+      try {
+        registration = await navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`);
+        registration.addEventListener("updatefound", watch);
+        failed = false;
+        watch();
+      } catch {
+        show("Offline saving is unavailable. Reconnect and retry.", "retry");
+      }
+      return;
+    }
+    const worker = navigator.serviceWorker.controller;
+    if (!worker) {
+      void inspect();
+      return;
+    }
+    const attempt = ++request;
+    repairPending = true;
+    action.disabled = true;
+    show("Repairing the offline files…", "repair");
+    try {
+      const saved = await message(worker, true);
+      if (attempt === request && worker === navigator.serviceWorker.controller) display(saved);
+    } catch {
+      if (attempt === request) show("Repair did not finish. Reconnect and try again.", "repair");
+    } finally {
+      repairPending = false;
+      action.disabled = false;
+      if (attempt !== request) void inspect();
+    }
+  });
+  const recheck = () => {
+    void inspect();
+  };
   try {
     registration = await navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`);
-    // Download duration is not an installation failure. Observe the lifecycle
-    // so a long scan download can finish without requiring a page reload.
     registration.addEventListener("updatefound", watch);
-    navigator.serviceWorker.addEventListener("controllerchange", watch);
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      ++request;
+      watch();
+    });
+    navigator.serviceWorker.addEventListener("message", (event) => {
+      if (
+        event.source !== navigator.serviceWorker.controller ||
+        event.data?.edition !== __SHIGUZHAI_EDITION__
+      )
+        return;
+      if (event.data.type === "SHIGUZHAI_INVALIDATED") {
+        if (!repairPending)
+          show("The offline copy is incomplete. Reconnect and repair its files.", "repair");
+        void inspect();
+      } else if (event.data.type === "SHIGUZHAI_RESTORED") void inspect();
+    });
+    addEventListener("online", recheck);
+    addEventListener("offline", recheck);
+    addEventListener("focus", recheck);
+    addEventListener("pageshow", recheck);
+    addEventListener("shiguzhai:asset-failure", recheck);
+    document.addEventListener("visibilitychange", () => {
+      if (!document.hidden) recheck();
+    });
+    setInterval(() => {
+      if (!document.hidden) void inspect(true);
+    }, 15000);
     watch();
-    await inspect();
   } catch {
-    element.textContent = "Offline download unavailable; exhibit still works online";
+    show("Offline saving is unavailable. Reconnect and reload to retry.");
   }
 }

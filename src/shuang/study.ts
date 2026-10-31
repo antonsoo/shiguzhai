@@ -1,3 +1,4 @@
+import { verifiedBytes } from "../verified-assets";
 import assets from "./assets.json";
 import { bellAt, bells, paperURL } from "./bells";
 import { chineseSource, museum, readings } from "./content";
@@ -35,26 +36,18 @@ function base64(bytes: Uint8Array) {
     binary += String.fromCharCode(...bytes.subarray(i, i + 8192));
   return btoa(binary);
 }
-async function collect() {
+async function collect(signal?: AbortSignal) {
   const data: Record<string, Uint8Array> = {};
   await Promise.all(
     Object.entries(assets).map(async ([name, expected]) => {
-      const response = await fetch(`${import.meta.env.BASE_URL}shuang/${name}`);
-      if (!response.ok)
-        throw new Error("A source or font is unavailable. Reconnect and retry the complete study.");
-      const bytes = new Uint8Array(await response.arrayBuffer());
-      const hash = Array.from(new Uint8Array(await crypto.subtle.digest("SHA-256", bytes)), (b) =>
-        b.toString(16).padStart(2, "0"),
-      ).join("");
-      if (hash !== expected)
-        throw new Error("A source or font differs from this edition. Reload online before saving.");
+      const bytes = new Uint8Array(await verifiedBytes(`shuang/${name}`, expected, signal));
       data[name] = bytes;
     }),
   );
   return data;
 }
-export async function studyHTML(s: State) {
-  const data = await collect(),
+export async function studyHTML(s: State, signal?: AbortSignal) {
+  const data = await collect(signal),
     b = bellAt(s.bell),
     p = pitches(b, s.tuning),
     rule = proportions(s.rule);
@@ -104,5 +97,5 @@ export async function studyHTML(s: State) {
         `<details><summary>${esc(n)}</summary><pre>${esc(new TextDecoder().decode(data[n]))}</pre></details>`,
     )
     .join("")}
-  <footer>New code and diagrams: MIT, © 2026 Anton Soloviev. New teaching text and adaptations of the Wikisource selections: CC BY-SA 4.0. The museum photograph is CC0. Font licenses and source notices are retained above. This HTML has no script and makes no automatic network requests. Audio plays only when requested. Printing preserves the written lesson; save the HTML or WAV to retain sound.</footer></body></html>`;
+  <footer>New code and diagrams: MIT, © 2026 Anthony Mercer. New teaching text and adaptations of the Wikisource selections: CC BY-SA 4.0. The museum photograph is CC0. Font licenses and source notices are retained above. This HTML has no script and makes no automatic network requests. Audio plays only when requested. Printing preserves the written lesson; save the HTML or WAV to retain sound.</footer></body></html>`;
 }

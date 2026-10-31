@@ -347,6 +347,7 @@ for (const [name, engine] of [
         assert.match(await rom.locator("body").innerText(), /No pitch is reported/);
         await rom.close();
         let rejectedChangedSource = false;
+        let expectedSourceRefusals = [];
         if (name === "chromium" && width === 1440) {
           await page.evaluate(async () => {
             const key = (await caches.keys()).find((k) => k.startsWith("shiguzhai-"));
@@ -355,15 +356,23 @@ for (const [name, engine] of [
               new Response("substituted image", { headers: { "Content-Type": "image/jpeg" } }),
             );
           });
+          const beforeRefusal = consoleErrors.length;
           let count = 0;
           page.on("download", () => count++);
           await page.locator("#save-study").click();
           await page.waitForFunction(() =>
-            document
-              .querySelector("#save-status")
-              .textContent.includes("differs from this edition"),
+            /differs from this edition|retained file is unavailable \(HTTP 503\)/.test(
+              document.querySelector("#save-status").textContent,
+            ),
           );
           assert.equal(count, 0);
+          await page.waitForFunction(
+            () => !document.querySelector("#offline-status").textContent.includes("saved offline"),
+          );
+          expectedSourceRefusals = consoleErrors.splice(beforeRefusal);
+          assert(
+            expectedSourceRefusals.every((message) => /Failed to load resource.*503/.test(message)),
+          );
           rejectedChangedSource = true;
         }
         assert.deepEqual(errors, []);
@@ -371,6 +380,7 @@ for (const [name, engine] of [
         assert.deepEqual(external, []);
         report.configurations.push({
           browser: name,
+          expectedSourceRefusals,
           version: browser.version(),
           width,
           nativeBellSelections: 14,

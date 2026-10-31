@@ -400,11 +400,13 @@ try {
       await page.goto(base);
       await page.locator("#save-reading").click();
       await page.waitForFunction(() =>
-        document.querySelector("#save-status").textContent.includes("could not be verified"),
+        document.querySelector("#save-status").textContent.includes("differs from this edition"),
       );
       assert.equal(downloads, 0);
       await page.waitForFunction(() =>
-        document.querySelector("#offline-status").textContent.includes("unavailable"),
+        document
+          .querySelector("#offline-status")
+          .textContent.includes("Offline saving did not finish"),
       );
       report.configurations
         .filter((c) => c.browser === name)

@@ -32,7 +32,7 @@ ${bells
   .map((b, i) => {
     const y = top + i * rowHeight + rowHeight / 2;
     const included = inGroup(b, s);
-    return `<g class="chart-row${b.id === s.bell ? " selected-row" : ""}${included ? "" : " excluded-row"}" data-bell="${b.id}"${interactive ? ` role="button" tabindex="0" aria-pressed="${b.id === s.bell}" aria-label="Inspect bell ${b.id}, Changsha Museum ${b.accession}${included ? "" : ", excluded by the decoration grouping"}"` : ""}><rect class="row-target" x="1" y="${y - rowHeight / 2}" width="${width - 2}" height="${rowHeight}" rx="5"/><text class="row-label" x="${compact ? 8 : 18}" y="${y + 5}">${compact ? "" : "CsM "}${b.id}</text>
+    return `<g class="chart-row${b.id === s.bell ? " selected-row" : ""}${included ? "" : " excluded-row"}" data-bell="${b.id}"${interactive ? ` role="button" tabindex="0" aria-pressed="${b.id === s.bell}" aria-label="${compact ? "" : "CsM "}${b.id}${included ? "" : " Different decoration · excluded"}. Inspect bell ${b.id}, Changsha Museum ${b.accession}"` : ""}><rect class="row-target" x="1" y="${y - rowHeight / 2}" width="${width - 2}" height="${rowHeight}" rx="5"/><text class="row-label" x="${compact ? 8 : 18}" y="${y + 5}">${compact ? "" : "CsM "}${b.id}</text>
 ${
   included
     ? (["A", "B"] as const)

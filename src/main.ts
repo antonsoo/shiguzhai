@@ -17,6 +17,7 @@ import { illustratedReading, measurementCsv, readingSnapshot } from "./export";
 import { offlineStatus } from "./offline";
 import { mountReference } from "./reference";
 import hashes from "./source-hashes.json";
+import { dataUrl, verifiedBytes } from "./verified-assets";
 
 const get = <T extends HTMLElement = HTMLElement>(id: string) => {
   const node = document.getElementById(id);
@@ -43,7 +44,7 @@ get("app").innerHTML = `
 <div class="try-observation"><div><h3>Find the extra key.</h3><p>Bell I’s leading B value is 283 Hz. The full list also includes 269 Hz, close to a different modern key. At the study’s 440 Hz reference, 269 Hz is only 1.9 cents below the boundary between C4 and C♯4. The source gives integer hertz values without measurement error bars. Listen, then move the modern reference grid and watch the key count change.</p></div><button type="button" id="try-low-b">Inspect bell I at 269 Hz</button></div>
 <section id="reference" class="reference-investigation" aria-labelledby="reference-title"></section>
 <details class="measurement-details"><summary>Read all reported frequencies and object identities</summary><p>Each list preserves the table’s order. The first B entry is the clearest or most often occurring according to the authors. The first A is simply the first listed. Repeated frequencies were omitted by the study: these are neither frequency occurrence counts nor a time series.</p><div class="table-scroll" role="region" tabindex="0" aria-label="Published measurements; scroll horizontally to read every column"><table><thead><tr><th>Bell</th><th>Accession</th><th>A / Hz</th><th>B / Hz</th><th>Side / cm</th></tr></thead><tbody>${bells.map((b) => `<tr><th>CsM ${b.id}</th><td>${b.accession}</td><td>${b.A.join(", ")}</td><td>${b.B.join(", ")}</td><td>${b.sideCm}</td></tr>`).join("")}</tbody></table></div></details>
-<div class="save-actions"><button type="button" id="share">Copy this reading’s link</button><button type="button" id="save-reading">Save illustrated reading</button><button type="button" id="save-wav">Save A then B (WAV)</button><button type="button" id="save-csv">Save all measurements (CSV)</button><button type="button" id="save-json">Save comparison data (JSON)</button><p id="save-status" role="status"></p></div></section>
+<div class="save-actions"><button type="button" id="share">Copy this reading’s link</button><button type="button" id="save-reading">Save illustrated reading</button><button type="button" id="cancel-reading" hidden>Cancel reading export</button><button type="button" id="save-wav">Save A then B (WAV)</button><button type="button" id="save-csv">Save all measurements (CSV)</button><button type="button" id="save-json">Save comparison data (JSON)</button><p id="save-status" role="status"></p></div></section>
 <section class="grouping" aria-labelledby="grouping-title"><h2 id="grouping-title">A set is a question, too.</h2><div class="grouping-copy"><p>Nine bells share a knob-covered design. Bell III looks different. All ten were found together in June 1993. Should appearance or their available pitches decide what counts as a musical set?</p><p>Li and colleagues argue for comparing the sounds as well as the objects. Their argument is an interpretation of the evidence. The switches above expose two of the choices involved.</p></div><figure class="nine-photo"><img src="./sources/li-2024-figure-5.jpg" width="1959" height="267" loading="lazy" alt="Nine knob-decorated bronze bells displayed together in the Changsha Museum"><figcaption>The nine similarly decorated bells. Kin Sum Li, figure 5, CC BY 4.0. This display photograph does not establish their ancient hanging or playing arrangement.</figcaption></figure><div class="outlier"><figure><img src="./sources/li-2024-figure-2.jpg" width="896" height="1354" loading="lazy" alt="The differently decorated bell CsM III, Changsha Museum 1633"><figcaption>CsM III, Changsha Museum 1633. Kin Sum Li, figure 2, CC BY 4.0.</figcaption></figure><div><h3>Different decoration. Still part of the find.</h3><p>Its A list is 313 and 312 Hz. Its B list extends from 306 to 350 Hz. The source’s leading B value is 350 Hz.</p><p>Neither the list’s spread nor its first entry tells us how often ancient players used each pitch. The study supplies no counts of how often each frequency occurred, and these measurements were made on the surviving bell in 2022.</p><button type="button" id="try-bell-iii">Inspect bell III’s full list</button></div></div></section>
 <section class="context" aria-labelledby="context-title"><h2 id="context-title">Seventeen from the hill. Ten in this comparison.</h2><ol class="finds"><li><strong>1959</strong><span>Five bells found in one pit.</span></li><li class="included-find"><strong>June 1993</strong><span>Ten bells found together. These are the ten plotted here.</span></li><li><strong>August 1993</strong><span>Two more bells recovered from the hill.</span></li><li><strong>August 2022</strong><span>The measurements used here were made in the Changsha Museum.</span></li></ol><p>The paper dates the manufacture of these ten bells to the twelfth century BCE. Find dates, manufacture dates and modern measurement dates answer different questions. Its table includes two additional bells; this exhibit keeps their data outside the ten-bell comparison.</p></section>
 <section class="context" aria-labelledby="craft-title"><h2 id="craft-title">How can one rim carry two voices?</h2><p>The <a href="./shuang.html">Piao-shi craft bench</a> studies a different bell set. Change an ideal strike’s coupling to two bending patterns, compare the published dimensions with two readings of a bell-maker’s Chinese proportion rule, and keep a complete listening study.</p><p>The Shiguzhai observations above and the Piao-shi measurements answer different questions. Their object identities, source tables and sounds remain separately labeled. Here A/B name strike positions; the Piao-shi paper’s lower-case a/b label two modal resonances.</p></section>
@@ -299,9 +300,14 @@ get("save-wav").addEventListener("click", async () => {
     button.disabled = false;
   }
 });
+let readingExport: AbortController | undefined;
+get("cancel-reading").addEventListener("click", () => readingExport?.abort());
 get("save-reading").addEventListener("click", async () => {
   const selected = { ...state },
     button = get<HTMLButtonElement>("save-reading");
+  const controller = new AbortController();
+  readingExport = controller;
+  get("cancel-reading").hidden = false;
   button.disabled = true;
   get("save-status").textContent = "Preparing the reading with its source photographs and table…";
   try {
@@ -314,23 +320,17 @@ get("save-reading").addEventListener("click", async () => {
           "fonts/NotoSansCJK-subset.woff2",
           "fonts/NotoCJK-OFL.txt",
         ].map(async (file) => {
-          const response = await fetch(`./${file}`);
-          if (!response.ok) throw new Error("Source unavailable");
-          const buffer = await response.arrayBuffer();
-          const digest = [...new Uint8Array(await crypto.subtle.digest("SHA-256", buffer))]
-            .map((b) => b.toString(16).padStart(2, "0"))
-            .join("");
-          if (digest !== hashes[file as keyof typeof hashes]) throw new Error("Source changed");
-          if (file.endsWith(".txt")) return [file, new TextDecoder().decode(buffer)];
-          const encoded = await new Promise<string>((resolve, reject) => {
-            const reader = new FileReader();
-            reader.onload = () => resolve(String(reader.result));
-            reader.onerror = reject;
-            reader.readAsDataURL(
-              new Blob([buffer], { type: file.endsWith("woff2") ? "font/woff2" : "image/jpeg" }),
-            );
-          });
-          return [file, encoded];
+          const buffer = await verifiedBytes(
+            file,
+            hashes[file as keyof typeof hashes],
+            controller.signal,
+          );
+          return [
+            file,
+            file.endsWith(".txt")
+              ? new TextDecoder().decode(buffer)
+              : dataUrl(buffer, file.endsWith("woff2") ? "font/woff2" : "image/jpeg"),
+          ];
         }),
       ),
     );
@@ -340,10 +340,16 @@ get("save-reading").addEventListener("click", async () => {
     );
     get("save-status").textContent =
       "Saved the selected measurements, full frequency lists, photographs and source table. Open the reading offline or print it.";
-  } catch {
-    get("save-status").textContent =
-      "The source images could not be verified. Reconnect and try saving again.";
+  } catch (error) {
+    get("save-status").textContent = controller.signal.aborted
+      ? "Reading export cancelled. Your current choices are kept."
+      : error instanceof Error
+        ? error.message
+        : "The sources could not be verified. Reconnect and try again.";
   } finally {
+    controller.abort();
+    readingExport = undefined;
+    get("cancel-reading").hidden = true;
     button.disabled = false;
   }
 });

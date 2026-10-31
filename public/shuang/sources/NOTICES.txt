@@ -1,10 +1,10 @@
 SHUANG: SOURCE, IMAGE AND FONT NOTICES
 
 New code and original schematic diagrams: MIT.
-Copyright (c) 2026 Anton Soloviev. See CODE-LICENSE.txt.
+Copyright (c) 2026 Anthony Mercer. See CODE-LICENSE.txt.
 
 New explanatory teaching text, English readings and the adapted reader:
-CC BY-SA 4.0, Anton Soloviev, 2026. See CC-BY-SA-4.0.txt.
+CC BY-SA 4.0, Anthony Mercer, 2026. See CC-BY-SA-4.0.txt.
 
 MEASURED FACTS
 Junji Takahashi (1989), "Size-frequency relation and tonal system in a set of

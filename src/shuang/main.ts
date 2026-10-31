@@ -42,7 +42,7 @@ app.innerHTML = `<a class="skip" href="#bench">Skip to the listening bench</a><d
 <div class="scaling"><div><h3>Double its size. What else grew?</h3><p class="small">For this set the paper fits frequency approximately to inverse tip-to-tip width squared. It connects that fit with nearly constant wall thickness, inferred from mass. It is not a universal bell law.</p><p class="small">The conditional thin-shell comparison <strong>f ∝ h / L²</strong> gives two different answers. Keep the shape and alloy fixed, then decide whether wall thickness h grows with width L. These numbers are a separate scaling exercise; they do not change the sound above.</p></div><div><label for="scale">Linear size scale <output id="scale-value" for="scale"></output></label><input id="scale" type="range" min="50" max="200" step="1"><dl class="scale-pair"><div><dt>All lengths grow<br>f / λ</dt><dd id="scaled-wall"></dd></div><div><dt>Wall stays as thick<br>f / λ²</dt><dd id="fixed-wall"></dd></div></dl><p id="scale-copy" class="caption"></p></div></div></div></section>
 <section id="read" class="proportions focus-target" aria-labelledby="read-title"><div class="section-head"><p class="eyebrow">03 / Read the maker’s arithmetic</p><h2 id="read-title">“Remove two parts.” Of which whole?</h2></div><p class="explain">A transmitted craft text gives names to a bell’s regions and rules for their sizes. Two readings of its subtraction produce different proportions. Put each beside the surviving measurements.</p><div class="proportion-layout"><div class="reading"><div class="reading-controls"><select id="reading" aria-label="Chinese reading">${readings.map((r, i) => `<option value="${i}">${i + 1}. ${esc(r.title)}</option>`).join("")}</select><button id="previous" aria-label="Previous reading">←</button><button id="next" aria-label="Next reading">→</button></div><div id="reading-body"></div><details><summary>Locate the six named measurements</summary><div id="anatomy" class="proportion-svg" tabindex="0" role="region" aria-label="Scrollable diagram locating six dimensions"></div></details><p class="caption"><a href="${chineseSource}">Zhouli, Kaogongji / Fu craft section</a>. Characters follow Wikisource revision 2159477; full stops at shortened excerpt boundaries are new. English and explanatory notes are new. Pinyin is modern Mandarin, not ancient pronunciation.</p></div><div><div class="rule-controls"><label for="rule">How are the later “two parts” understood?</label><select id="rule"><option value="successive">Take four fifths again: 10 : 8 : 8 : 6.4 : 6.4 : 5.12</option><option value="fixed">Subtract original parts: 10 : 8 : 8 : 6 : 6 : 4</option></select></div><div class="proportion-legend"><span>Reported bell</span><span>Selected reading</span></div><div id="dimension-figure" class="proportion-svg" tabindex="0" role="region" aria-label="Scrollable comparison of six bell dimensions"></div><p id="dimension-copy" class="caption"></p><details><summary>Compare the six dimensions in centimetres</summary><div id="dimension-table"></div></details></div></div>
 <div class="source-photo"><figure><img src="${import.meta.env.BASE_URL}shuang/sources/cleveland-1962.44.jpg" width="463" height="600" alt="Bronze bell with raised bosses and an animal-shaped suspension handle" loading="lazy"><figcaption class="caption">Museum Open Access / CC0</figcaption></figure><div><h3>A surviving object, separately identified.</h3><p class="small">${museum.title}, ${museum.date}. ${museum.museum}, ${museum.accession}; ${museum.credit}.</p><p class="small">${museum.note}</p><div class="source-links"><a href="${museum.url}">Object record</a><a href="${museum.rights}">Rights</a><a href="${import.meta.env.BASE_URL}shuang/sources/provenance.json">Source identities</a></div></div></div></section>
-<section id="keep" class="keep focus-target" aria-labelledby="keep-title"><p class="eyebrow">04 / Keep the evidence with the lesson</p><h2 id="keep-title">A listening study that stays with you.</h2><p>Save the selected synthesized strike as WAV, all fourteen measurement rows as CSV, or the current rim drawing as SVG. The complete study is a script-free HTML file with embedded fonts, the photograph, all six Chinese readings, all measurements, and three playable WAVs when pitches are reported. Print it for paper; retain the HTML or WAV for sound.</p><div class="button-row"><button id="save-wav">Save this strike / WAV</button><button id="save-csv">Measurements / CSV</button><button id="save-svg">Rim drawing / SVG</button><button id="save-study" class="primary">Keep complete study / HTML</button></div><p id="save-status" class="status" role="status"></p><label for="share-url" class="caption">Share this exact selection</label><input id="share-url" class="share-url" type="url" readonly><div class="button-row"><button id="copy-link">Copy link</button><button id="reset">Reset bench</button></div><p class="caption" id="offline-status" role="status">Checking offline edition…</p></section></main>
+<section id="keep" class="keep focus-target" aria-labelledby="keep-title"><p class="eyebrow">04 / Keep the evidence with the lesson</p><h2 id="keep-title">A listening study that stays with you.</h2><p>Save the selected synthesized strike as WAV, all fourteen measurement rows as CSV, or the current rim drawing as SVG. The complete study is a script-free HTML file with embedded fonts, the photograph, all six Chinese readings, all measurements, and three playable WAVs when pitches are reported. Print it for paper; retain the HTML or WAV for sound.</p><div class="button-row"><button id="save-wav">Save this strike / WAV</button><button id="save-csv">Measurements / CSV</button><button id="save-svg">Rim drawing / SVG</button><button id="save-study" class="primary">Keep complete study / HTML</button><button id="cancel-study" hidden>Cancel study export</button></div><p id="save-status" class="status" role="status"></p><label for="share-url" class="caption">Share this exact selection</label><input id="share-url" class="share-url" type="url" readonly><div class="button-row"><button id="copy-link">Copy link</button><button id="reset">Reset bench</button></div><p class="caption" id="offline-status" role="status">Checking offline edition…</p></section></main>
 <footer class="footer"><span>SHUANG / <span class="chinese-inline" lang="zh-Hant">雙</span> means double.<br>New code & diagrams: MIT · New lessons: CC BY-SA 4.0</span><span><a href="${import.meta.env.BASE_URL}">Shiguzhai bells</a> · <a href="https://github.com/antonsoo/shiguzhai/blob/main/docs/shuang-model.md">Source & model</a> · <a href="${import.meta.env.BASE_URL}shuang/sources/NOTICES.txt">Credits & licenses</a><br>No account, tracking, or automatic sound.</span></footer></div>`;
 
 const el = <T extends HTMLElement = HTMLElement>(id: string) => {
@@ -218,20 +218,31 @@ el("save-svg").addEventListener("click", () => {
   saveFile("shuang-rim.svg", modeDrawing(state), "image/svg+xml");
   el("save-status").textContent = "Current model rim saved as SVG, including its schematic label.";
 });
+let studyExport: AbortController | undefined;
+el("cancel-study").addEventListener("click", () => studyExport?.abort());
 el("save-study").addEventListener("click", async () => {
   const button = el<HTMLButtonElement>("save-study"),
     snapshot = { ...state };
+  const controller = new AbortController();
+  studyExport = controller;
+  el("cancel-study").hidden = false;
   button.disabled = true;
   el("save-status").textContent = "Checking and embedding sources, fonts and sound…";
   try {
-    const html = await studyHTML(snapshot);
+    const html = await studyHTML(snapshot, controller.signal);
     saveFile("shuang-study.html", html, "text/html;charset=utf-8");
     el("save-status").textContent =
       "Complete study saved. Open it from disk; print it there to keep the written lesson as PDF.";
   } catch (error) {
-    el("save-status").textContent =
-      error instanceof Error ? error.message : "The complete study could not be saved.";
+    el("save-status").textContent = controller.signal.aborted
+      ? "Study export cancelled. Your current choices are kept."
+      : error instanceof Error
+        ? error.message
+        : "The complete study could not be saved.";
   } finally {
+    controller.abort();
+    studyExport = undefined;
+    el("cancel-study").hidden = true;
     button.disabled = false;
   }
 });
