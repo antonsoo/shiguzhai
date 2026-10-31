@@ -75,11 +75,14 @@ const server = http.createServer((request, response) => {
     response.writeHead(404).end();
     return;
   }
-  const isNavigation = request.headers["sec-fetch-mode"] === "navigate";
+  // A navigation fetched by the worker can reach HTTP as same-origin.
+  // Select the actual room file, then verify the fault was reached below.
+  const isNavigation = name === "index.html" || name === "shuang.html";
   requests.push({
     name,
     fixture: files === next ? "next" : "current",
     mode: request.headers["sec-fetch-mode"],
+    injected: isNavigation ? navMode : null,
   });
   if (isNavigation && navMode === "error") {
     response
@@ -269,16 +272,31 @@ try {
             );
             await ready(page);
             navMode = mode;
+            const beforeRequests = requests.length;
             const start = Date.now();
             await page.reload({ timeout: 8000 });
             assert(await page.locator(room === "index.html" ? "#reference" : "#bell").isVisible());
+            const faults = requests
+              .slice(beforeRequests)
+              .filter((request) => request.injected === mode);
+            assert(
+              faults.some((request) => request.name === room),
+              "The HTTP fault must actually be reached",
+            );
             assert(Date.now() - start < 5000);
+            if (mode.includes("stall"))
+              assert(Date.now() - start >= 1900, "Exercise the worker timeout");
             if (room === "index.html")
               assert.match(
                 await page.locator("#reference-result").innerText(),
                 /Held 439.523 Hz: 9 keys. Current 439.524 Hz: 10 keys/,
               );
-            navigation.push({ room, mode, elapsedMs: Date.now() - start });
+            navigation.push({
+              room,
+              mode,
+              elapsedMs: Date.now() - start,
+              injectedRequests: faults.length,
+            });
           }
         navMode = "normal";
         await page.goto(base);
