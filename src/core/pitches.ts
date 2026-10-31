@@ -7,6 +7,7 @@ export interface Reading {
   group: "burial" | "decoration";
   values: "leading" | "all";
   reference: number;
+  against: number;
 }
 export const defaults: Reading = {
   bell: "IX",
@@ -15,7 +16,13 @@ export const defaults: Reading = {
   group: "burial",
   values: "leading",
   reference: 440,
+  against: 440,
 };
+export function validReference(value: unknown): number {
+  return typeof value === "number" && Number.isFinite(value) && value >= 430 && value <= 450
+    ? Math.round(value * 1000) / 1000
+    : 440;
+}
 export function normalize(input: Partial<Reading>): Reading {
   const bell = bellById(input.bell ?? "IX");
   const values = input.values === "all" ? "all" : "leading";
@@ -29,13 +36,8 @@ export function normalize(input: Partial<Reading>): Reading {
     b: member("B", input.b),
     group: input.group === "decoration" ? "decoration" : "burial",
     values,
-    reference:
-      typeof input.reference === "number" &&
-      Number.isFinite(input.reference) &&
-      input.reference >= 430 &&
-      input.reference <= 450
-        ? Math.round(input.reference)
-        : 440,
+    reference: validReference(input.reference),
+    against: validReference(input.against),
   };
 }
 export function readState(search: string): Reading {
@@ -47,11 +49,12 @@ export function readState(search: string): Reading {
     group: p.get("group") as Reading["group"],
     values: p.get("values") as Reading["values"],
     reference: Number(p.get("reference")),
+    against: Number(p.get("against")),
   });
 }
 export function writeState(s: Reading): string {
   const p = normalize(s);
-  return `?bell=${p.bell}&a=${p.a}&b=${p.b}&group=${p.group}&values=${p.values}&reference=${p.reference}`;
+  return `?bell=${p.bell}&a=${p.a}&b=${p.b}&group=${p.group}&values=${p.values}&reference=${p.reference}&against=${p.against}`;
 }
 export function inGroup(bell: Bell, s: Reading): boolean {
   return s.group === "burial" || bell.decoration === "knobs";
@@ -68,7 +71,10 @@ export function frequency(midi: number, reference = 440): number {
 }
 export function pitch(hz: number, reference = 440) {
   const continuous = 69 + 12 * Math.log2(hz / reference);
-  const midi = Math.round(continuous);
+  // A mathematical half-step belongs to the higher key. Treat arithmetic
+  // roundoff at a computed boundary consistently (under 1e-10 cents).
+  const half = Math.floor(continuous) + 0.5;
+  const midi = Math.abs(continuous - half) < 1e-12 ? Math.ceil(continuous) : Math.round(continuous);
   return {
     midi,
     cents: (continuous - midi) * 100,

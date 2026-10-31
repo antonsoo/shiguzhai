@@ -16,11 +16,14 @@ jobs:
       - run: npm ci
       - run: npm run check
       - run: python3 scripts/source-oracle.py
+      - run: python3 scripts/reference-oracle.py
       - run: python3 scripts/shuang-source-review.py
       - run: npx playwright install --with-deps chromium firefox
       - run: node scripts/browser-review.mjs /tmp/shiguzhai-review/browser.json
       - run: python3 scripts/rendered-oracle.py /tmp/shiguzhai-review/browser.json
       - run: python3 scripts/audio-oracle.py /tmp/shiguzhai-review/browser.json
+      - run: node scripts/reference-browser.mjs /tmp/shiguzhai-reference-review
+      - run: python3 scripts/reference-artifacts.py /tmp/shiguzhai-reference-review
       - name: Review the craft bench
         shell: bash
         run: |

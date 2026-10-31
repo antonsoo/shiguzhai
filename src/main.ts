@@ -15,6 +15,7 @@ import { bellById, bells, source } from "./data";
 import { coverageKeys, escapeHtml, pitchChart, strikeDiagram } from "./drawing";
 import { illustratedReading, measurementCsv, readingSnapshot } from "./export";
 import { offlineStatus } from "./offline";
+import { mountReference } from "./reference";
 import hashes from "./source-hashes.json";
 
 const get = <T extends HTMLElement = HTMLElement>(id: string) => {
@@ -28,7 +29,7 @@ let playbackGeneration = 0;
 const compact = matchMedia("(max-width:650px)");
 get("app").innerHTML = `
 <a class="skip" href="#workshop">Skip to the measurements</a>
-<header><a class="brand" href="./">Shiguzhai <span lang="zh-Hant">石鼓寨</span></a><nav aria-label="Main"><a href="#listen">Listen</a><a href="#workshop">Compare</a><a href="#evidence">Evidence</a><a href="./shuang.html">Craft bench</a></nav></header>
+<header><a class="brand" href="./">Shiguzhai <span lang="zh-Hant">石鼓寨</span></a><nav aria-label="Main"><a href="#listen">Listen</a><a href="#workshop">Compare</a><a href="#reference">Boundaries</a><a href="#evidence">Evidence</a><a href="./shuang.html">Craft bench</a></nav></header>
 <main>
 <section class="opening" aria-labelledby="title"><div class="opening-copy"><h1 id="title">Ten bells.<br>How many notes?</h1><p>These bronze bells were made in ancient China, more than three thousand years ago. Striking a different part can bring out a different pitch.</p><p>But the surviving objects do not give us a neat row of piano keys. Hear the measured frequencies. Decide what belongs in the comparison.</p><a class="primary-link" href="#listen">Hear a bell’s two reported pitches</a></div><figure class="opening-photo"><img src="./sources/li-2024-figure-3.jpg" width="1592" height="1055" alt="The almond-shaped mouth and knob decoration of a bronze bell, CsM IX"><figcaption>CsM IX, Changsha Museum 1632.6. Photograph by Kin Sum Li, figure 3 in the <a href="${source.url}">2024 study</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption></figure></section>
 <section id="listen" class="listening" aria-labelledby="listen-title"><div class="section-heading"><h2 id="listen-title" tabindex="-1">Change the place you strike.</h2><p>A and B name strike positions, not musical notes.</p></div><div class="bell-list" id="bell-list" role="group" aria-label="Bell to inspect">${bells.map((b) => `<button type="button" data-bell="${b.id}" aria-pressed="false" aria-label="Inspect bell ${b.id}">${b.id}</button>`).join("")}</div>
@@ -37,9 +38,10 @@ get("app").innerHTML = `
 <p id="interval" class="interval"></p><div class="play-actions"><button type="button" class="primary-button" data-play="pair">Hear A then B</button><button type="button" id="stop">Stop</button><button type="button" data-play="reference">Compare B with its nearest key</button></div><p id="audio-status" role="status">Sound starts only when you press play.</p><p class="sound-boundary">You hear modern sine tones at the selected frequencies, not recordings or reconstructed bell timbre. The piano comparison uses modern equal temperament. <span id="audio-reference"></span></p><p id="frequency-priority" class="small"></p><div class="observation-play"><button type="button" data-play="observations">Hear every B value</button><p>One short tone per listed value, in table order. This sequence is a comparison, not a melody or the order of the original strikes.</p></div><button type="button" id="view-comparison" class="text-button">Find this bell in the comparison</button></div></div></section>
 <section id="workshop" class="workshop" aria-labelledby="workshop-title"><div class="section-heading"><h2 id="workshop-title" tabindex="-1">What changes when you keep every measurement?</h2><p>The source lists several frequencies for some strike positions. Keep them visible instead of making each bell fit a single modern note.</p></div>
 <div class="comparison-controls"><fieldset><legend>Which bells belong together?</legend><label><input type="radio" name="group" value="burial"> Same June 1993 find · 10 bells</label><label><input type="radio" name="group" value="decoration"> Similar knob decoration · 9 bells</label></fieldset><fieldset><legend>Which reported values do you keep?</legend><label><input type="radio" name="values" value="leading"> Leading table entries · one A and one B</label><label><input type="radio" name="values" value="all"> Every listed frequency</label></fieldset></div>
-<fieldset class="reference-control"><legend>Move the modern reference grid.</legend><div><label for="reference-pitch">A4 reference: <output id="reference-value" for="reference-pitch">440 Hz</output></label><input type="range" id="reference-pitch" min="430" max="450" step="1" value="440"><button type="button" id="reset-reference">Use the study’s 440 Hz reference</button></div><p>The hertz measurements stay fixed. Only the present-day key labels move. This slider explores a classification choice; it does not tune the ancient bells.</p></fieldset><div class="chart-summary"><p id="coverage-summary" aria-live="polite"></p><div class="chart-legend"><span><i class="a-dot" aria-hidden="true"></i> A position</span><span><i class="b-diamond" aria-hidden="true"></i> B position</span></div></div>
+<fieldset class="reference-control"><legend>Move the modern reference grid.</legend><div><label for="reference-pitch">A4 reference: <output id="reference-value" for="reference-pitch">440 Hz</output></label><input type="range" id="reference-pitch" min="430" max="450" step="0.001" value="440"><button type="button" id="reset-reference">Use the study’s 440 Hz reference</button></div><p>The hertz measurements stay fixed. Only the present-day key labels move. This slider explores a classification choice; it does not tune the ancient bells.</p></fieldset><div class="chart-summary"><p id="coverage-summary" aria-live="polite"></p><div class="chart-legend"><span><i class="a-dot" aria-hidden="true"></i> A position</span><span><i class="b-diamond" aria-hidden="true"></i> B position</span></div></div>
 <div id="pitch-chart"></div><p class="chart-help">Select a bell’s row to inspect it above. Marks use a logarithmic frequency axis; the grid is a modern reference.</p><div id="coverage-keys"></div><p class="interpretation">Nearest-key coverage is a classification, not evidence that ancient makers used equal temperament. Empty keys mean that no plotted value rounds to that key; they do not prove an ancient musician could never sound it.</p>
 <div class="try-observation"><div><h3>Find the extra key.</h3><p>Bell I’s leading B value is 283 Hz. The full list also includes 269 Hz, close to a different modern key. At the study’s 440 Hz reference, 269 Hz is only 1.9 cents below the boundary between C4 and C♯4. The source gives integer hertz values without measurement error bars. Listen, then move the modern reference grid and watch the key count change.</p></div><button type="button" id="try-low-b">Inspect bell I at 269 Hz</button></div>
+<section id="reference" class="reference-investigation" aria-labelledby="reference-title"></section>
 <details class="measurement-details"><summary>Read all reported frequencies and object identities</summary><p>Each list preserves the table’s order. The first B entry is the clearest or most often occurring according to the authors. The first A is simply the first listed. Repeated frequencies were omitted by the study: these are neither frequency occurrence counts nor a time series.</p><div class="table-scroll" role="region" tabindex="0" aria-label="Published measurements; scroll horizontally to read every column"><table><thead><tr><th>Bell</th><th>Accession</th><th>A / Hz</th><th>B / Hz</th><th>Side / cm</th></tr></thead><tbody>${bells.map((b) => `<tr><th>CsM ${b.id}</th><td>${b.accession}</td><td>${b.A.join(", ")}</td><td>${b.B.join(", ")}</td><td>${b.sideCm}</td></tr>`).join("")}</tbody></table></div></details>
 <div class="save-actions"><button type="button" id="share">Copy this reading’s link</button><button type="button" id="save-reading">Save illustrated reading</button><button type="button" id="save-wav">Save A then B (WAV)</button><button type="button" id="save-csv">Save all measurements (CSV)</button><button type="button" id="save-json">Save comparison data (JSON)</button><p id="save-status" role="status"></p></div></section>
 <section class="grouping" aria-labelledby="grouping-title"><h2 id="grouping-title">A set is a question, too.</h2><div class="grouping-copy"><p>Nine bells share a knob-covered design. Bell III looks different. All ten were found together in June 1993. Should appearance or their available pitches decide what counts as a musical set?</p><p>Li and colleagues argue for comparing the sounds as well as the objects. Their argument is an interpretation of the evidence. The switches above expose two of the choices involved.</p></div><figure class="nine-photo"><img src="./sources/li-2024-figure-5.jpg" width="1959" height="267" loading="lazy" alt="Nine knob-decorated bronze bells displayed together in the Changsha Museum"><figcaption>The nine similarly decorated bells. Kin Sum Li, figure 5, CC BY 4.0. This display photograph does not establish their ancient hanging or playing arrangement.</figcaption></figure><div class="outlier"><figure><img src="./sources/li-2024-figure-2.jpg" width="896" height="1354" loading="lazy" alt="The differently decorated bell CsM III, Changsha Museum 1633"><figcaption>CsM III, Changsha Museum 1633. Kin Sum Li, figure 2, CC BY 4.0.</figcaption></figure><div><h3>Different decoration. Still part of the find.</h3><p>Its A list is 313 and 312 Hz. Its B list extends from 306 to 350 Hz. The source’s leading B value is 350 Hz.</p><p>Neither the list’s spread nor its first entry tells us how often ancient players used each pitch. The study supplies no counts of how often each frequency occurred, and these measurements were made on the surviving bell in 2022.</p><button type="button" id="try-bell-iii">Inspect bell III’s full list</button></div></div></section>
@@ -49,6 +51,21 @@ get("app").innerHTML = `
 <section id="evidence" class="evidence" aria-labelledby="evidence-title"><h2 id="evidence-title" tabindex="-1">Keep the evidence in view.</h2><p><a href="${source.url}">${source.authors}, <cite>${source.title}</cite></a>. <cite>Heritage Science</cite> 12, 264 (2024), Table 1, page 6. The full paper, source table and credited photographs are bundled for offline reading.</p><div class="evidence-links"><a href="./sources/li-2024-shiguzhai.pdf#page=6">Open the paper at Table 1 (PDF)</a><a href="./sources/li-2024-table-1.html">Read the extracted source table (HTML)</a><button type="button" id="show-table">Show the printed table here</button></div><figure id="printed-table" hidden><svg class="source-table" viewBox="0 0 2600 1957" role="img" aria-label="Complete source Table 1, rotated clockwise for reading"><image href="./sources/li-2024-table-1.jpg" width="1957" height="2600" transform="translate(2600 0) rotate(90)"/></svg><figcaption>The entire page, rotated for reading. Its two leftmost bells are outside this exhibit’s ten-bell comparison. <a href="./sources/li-2024-table-1.jpg">Open the full page image</a>.</figcaption></figure>
 <div class="methods"><div><h3>What was measured?</h3><p>The authors report three strikes at each of two A areas and four B areas, sometimes more at B, using a wooden mallet, recording with a laptop and analyzing frequencies in Audacity. They list distinct frequencies, omitting repetitions, and identify a leading B entry as the clearest or most often occurring.</p><p>These integers are reported measurements, not error bars or known original tunings. The exact historical performance, casting intentions and effects of condition cannot be recovered from this table alone.</p></div><figure id="strike-photo"><img src="./sources/li-2024-figure-1.jpg" width="896" height="1353" loading="lazy" alt="A different bell from the 1959 find, with A and B strike areas labeled in the source photograph"><figcaption>Anatomy example: the tiger1 bell from the 1959 find, Hunan Museum 39206. It is <strong>not one of the ten plotted bells</strong>. Labels are part of the original photograph. Kin Sum Li, figure 1, CC BY 4.0.</figcaption></figure></div><p class="license-note">Photographs and article material: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, Li et al. (2024). Source data carry the article’s CC0 notice. Photographs are unchanged; the source table and footnotes are extracted and styled, and its page image is rotated in the viewer. Diagrams, calculations and teaching text are new.</p></section>
 </main><footer><a class="brand" href="./">Shiguzhai <span lang="zh-Hant">石鼓寨</span></a><span id="offline-status" role="status">Saving bells and evidence for offline use…</span><a href="https://github.com/antonsoo/shiguzhai">Source &amp; license</a></footer>`;
+
+const referenceDesk = mountReference(
+  get("reference"),
+  () => state,
+  (next, inspect = false) => {
+    stop("Modern comparison changed. The reported frequencies are unchanged.");
+    state = next;
+    update();
+    if (inspect) {
+      get("selected-title").focus();
+      get("listen").scrollIntoView();
+    }
+  },
+  download,
+);
 
 function stop(message = "Stopped.") {
   playbackGeneration++;
@@ -106,6 +123,7 @@ function update() {
     `<strong>${c.rows.length} plotted entries</strong> fall nearest to <strong>${c.keys.length} modern keys</strong> in C4–B4.`;
   get("pitch-chart").innerHTML = pitchChart(state, compact.matches);
   get("coverage-keys").innerHTML = coverageKeys(state);
+  referenceDesk.update();
   if (focusedRow)
     document
       .querySelector<HTMLElement>(`#pitch-chart [data-bell="${focusedRow}"]`)
@@ -231,7 +249,7 @@ get("share").addEventListener("click", async () => {
   try {
     await navigator.clipboard.writeText(url);
     get("save-status").textContent =
-      "Copied the selected bell, frequencies, grouping and observation choice.";
+      "Copied the selected bell, frequencies, grouping, observation choice and both modern references.";
   } catch {
     get("save-status").innerHTML =
       `<label for="reading-link">Copy this reading’s link</label><input id="reading-link" readonly value="${escapeHtml(url)}">`;
@@ -339,6 +357,17 @@ document.addEventListener("visibilitychange", () => {
   if (document.hidden) stop();
 });
 update();
-if (location.hash === "#workshop" || location.hash === "#listen")
-  requestAnimationFrame(() => get(location.hash.slice(1)).scrollIntoView());
+if (["#workshop", "#listen", "#reference", "#evidence"].includes(location.hash)) {
+  const target = get(location.hash.slice(1));
+  // Native fragment restoration can override an early smooth scroll while the
+  // module is still inserting the room. Land once after load and font layout.
+  void (async () => {
+    if (document.readyState !== "complete")
+      await new Promise<void>((resolve) =>
+        addEventListener("load", () => resolve(), { once: true }),
+      );
+    await document.fonts.ready;
+    target.scrollIntoView({ behavior: "instant" });
+  })();
+}
 void offlineStatus(get("offline-status"));

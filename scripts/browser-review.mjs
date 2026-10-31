@@ -235,10 +235,8 @@ try {
             await page.locator(`[name="values"][value="${values}"]`).check();
             for (const reference of [430, 440, 450]) {
               const range = page.locator("#reference-pitch");
-              await range.focus();
-              await page.keyboard.press("Home");
-              for (let step = 430; step < reference; step++)
-                await page.keyboard.press("ArrowRight");
+              await page.locator("#precise-a4").fill(String(reference));
+              await page.locator("#precise-a4").press("Enter");
               assert.equal(await range.inputValue(), String(reference));
               charts.push(await chart(page, group, values, reference));
             }
@@ -255,6 +253,9 @@ try {
           .evaluateAll((marks) => marks.map((m) => m.outerHTML));
         await page.locator("#reference-pitch").focus();
         await page.keyboard.press("ArrowLeft");
+        assert.equal(await page.locator("#reference-pitch").inputValue(), "439.999");
+        await page.locator("#precise-a4").fill("439");
+        await page.locator("#precise-a4").press("Enter");
         assert.equal(await page.locator("#b-frequency").inputValue(), "269");
         assert((await page.locator("#coverage-summary").innerText()).includes("9 modern keys"));
         assert.deepEqual(

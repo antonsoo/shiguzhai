@@ -1181,6 +1181,157 @@ footer {
   max-width: 95ch;
   margin-top: 12px;
 }
+.reference-investigation {
+  margin-top: 44px;
+  padding-block: 36px;
+  border-top: 2px solid var(--b);
+  border-bottom: 1px solid var(--line);
+}
+.reference-investigation .section-heading {
+  margin-bottom: 22px;
+}
+.reference-investigation h2 {
+  font-size: clamp(27px, 3vw, 39px);
+}
+.count-profile {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-block: 25px 10px;
+}
+.reference-operate {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 30px;
+  margin-block: 28px;
+}
+.reference-operate label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 650;
+}
+.reference-boundary select {
+  width: 100%;
+  font-size: 16px;
+  white-space: normal;
+}
+.boundary-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-block: 14px;
+}
+.boundary-nav button,
+.reference-numeric button {
+  font-size: 15px;
+}
+.reference-numeric {
+  border-left: 1px solid var(--line);
+  padding-left: 30px;
+}
+.reference-numeric form > div {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.reference-numeric input {
+  width: 155px;
+  padding: 8px;
+  min-height: 46px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: inherit;
+  background: white;
+}
+.reference-numeric > p {
+  margin-block: 20px 12px;
+}
+.reference-result {
+  padding: 18px 20px;
+  background: #e4eef0;
+  border-left: 4px solid var(--a);
+  font-variant-numeric: tabular-nums;
+}
+#reference-result {
+  font-weight: 650;
+}
+#reference-key-change {
+  font-size: 15px;
+}
+#changed-entries {
+  margin-top: 24px;
+}
+#changed-entries summary {
+  cursor: pointer;
+  font-weight: 650;
+  margin-bottom: 12px;
+}
+#reference-changes .table-scroll {
+  max-height: 340px;
+  margin-top: 16px;
+}
+#reference-changes th,
+#reference-changes td {
+  font-size: 15px;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+#reference-changes caption {
+  text-align: left;
+  color: var(--muted);
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+.reference-empty,
+.reference-limits {
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 15px;
+  max-width: 83ch;
+}
+.reference-downloads {
+  margin-top: 24px;
+}
+.reference-investigation button:disabled {
+  cursor: default;
+}
+@media (max-width: 650px) {
+  #reference-changes th,
+  #reference-changes td {
+    font-size: 14px;
+    padding: 12px 7px;
+  }
+  .reference-operate {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .reference-numeric {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    padding: 22px 0 0;
+  }
+  .count-profile {
+    min-height: 160px;
+  }
+  #profile-summary {
+    margin-top: 0;
+  }
+}
+@media print {
+  .reference-operate,
+  #try-boundary,
+  .reference-downloads,
+  #reference-status {
+    display: none;
+  }
+  .reference-investigation {
+    padding-block: 20px;
+    margin-top: 20px;
+  }
+  #reference-changes .table-scroll {
+    max-height: none;
+  }
+}
 @media (max-width: 650px) {
   .reference-control > div {
     gap: 8px;

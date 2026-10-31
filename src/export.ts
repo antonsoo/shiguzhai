@@ -7,8 +7,10 @@ import {
   signed,
   writeState,
 } from "./core/pitches";
+import { referenceComparison, referenceMap } from "./core/reference";
 import { bellById, bells, source } from "./data";
 import { coverageKeys, escapeHtml, pitchChart, strikeDiagram } from "./drawing";
+import { referenceReading } from "./reference-view";
 
 export function measurementCsv(): string {
   const lines = [
@@ -50,6 +52,11 @@ export function readingSnapshot(s: Reading) {
       intervalCents: centsBetween(s.a, s.b),
     },
     comparison: coverage(s),
+    referenceAnalysis: {
+      rangeHz: [430, 450],
+      ...referenceMap(s),
+      comparison: referenceComparison(s),
+    },
     limits: [
       "Reference sounds are synthesized sine tones, not recordings.",
       "Source lists omit repeated frequencies and contain no frequency occurrence counts or strike chronology.",
@@ -66,9 +73,10 @@ export function illustratedReading(s: Reading, images: Record<string, string>): 
 <h1>Ten bells. How many notes?</h1><p>Selected: CsM ${bell.id}, Changsha Museum ${bell.accession}. Shiguzhai, Hunan, China.</p><p class="note">A: ${s.a} Hz (${pitch(s.a, s.reference).name}, ${signed(pitch(s.a, s.reference).cents)} cents). B: ${s.b} Hz (${pitch(s.b, s.reference).name}, ${signed(pitch(s.b, s.reference).cents)} cents). The selected B is ${signed(centsBetween(s.a, s.b))} cents relative to A. Note names are modern reference labels, with A4 = ${s.reference} Hz. Moving this reference changes the labels, not the measured frequencies.</p>
 ${strikeDiagram()}<p>The app plays short sine tones at these frequencies. It does not reproduce the bells’ timbre or an ancient performance. The diagram locates strike areas schematically.</p>
 <h2>${s.group === "burial" ? "Ten bells from one find" : "Nine bells with similar decoration"}</h2><p>${s.values === "all" ? "Every frequency listed in the source table is retained." : "One entry per strike position is plotted: the first listed A and the clearest or most often occurring B."} ${c.rows.length} plotted entries fall nearest to ${c.keys.length} modern keys in the octave C4–B4. This classification does not prove an ancient equal-tempered scale.</p><div class="wide">${pitchChart(s, false, false)}</div><div class="phone">${pitchChart(s, true, false)}</div>${coverageKeys(s)}
+${referenceReading(s)}
 <h2>Keep the reported frequencies</h2><p>Values preserve the publisher’s order. First B entries are the clearest or most often occurring; the paper supplies neither frequency occurrence counts nor strike order. The first A entry has no equivalent explicit priority claim.</p><div class="scroll"><table><thead><tr><th>Bell / accession</th><th>A / Hz</th><th>B / Hz</th><th>In chosen group?</th></tr></thead><tbody>${bells.map((b) => `<tr><th>CsM ${b.id}<br>${b.accession}</th><td>${b.A.join(", ")}</td><td>${b.B.join(", ")}</td><td>${inGroup(b, s) ? "Yes" : "No · different decoration"}</td></tr>`).join("")}</tbody></table></div>
 <h2>Read the evidence in context</h2><p>The paper reports measurements made in August 2022 at 22 °C, using a wooden mallet and laptop recording. These are observations of surviving objects, not measurements taken in antiquity. Its authors argue that the bells could form a musical set; grouping, surviving condition and interpretation remain part of that argument.</p><p>The ten objects were found together in June 1993. The study dates their manufacture to the twelfth century BCE. Five other bells found in 1959 and two found in August 1993 make seventeen from the hill; this comparison includes only the ten with the June-find identities and full frequency lists.</p>
 <section class="source-evidence"><h2>Objects before categories</h2><figure><img src="${images["sources/li-2024-figure-5.jpg"]}" alt="Nine similarly decorated bells in a museum display"><figcaption>Nine bells with knob decoration. Li et al. (2024), figure 5. Photograph by Kin Sum Li, CC BY 4.0.</figcaption></figure><figure><img src="${images["sources/li-2024-figure-2.jpg"]}" alt="Bell CsM III with animal-mask decoration"><figcaption>The differently decorated CsM III, Changsha Museum 1633. Li et al., figure 2. Photograph by Kin Sum Li, CC BY 4.0. The complete photograph is retained.</figcaption></figure><h3>Names to carry with you</h3><p><span lang="zh-Hant">鐃</span> (<strong>náo</strong>): the mouth-up bell type studied here. <span lang="zh-Hant">鐘</span> (<strong>zhōng</strong>): bell. <span lang="zh-Hant">編鐘</span> (<strong>biānzhōng</strong>): an ordered set of bells. These are modern Mandarin readings, not reconstructed Bronze Age speech. See the app’s linked dictionaries and museum entry for the terms.</p></section>
 <section class="source-evidence"><h2>The published table</h2><p>Li et al. (2024), Table 1, page 6. This page includes two additional bells outside the ten-bell comparison. Rotated for reading; text and content unchanged.</p><svg class="source-table" viewBox="0 0 2600 1957" role="img" aria-label="Complete published source table, rotated clockwise for reading"><image href="${images["sources/li-2024-table-1.jpg"]}" width="1957" height="2600" transform="translate(2600 0) rotate(90)"/></svg><p><a href="${source.url}">${source.authors}, ${source.title}</a>, <cite>Heritage Science</cite> 12, 264 (2024). <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; the article applies CC0 to its data unless indicated otherwise.</p></section>
-<footer><p><a href="https://antonsoo.github.io/shiguzhai/${writeState(s)}#workshop">Open these settings</a>. Photos and table are embedded; this document opens offline. Code, diagrams and new teaching text: MIT, Anton Soloviev, 2026. Original photos and article material retain the attribution above.</p><details class="font-license"><summary>Embedded Chinese font: copyright and license</summary><pre>${escapeHtml(images["fonts/NotoCJK-OFL.txt"] ?? "")}</pre></details></footer></html>`;
+<footer><p><a href="https://antonsoo.github.io/shiguzhai/${writeState(s)}#workshop">Open these settings</a>. Photos and table are embedded; this document opens offline. Code, diagrams and new teaching text: MIT, Copyright (c) 2026 Anthony Mercer. Original photos and article material retain the attribution above.</p><details class="font-license"><summary>Embedded Chinese font: copyright and license</summary><pre>${escapeHtml(images["fonts/NotoCJK-OFL.txt"] ?? "")}</pre></details></footer></html>`;
 }

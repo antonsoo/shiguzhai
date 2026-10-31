@@ -32,6 +32,8 @@
     "test": "node --import tsx --test tests/*.test.ts",
     "check": "npm run lint && npm run typecheck && npm test && npm run build",
     "verify:source": "python3 scripts/source-oracle.py",
+    "verify:reference": "python3 scripts/reference-oracle.py",
+    "test:reference": "node scripts/reference-browser.mjs",
     "test:browser": "node scripts/browser-review.mjs",
     "verify:shuang-source": "python3 scripts/shuang-source-review.py",
     "test:shuang": "node scripts/shuang-browser-review.mjs"
