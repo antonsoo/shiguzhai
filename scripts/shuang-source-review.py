@@ -1,6 +1,8 @@
 """Verify retained sources, their mapped character selections, and optionally the live originals."""
 
 from datetime import datetime, timezone
+import csv
+from decimal import Decimal
 from hashlib import sha256
 import json
 from pathlib import Path
@@ -24,6 +26,18 @@ for selection in selections:
     mapping.append({"text": selection, "characterOffsetWithoutPunctuation": offset, "characters": len(characters), "editorialTerminalFullStop": selection not in raw})
 assert "舞修" in raw and "舞脩" not in raw
 assert len(tables["bells"]) == 14
+# Separately transcribed from fresh publisher pages 300-301 during the audit.
+# This compares numeric fields; it does not automate visual reading of a scan.
+fixture = list(csv.DictReader((root / "scripts/fixtures/takahashi-tables.csv").read_text().splitlines()))
+assert len(fixture) == 14
+for reference, bell in zip(fixture, tables["bells"], strict=True):
+    assert reference["id"] == bell["id"]
+    for key, value in reference.items():
+        if key == "id": continue
+        if value == "": assert bell[key] is None, (bell["id"], key)
+        elif key in ("aHz", "bHz"): assert value == bell[key], (bell["id"], key, value, bell[key])
+        else: assert Decimal(value) == Decimal(str(bell[key])), (bell["id"], key)
+
 for bell in tables["bells"]:
     assert all(bell[key] > 0 for key in ["xianchang", "zhengchang", "xianjian", "gujian", "wuxiu", "wuguang"])
     if bell["location"] == "ROM":
@@ -49,4 +63,4 @@ if online:
     pdf = request("https://www.jstage.jst.go.jp/article/ast1980/10/5/10_5_299/_pdf")
     assert sha256(pdf).hexdigest() == provenance["paper"]["pdfSha256"]
 assets = {str(p.relative_to(public)): {"bytes": p.stat().st_size, "sha256": sha256(p.read_bytes()).hexdigest()} for folder in ["fonts", "sources"] for p in sorted((public / folder).iterdir()) if p.is_file()}
-print(json.dumps({"checkedAtUtc": datetime.now(timezone.utc).isoformat(), "onlineOriginalsChecked": online, "paperPdfIdentity": provenance["paper"]["pdfSha256"], "numericalTranscriptionReview": "All 14 Table 1 rows and 24 Table 2 resonances were visually checked against the printed tables; this script does not claim OCR or automatic independent table extraction.", "bells": 14, "reportedResonances": 24, "unreportedPitchPairs": 2, "chineseRevision": provenance["chinese"]["revision"], "fullFuSectionIdentity": sha256(raw.encode()).hexdigest(), "readings": mapping, "retainedChineseCharactersAndPunctuation": len(font_data["characters"]), "fontCoverage": "All CJK characters and full-width punctuation in UI source retained by subset recipe; glyph coverage checked separately with fontTools", "assets": assets}, indent=2, ensure_ascii=False))
+print(json.dumps({"checkedAtUtc": datetime.now(timezone.utc).isoformat(), "onlineOriginalsChecked": online, "paperPdfIdentity": provenance["paper"]["pdfSha256"], "numericalTranscriptionReview": "All 14 Table 1 rows, masses, 24 Table 2 resonances and their printed cents match a separate manual fixture transcribed from the inspected fresh publisher PDF pages 300-301. No OCR or automatic visual validation is claimed.", "bells": 14, "reportedResonances": 24, "unreportedPitchPairs": 2, "chineseRevision": provenance["chinese"]["revision"], "fullFuSectionIdentity": sha256(raw.encode()).hexdigest(), "readings": mapping, "retainedChineseCharactersAndPunctuation": len(font_data["characters"]), "fontCoverage": "All CJK characters and full-width punctuation in UI source retained by subset recipe; glyph coverage checked separately with fontTools", "assets": assets}, indent=2, ensure_ascii=False))

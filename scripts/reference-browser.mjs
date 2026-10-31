@@ -47,12 +47,17 @@ const server = http.createServer(async (request, response) => {
   }
 });
 await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
-const base = `http://127.0.0.1:${server.address().port}/shiguzhai/`;
+const publicBase = process.argv[3];
+if (publicBase) assert.equal(publicBase, "https://antonsoo.github.io/shiguzhai/");
+const base = publicBase || `http://127.0.0.1:${server.address().port}/shiguzhai/`;
 const hash = (bytes) => createHash("sha256").update(bytes).digest("hex");
 const report = {
   at: new Date().toISOString(),
   scope:
-    "Local production build, two engines at desktop and 375px; native downloads, direct fragments, source identities, unchanged audio, keyboard, offline and script-disabled retained readings. No public deployment claim.",
+    (publicBase
+      ? "Canonical public site; browser networking disabled for offline checks; public origin remains online. "
+      : "Local production build. ") +
+    " two engines at desktop and 375px; native downloads, direct fragments, source identities, unchanged audio, keyboard, offline and script-disabled retained readings. Build identity is verified separately.",
   configurations: [],
 };
 

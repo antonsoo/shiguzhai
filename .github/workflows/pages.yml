@@ -23,7 +23,8 @@ jobs:
         run: |
           git fetch origin gh-pages
           git worktree add --detach "$RUNNER_TEMP/shiguzhai-pages" FETCH_HEAD
-          rsync -a --delete --exclude=.git dist/ "$RUNNER_TEMP/shiguzhai-pages/"
+          rsync -a --exclude=.git dist/ "$RUNNER_TEMP/shiguzhai-pages/"
+          # Keep prior hashed assets for a reader whose entry page is cached.
           cd "$RUNNER_TEMP/shiguzhai-pages"
           touch .nojekyll
           git config user.name "github-actions[bot]"

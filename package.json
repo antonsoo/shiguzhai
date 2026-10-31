@@ -34,6 +34,9 @@
     "verify:source": "python3 scripts/source-oracle.py",
     "verify:reference": "python3 scripts/reference-oracle.py",
     "test:reference": "node scripts/reference-browser.mjs",
+    "test:offline": "node scripts/offline-audit.mjs",
+    "test:export-recovery": "node scripts/export-recovery.mjs",
+    "verify:publisher-table": "python3 scripts/publisher-table-review.py public/sources/li-2024-shiguzhai.pdf",
     "test:browser": "node scripts/browser-review.mjs",
     "verify:shuang-source": "python3 scripts/shuang-source-review.py",
     "test:shuang": "node scripts/shuang-browser-review.mjs"
