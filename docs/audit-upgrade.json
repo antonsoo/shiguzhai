@@ -1,5 +1,5 @@
 {
-  "checkedAtUtc": "2026-10-31T23:55:55.297Z",
+  "checkedAtUtc": "2026-11-01T00:07:35.334Z",
   "priorFixture": {
     "canonicalURL": "https://antonsoo.github.io/shiguzhai/",
     "canonicalCheckedAt": "2026-10-31T23:54:33.623Z",
@@ -8,8 +8,8 @@
   },
   "currentLocalBuild": {
     "files": 37,
-    "workerSha256": "0e5aac6e989fb1f544336101200e24c39365462b3797dfd5ff8ee521dfbebe66",
-    "edition": "52f9d8829041afee36e0c6bb0fdc11d832bed074a729c7e9925468f7392711a2"
+    "workerSha256": "6f3f01bc9177ae9e0fabb4673c5c5b21c7ebb9278e972d91b28fa08e8ebce5d4",
+    "edition": "248d325e37c679cb7d6123c0e5919c8f7a68a00b0ec0a41c3533b87f4a033634"
   },
   "records": [
     {
@@ -19,7 +19,7 @@
       "delayedSourceSeconds": 5,
       "statusDuringUpdate": "Downloading the updated bells & evidence…",
       "oldRoomMismatch": "A different offline edition is saved. Reload online to finish updating.",
-      "currentEdition": "52f9d8829041afee36e0c6bb0fdc11d832bed074a729c7e9925468f7392711a2",
+      "currentEdition": "248d325e37c679cb7d6123c0e5919c8f7a68a00b0ec0a41c3533b87f4a033634",
       "onlyCurrentCacheAfterActivation": true,
       "originDisabledAfterUpgrade": true,
       "preservedReferencesAndCraftSelection": true,
@@ -31,7 +31,7 @@
         },
         {
           "room": "#save-study",
-          "sha256": "7af5a4a0ea39ebab96be9cf835b19067d95e5a19fc66de6523ed7bb1057e304d",
+          "sha256": "c845d63629e17d6669c9bb0d64e5380170fc0df201a06642c64bd097bff76442",
           "bytes": 1764704
         }
       ],
@@ -44,7 +44,7 @@
       "delayedSourceSeconds": 5,
       "statusDuringUpdate": "Downloading the updated bells & evidence…",
       "oldRoomMismatch": "A different offline edition is saved. Reload online to finish updating.",
-      "currentEdition": "52f9d8829041afee36e0c6bb0fdc11d832bed074a729c7e9925468f7392711a2",
+      "currentEdition": "248d325e37c679cb7d6123c0e5919c8f7a68a00b0ec0a41c3533b87f4a033634",
       "onlyCurrentCacheAfterActivation": true,
       "originDisabledAfterUpgrade": true,
       "preservedReferencesAndCraftSelection": true,
@@ -56,7 +56,7 @@
         },
         {
           "room": "#save-study",
-          "sha256": "987a4f2648ac48407f5e9e05a8a48e9db748704fde8005ed38515145cb73bde0",
+          "sha256": "c845d63629e17d6669c9bb0d64e5380170fc0df201a06642c64bd097bff76442",
           "bytes": 1764704
         }
       ],

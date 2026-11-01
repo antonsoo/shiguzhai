@@ -1,6 +1,6 @@
 {
-  "checkedAtUtc": "2026-10-31T23:57:20.192346+00:00",
-  "sourceCommit": "1959593a76e1e0d7685252bf8df90099b2b2a1bb",
+  "checkedAtUtc": "2026-11-01T00:07:18.637679+00:00",
+  "sourceCommit": "4bba688f955957218291616a4ddf331b293fcbbe",
   "node": "24.22.1",
   "checks": [
     "fresh git archive",
@@ -8,27 +8,27 @@
     "npm run check"
   ],
   "identicalFileCount": 37,
-  "distBytes": 5047942,
+  "distBytes": 5047951,
   "files": {
     "assets/main-C3j1J8ot.css": {
       "bytes": 16833,
       "sha256": "6c2b1e7d6039e284f634f3e9456386a5863ded8169abdd3cb329453884473bdc"
     },
-    "assets/main-DUkuPv5n.js": {
+    "assets/main-DGppJF87.js": {
       "bytes": 56895,
-      "sha256": "02431867936b158f904fbf95f48f8533fa57cdcd9b214abc01e3bfabea5f741b"
+      "sha256": "c805dec8b0d51abeb45c6e2ecd7098be47d8595403eb0a65687833fdcbb5a753"
     },
-    "assets/shuang-B-HmsU8V.js": {
-      "bytes": 47860,
-      "sha256": "d985ed1a8514544c29a9059030721601345020eeb79a44292e382ab3420cb484"
+    "assets/shuang-HrFK44WD.js": {
+      "bytes": 47858,
+      "sha256": "19afe233d58de2e4bf3bfc77f84c2bde83bc37c1c026536997c33f13fc806930"
     },
     "assets/shuang-gQwaWKKF.css": {
       "bytes": 9913,
       "sha256": "dcdf3d341402cac162ff5bab02853225de356a99eb61226cb06b3df0c0aa3171"
     },
-    "assets/verified-assets-hDJvX1c-.js": {
-      "bytes": 5751,
-      "sha256": "1babe734e10df8eaaaec58947563146096bdb35b6f848f0ad6d8ebe7de83ca93"
+    "assets/verified-assets-BPBftflI.js": {
+      "bytes": 5762,
+      "sha256": "a276dbd3229c7cc822da3a49db2e7f9b1879b1d3b06e7e71936f3bc60485df96"
     },
     "favicon.svg": {
       "bytes": 379,
@@ -52,7 +52,7 @@
     },
     "index.html": {
       "bytes": 1260,
-      "sha256": "b7b73eba5245db78dd03f4680ac4ade40773578de17718a706d85b5403aebfb2"
+      "sha256": "ae0833958adc729cafe72b86450cf6d3cda46a754aec81aeb60af3ee8f3774f0"
     },
     "shuang/favicon.svg": {
       "bytes": 285,
@@ -124,7 +124,7 @@
     },
     "shuang.html": {
       "bytes": 885,
-      "sha256": "73e0ff6a0e9d3c77fa0e58d7900257511552252f220a872ab23ae961b20275fa"
+      "sha256": "6795eb3729e217f8c712b77fe9dc7e8e4934faa590643ddfbcb791cdcfb78d10"
     },
     "sources/li-2024-figure-1.jpg": {
       "bytes": 290913,
@@ -156,8 +156,8 @@
     },
     "sw.js": {
       "bytes": 12846,
-      "sha256": "0e5aac6e989fb1f544336101200e24c39365462b3797dfd5ff8ee521dfbebe66"
+      "sha256": "6f3f01bc9177ae9e0fabb4673c5c5b21c7ebb9278e972d91b28fa08e8ebce5d4"
     }
   },
-  "scope": "Fresh source archive and install; byte-identical to local browser-reviewed production output. Publication and remote CI are separate."
+  "scope": "Clean archive and fresh install after the closing keyboard-focus and stable-attachment-order fixes. Byte-identical to the reviewed output; publication is separate."
 }

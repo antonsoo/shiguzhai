@@ -6,10 +6,11 @@
       "width": 1440,
       "room": "measurements",
       "cancelStopsLateDownload": true,
-      "bodyTimeoutMs": 12027,
+      "bodyTimeoutMs": 12040,
       "currentSelectionPreserved": true,
       "startTimeSelectionRetained": true,
       "wrong200Rejected": true,
+      "stableBytesWithDifferentResponseOrder": null,
       "pageErrors": []
     },
     {
@@ -17,10 +18,11 @@
       "width": 1440,
       "room": "craft",
       "cancelStopsLateDownload": true,
-      "bodyTimeoutMs": 12029,
+      "bodyTimeoutMs": 12026,
       "currentSelectionPreserved": true,
       "startTimeSelectionRetained": true,
       "wrong200Rejected": true,
+      "stableBytesWithDifferentResponseOrder": true,
       "pageErrors": []
     },
     {
@@ -28,10 +30,11 @@
       "width": 375,
       "room": "measurements",
       "cancelStopsLateDownload": true,
-      "bodyTimeoutMs": 12072,
+      "bodyTimeoutMs": 12044,
       "currentSelectionPreserved": true,
       "startTimeSelectionRetained": true,
       "wrong200Rejected": true,
+      "stableBytesWithDifferentResponseOrder": null,
       "pageErrors": []
     },
     {
@@ -39,10 +42,11 @@
       "width": 375,
       "room": "craft",
       "cancelStopsLateDownload": true,
-      "bodyTimeoutMs": 12029,
+      "bodyTimeoutMs": 12037,
       "currentSelectionPreserved": true,
       "startTimeSelectionRetained": true,
       "wrong200Rejected": true,
+      "stableBytesWithDifferentResponseOrder": true,
       "pageErrors": []
     },
     {
@@ -50,10 +54,11 @@
       "width": 1440,
       "room": "measurements",
       "cancelStopsLateDownload": true,
-      "bodyTimeoutMs": 12108,
+      "bodyTimeoutMs": 12049,
       "currentSelectionPreserved": true,
       "startTimeSelectionRetained": true,
       "wrong200Rejected": true,
+      "stableBytesWithDifferentResponseOrder": null,
       "pageErrors": []
     },
     {
@@ -61,10 +66,11 @@
       "width": 1440,
       "room": "craft",
       "cancelStopsLateDownload": true,
-      "bodyTimeoutMs": 12103,
+      "bodyTimeoutMs": 12149,
       "currentSelectionPreserved": true,
       "startTimeSelectionRetained": true,
       "wrong200Rejected": true,
+      "stableBytesWithDifferentResponseOrder": true,
       "pageErrors": []
     },
     {
@@ -72,10 +78,11 @@
       "width": 375,
       "room": "measurements",
       "cancelStopsLateDownload": true,
-      "bodyTimeoutMs": 12163,
+      "bodyTimeoutMs": 12149,
       "currentSelectionPreserved": true,
       "startTimeSelectionRetained": true,
       "wrong200Rejected": true,
+      "stableBytesWithDifferentResponseOrder": null,
       "pageErrors": []
     },
     {
@@ -83,10 +90,11 @@
       "width": 375,
       "room": "craft",
       "cancelStopsLateDownload": true,
-      "bodyTimeoutMs": 12123,
+      "bodyTimeoutMs": 12920,
       "currentSelectionPreserved": true,
       "startTimeSelectionRetained": true,
       "wrong200Rejected": true,
+      "stableBytesWithDifferentResponseOrder": true,
       "pageErrors": []
     }
   ]

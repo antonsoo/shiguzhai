@@ -42,6 +42,20 @@ identified independently in [the upgrade receipt](audit-upgrade.json).
 The new actions use each room's existing design. Both repair states passed the
 full automated accessibility scan and the checked horizontal-overflow bounds.
 
+## Closing review: keyboard recovery and stable exports
+
+The first public recovery check exposed a further focus problem. On reconnect,
+inspection briefly hid the repair button while it displayed a checking message.
+That discarded keyboard focus before Enter could initiate repair. Rechecks now
+keep an existing action in place. Both local and public recovery reviews require
+focus to survive disconnect/reconnect and operate the action with Enter.
+
+The craft study's verified attachments also arrived in response-completion order.
+Their contents were correct, but the full HTML could differ between identical
+selections. Collection now preserves the declared asset order. The export review
+holds different assets until last and requires the complete resulting HTML bytes
+to remain identical. The current retained examples include this correction.
+
 ## Recovery evidence
 
 [Worker audit](audit-offline.json) exercises actual cache substitution and
@@ -122,8 +136,7 @@ measured WAV tones**, with silent gaps and envelopes checked separately.
 [Fresh Node 24 build](audit-clean-build.json): a source archive, fresh `npm ci`
 and `npm run check` produced all **37 files byte-identically** to the reviewed
 production output. This includes thirteen unit checks, lint and type checking.
-The later HTTP-fixture correction changes verification code, with no production
-input change. Local checks, source synchronization, hosted bytes, browser
+The closing build includes the keyboard-focus and stable-export-order repairs. Local checks, source synchronization, hosted bytes, browser
 behavior and remote CI are separate claims.
 
 ## Reproduce

@@ -1,8 +1,8 @@
 {
-  "at": "2026-10-31T23:57:10.202Z",
+  "at": "2026-11-01T00:05:41.993Z",
   "scope": "Local production worker; actual source corruption, two open rooms, cache eviction, repair, server errors/stalls, interrupted installation and stale repair across replacement. The next fixture changes build identity only.",
-  "edition": "52f9d8829041afee36e0c6bb0fdc11d832bed074a729c7e9925468f7392711a2",
-  "nextEdition": "9278c7cc927252550c072755bd11918c2895273dd06a0be7feb82fce2255436f",
+  "edition": "248d325e37c679cb7d6123c0e5919c8f7a68a00b0ec0a41c3533b87f4a033634",
+  "nextEdition": "b16e0c1d567c09ae2347e25089937d0d3c10362433eaead7acde89c778b14302",
   "configurations": [
     {
       "engine": "chromium",
@@ -12,54 +12,55 @@
       "bothRoomsInvalidatedAndRestored": true,
       "repairStateAccessibilityViolations": 0,
       "repairStateOverflow": false,
+      "reconnectPreservesRepairFocus": true,
       "wholeCacheEvictionAndSharedRepair": true,
       "navigation": [
         {
           "room": "index.html",
           "mode": "error",
-          "elapsedMs": 80,
+          "elapsedMs": 101,
           "injectedRequests": 1
         },
         {
           "room": "index.html",
           "mode": "maintenance",
-          "elapsedMs": 74,
+          "elapsedMs": 124,
           "injectedRequests": 1
         },
         {
           "room": "index.html",
           "mode": "stall",
-          "elapsedMs": 2098,
+          "elapsedMs": 2139,
           "injectedRequests": 1
         },
         {
           "room": "index.html",
           "mode": "body-stall",
-          "elapsedMs": 2101,
+          "elapsedMs": 2104,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "error",
-          "elapsedMs": 53,
+          "elapsedMs": 81,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "maintenance",
-          "elapsedMs": 61,
+          "elapsedMs": 82,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "stall",
-          "elapsedMs": 2073,
+          "elapsedMs": 2102,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "body-stall",
-          "elapsedMs": 2069,
+          "elapsedMs": 2104,
           "injectedRequests": 1
         }
       ],
@@ -74,54 +75,55 @@
       "bothRoomsInvalidatedAndRestored": true,
       "repairStateAccessibilityViolations": 0,
       "repairStateOverflow": false,
+      "reconnectPreservesRepairFocus": true,
       "wholeCacheEvictionAndSharedRepair": true,
       "navigation": [
         {
           "room": "index.html",
           "mode": "error",
-          "elapsedMs": 90,
+          "elapsedMs": 144,
           "injectedRequests": 1
         },
         {
           "room": "index.html",
           "mode": "maintenance",
-          "elapsedMs": 147,
+          "elapsedMs": 120,
           "injectedRequests": 1
         },
         {
           "room": "index.html",
           "mode": "stall",
-          "elapsedMs": 2101,
+          "elapsedMs": 2198,
           "injectedRequests": 1
         },
         {
           "room": "index.html",
           "mode": "body-stall",
-          "elapsedMs": 2124,
+          "elapsedMs": 2139,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "error",
-          "elapsedMs": 79,
+          "elapsedMs": 62,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "maintenance",
-          "elapsedMs": 67,
+          "elapsedMs": 96,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "stall",
-          "elapsedMs": 2068,
+          "elapsedMs": 2071,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "body-stall",
-          "elapsedMs": 2077,
+          "elapsedMs": 2081,
           "injectedRequests": 1
         }
       ],
@@ -144,54 +146,55 @@
       "bothRoomsInvalidatedAndRestored": true,
       "repairStateAccessibilityViolations": 0,
       "repairStateOverflow": false,
+      "reconnectPreservesRepairFocus": true,
       "wholeCacheEvictionAndSharedRepair": true,
       "navigation": [
         {
           "room": "index.html",
           "mode": "error",
-          "elapsedMs": 238,
+          "elapsedMs": 137,
           "injectedRequests": 1
         },
         {
           "room": "index.html",
           "mode": "maintenance",
-          "elapsedMs": 177,
+          "elapsedMs": 121,
           "injectedRequests": 1
         },
         {
           "room": "index.html",
           "mode": "stall",
-          "elapsedMs": 2206,
+          "elapsedMs": 2114,
           "injectedRequests": 1
         },
         {
           "room": "index.html",
           "mode": "body-stall",
-          "elapsedMs": 2401,
+          "elapsedMs": 2158,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "error",
-          "elapsedMs": 120,
+          "elapsedMs": 84,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "maintenance",
-          "elapsedMs": 150,
+          "elapsedMs": 81,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "stall",
-          "elapsedMs": 2306,
+          "elapsedMs": 2270,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "body-stall",
-          "elapsedMs": 2184,
+          "elapsedMs": 2112,
           "injectedRequests": 1
         }
       ],
@@ -206,54 +209,55 @@
       "bothRoomsInvalidatedAndRestored": true,
       "repairStateAccessibilityViolations": 0,
       "repairStateOverflow": false,
+      "reconnectPreservesRepairFocus": true,
       "wholeCacheEvictionAndSharedRepair": true,
       "navigation": [
         {
           "room": "index.html",
           "mode": "error",
-          "elapsedMs": 104,
+          "elapsedMs": 107,
           "injectedRequests": 1
         },
         {
           "room": "index.html",
           "mode": "maintenance",
-          "elapsedMs": 99,
+          "elapsedMs": 116,
           "injectedRequests": 1
         },
         {
           "room": "index.html",
           "mode": "stall",
-          "elapsedMs": 2156,
+          "elapsedMs": 2157,
           "injectedRequests": 1
         },
         {
           "room": "index.html",
           "mode": "body-stall",
-          "elapsedMs": 2189,
+          "elapsedMs": 2140,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "error",
-          "elapsedMs": 105,
+          "elapsedMs": 73,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "maintenance",
-          "elapsedMs": 89,
+          "elapsedMs": 82,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "stall",
-          "elapsedMs": 2075,
+          "elapsedMs": 2310,
           "injectedRequests": 1
         },
         {
           "room": "shuang.html",
           "mode": "body-stall",
-          "elapsedMs": 2079,
+          "elapsedMs": 2135,
           "injectedRequests": 1
         }
       ],
