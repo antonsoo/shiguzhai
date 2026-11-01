@@ -219,6 +219,15 @@ try {
             path: path.join(output, `${engine}-${width}-${room}-repair.png`),
           });
         }
+        await page.locator("#offline-repair").focus();
+        await context.setOffline(true);
+        await context.setOffline(false);
+        await page.waitForTimeout(150);
+        assert.equal(
+          await page.evaluate(() => document.activeElement.id),
+          "offline-repair",
+          "Rechecking availability must preserve keyboard focus",
+        );
         wrongFile = "sources/li-2024-table-1.jpg";
         await page.locator("#offline-repair").click();
         await page.waitForFunction(() => !document.querySelector("#offline-repair").disabled);
@@ -319,6 +328,7 @@ try {
           bothRoomsInvalidatedAndRestored: true,
           repairStateAccessibilityViolations: 0,
           repairStateOverflow: false,
+          reconnectPreservesRepairFocus: true,
           wholeCacheEvictionAndSharedRepair: true,
           navigation,
           offlineNativeReadingSha256: hash(Buffer.from(saved)),

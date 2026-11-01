@@ -37,14 +37,16 @@ function base64(bytes: Uint8Array) {
   return btoa(binary);
 }
 async function collect(signal?: AbortSignal) {
-  const data: Record<string, Uint8Array> = {};
-  await Promise.all(
-    Object.entries(assets).map(async ([name, expected]) => {
-      const bytes = new Uint8Array(await verifiedBytes(`shuang/${name}`, expected, signal));
-      data[name] = bytes;
-    }),
+  // Promise.all preserves input order; response timing must not reorder the
+  // retained downloads and change an otherwise identical reading's bytes.
+  return Object.fromEntries(
+    await Promise.all(
+      Object.entries(assets).map(
+        async ([name, expected]) =>
+          [name, new Uint8Array(await verifiedBytes(`shuang/${name}`, expected, signal))] as const,
+      ),
+    ),
   );
-  return data;
 }
 export async function studyHTML(s: State, signal?: AbortSignal) {
   const data = await collect(signal),

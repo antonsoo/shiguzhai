@@ -96,7 +96,9 @@ export async function offlineStatus(element: HTMLElement) {
       );
       return;
     }
-    if (!quiet) show("Checking the saved bells & evidence…");
+    // Keep an existing recovery action in place during a recheck. Hiding a
+    // focused button on the online/focus event would discard keyboard focus.
+    if (!quiet && action.hidden) show("Checking the saved bells & evidence…");
     try {
       const saved = await message(worker, false);
       if (attempt !== request || worker !== navigator.serviceWorker.controller) return;

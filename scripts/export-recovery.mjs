@@ -121,6 +121,18 @@ try {
             assert.equal(await page.locator("#rule").inputValue(), "fixed");
             assert(html.includes("Copyright (c) 2026 Anthony Mercer"));
             assert(!html.includes("Anton Soloviev"));
+            // Release a different retained file last, restore the same starting
+            // selection and require the complete native artifact to stay exact.
+            await page.locator("#rule").selectOption("successive");
+            heldFile = "shuang/sources/CODE-LICENSE.txt";
+            const again = page.waitForEvent("download");
+            await page.locator(save).click();
+            await page.waitForTimeout(150);
+            release();
+            const repeated = await again;
+            assert.equal(await repeated.failure(), null);
+            assert.equal(await readFile(await repeated.path(), "utf8"), html);
+            await page.locator("#rule").selectOption("fixed");
           } else {
             assert(html.includes("Current A4 439.524 Hz: 10 keys"));
             assert.equal(await page.locator("#precise-a4").inputValue(), "439.6");
@@ -146,6 +158,7 @@ try {
             currentSelectionPreserved: true,
             startTimeSelectionRetained: true,
             wrong200Rejected: true,
+            stableBytesWithDifferentResponseOrder: craft ? true : null,
             pageErrors: errors,
           });
           await context.close();
