@@ -4,10 +4,10 @@ This extends the original Shiguzhai comparison in its existing room. Select
 **Boundaries**, then **Try the 269 Hz boundary**. It keeps all the reported
 frequencies fixed while changing the modern grid used to name them.
 
-The implementation and examples have been reviewed locally. Publication of
-this addition is reserved for the coordinator by `HOUSE_STANDARDS.md`. An
-existing public page can therefore differ from this checkout. No deployment,
-remote CI result or registry release is claimed here.
+This records the initial local review before publication. The later
+[failure-recovery audit](reference-audit.md) and
+[dated public delivery review](reference-publication.md) establish their own
+source, build, browser and deployment boundaries.
 
 ## What a learner can do
 

@@ -1,0 +1,111 @@
+{
+  "checkedAtUtc": "2026-11-01T00:10:40.057Z",
+  "base": "https://antonsoo.github.io/shiguzhai/",
+  "records": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "edition": "248d325e37c679cb7d6123c0e5919c8f7a68a00b0ec0a41c3533b87f4a033634",
+      "bothRoomsInvalidate": true,
+      "disconnectedRepairCannotClaimSuccess": true,
+      "keyboardRepairFromCanonicalOrigin": true,
+      "reconnectPreservesRepairFocus": true,
+      "restoredSourceSha256": "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968",
+      "bothRoomsReloadAndExportOffline": true,
+      "settingsPreserved": true,
+      "downloads": [
+        {
+          "artifact": "chromium-1440-reading.html",
+          "bytes": 1316919,
+          "sha256": "0033c4ed95cb5bdaa22dcf7a0cb00b66b922df9d19ba37d27d76f61a0ccd17d8"
+        },
+        {
+          "artifact": "chromium-1440-study.html",
+          "bytes": 1764704,
+          "sha256": "c845d63629e17d6669c9bb0d64e5380170fc0df201a06642c64bd097bff76442"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "edition": "248d325e37c679cb7d6123c0e5919c8f7a68a00b0ec0a41c3533b87f4a033634",
+      "bothRoomsInvalidate": true,
+      "disconnectedRepairCannotClaimSuccess": true,
+      "keyboardRepairFromCanonicalOrigin": true,
+      "reconnectPreservesRepairFocus": true,
+      "restoredSourceSha256": "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968",
+      "bothRoomsReloadAndExportOffline": true,
+      "settingsPreserved": true,
+      "downloads": [
+        {
+          "artifact": "chromium-375-reading.html",
+          "bytes": 1316919,
+          "sha256": "0033c4ed95cb5bdaa22dcf7a0cb00b66b922df9d19ba37d27d76f61a0ccd17d8"
+        },
+        {
+          "artifact": "chromium-375-study.html",
+          "bytes": 1764704,
+          "sha256": "c845d63629e17d6669c9bb0d64e5380170fc0df201a06642c64bd097bff76442"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "edition": "248d325e37c679cb7d6123c0e5919c8f7a68a00b0ec0a41c3533b87f4a033634",
+      "bothRoomsInvalidate": true,
+      "disconnectedRepairCannotClaimSuccess": true,
+      "keyboardRepairFromCanonicalOrigin": true,
+      "reconnectPreservesRepairFocus": true,
+      "restoredSourceSha256": "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968",
+      "bothRoomsReloadAndExportOffline": true,
+      "settingsPreserved": true,
+      "downloads": [
+        {
+          "artifact": "firefox-1440-reading.html",
+          "bytes": 1316919,
+          "sha256": "0033c4ed95cb5bdaa22dcf7a0cb00b66b922df9d19ba37d27d76f61a0ccd17d8"
+        },
+        {
+          "artifact": "firefox-1440-study.html",
+          "bytes": 1764704,
+          "sha256": "c845d63629e17d6669c9bb0d64e5380170fc0df201a06642c64bd097bff76442"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "edition": "248d325e37c679cb7d6123c0e5919c8f7a68a00b0ec0a41c3533b87f4a033634",
+      "bothRoomsInvalidate": true,
+      "disconnectedRepairCannotClaimSuccess": true,
+      "keyboardRepairFromCanonicalOrigin": true,
+      "reconnectPreservesRepairFocus": true,
+      "restoredSourceSha256": "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968",
+      "bothRoomsReloadAndExportOffline": true,
+      "settingsPreserved": true,
+      "downloads": [
+        {
+          "artifact": "firefox-375-reading.html",
+          "bytes": 1316919,
+          "sha256": "0033c4ed95cb5bdaa22dcf7a0cb00b66b922df9d19ba37d27d76f61a0ccd17d8"
+        },
+        {
+          "artifact": "firefox-375-study.html",
+          "bytes": 1764704,
+          "sha256": "c845d63629e17d6669c9bb0d64e5380170fc0df201a06642c64bd097bff76442"
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "scope": "Canonical public site, no response interception. Only this isolated browser context's Cache Storage is modified. A disconnected repair is refused; reconnecting repairs from the real origin. Offline closes all local CONNECT tunnels and refuses new network connections, in addition to context.setOffline. TLS source content is not intercepted or substituted; only the private Cache Storage mutation is synthetic."
+}

@@ -1,0 +1,163 @@
+{
+  "at": "2026-11-01T00:08:44.753Z",
+  "sourceCommit": "fa723942669e0b9b18c2b1c5e214d16d6529a434",
+  "remoteMain": "fa723942669e0b9b18c2b1c5e214d16d6529a434",
+  "cleanWorktree": true,
+  "records": [
+    {
+      "file": "docs/audit-after.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-after.json",
+      "bytes": 2504,
+      "sha256": "da683b199f00fa57e80c95e9f734b433be6157f395759906dcb05ef2cc7a2fc1",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/audit-audio-oracle.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-audio-oracle.json",
+      "bytes": 2687,
+      "sha256": "14f0c7db5aa99ab250be513baa3edef5ed732684fa22472eb9c8c871625a21fa",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/audit-before.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-before.json",
+      "bytes": 1614,
+      "sha256": "a6ef22d8aa597e3eb8017ceff8529029bda153cbcc311f8a96d0bdb873967db8",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/audit-clean-build.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-clean-build.json",
+      "bytes": 6002,
+      "sha256": "0f745a8c4f4475eed4087da6cef9af0d3bf9c9cda28a9a44c9d43b20dd33d095",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/audit-craft-browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-craft-browser.json",
+      "bytes": 6959,
+      "sha256": "4a61fe3cca6a44e6313acea1cefa064073042a88ddf87f348a6a74c5e20eac6e",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/audit-craft-print.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-craft-print.json",
+      "bytes": 542,
+      "sha256": "0a4ad9e21866f2155038b1ad1268a1567910ce7007e33c9f40dc331d4619013d",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/audit-export-recovery.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-export-recovery.json",
+      "bytes": 2972,
+      "sha256": "6628df10c5eef8c76b67cec7107f53e2453f7594f5f284835d745cd0da9cec2d",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/audit-offline.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-offline.json",
+      "bytes": 7793,
+      "sha256": "e89f408a628de1333ca786b99fcab5fbfb0b17998e76d7d591801f8073210be3",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/audit-prior-public.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-prior-public.json",
+      "bytes": 16968,
+      "sha256": "a3c1278b5460656ab9bc5804a75157e07914478f1dd9a32976b6190ca038e5c3",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/audit-publisher-table.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-publisher-table.json",
+      "bytes": 2403,
+      "sha256": "ab20ea773936975f0d5f1c707202c805861617dab8b267a1a6c898893b724027",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/audit-reference-artifacts.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-reference-artifacts.json",
+      "bytes": 1470,
+      "sha256": "a9b11aa522e057ab75bd8ff6447a3b494746b03d6f8d15851a8f796bd3855ddb",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/audit-reference-browser.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-reference-browser.json",
+      "bytes": 8172,
+      "sha256": "36230c40427820890b0725aa6a27b1ca367c62fe8fac88532998779057331023",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/audit-reference-oracle.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-reference-oracle.json",
+      "bytes": 1209,
+      "sha256": "1a81b3b2b9215ec17ae69c3edfad466732baa9594ebc60a4527b3705240fbd5d",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/audit-rendered-oracle.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-rendered-oracle.json",
+      "bytes": 307,
+      "sha256": "eef259de6f278eb557f44bf301830bf88940c0ab1e20f5f07c34fb64d8ff84b9",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/audit-shuang-sources.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-shuang-sources.json",
+      "bytes": 4349,
+      "sha256": "555d9adb2dbbb244b5536a5767006001e8dbe180f58206700768cff930dbdbfd",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/audit-upgrade.json",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/audit-upgrade.json",
+      "bytes": 2751,
+      "sha256": "2b0bef5cc024fa60f4716e9abde0811f4c173d47c492e2a95d6bef6b054bb7ca",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/reference-audit.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/reference-audit.md",
+      "bytes": 11564,
+      "sha256": "cea2c102b80b4ae2ece3e6cb9b934a5d04769869228fbf794aff00f8dd20f52f",
+      "byteEqual": true
+    },
+    {
+      "file": "docs/reference-review.md",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/docs/reference-review.md",
+      "bytes": 11003,
+      "sha256": "d1150c47b730d3da706708cc9641cc7e472e0ad9d31592689a2b61c90469eff4",
+      "byteEqual": true
+    },
+    {
+      "file": "examples/reference-reading.html.gz",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/examples/reference-reading.html.gz",
+      "bytes": 893913,
+      "sha256": "03422673e73d2073e7253267f795a8e28221829a685de02f6649010ada23654f",
+      "byteEqual": true
+    },
+    {
+      "file": "examples/shuang-study.html",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/examples/shuang-study.html",
+      "bytes": 1764702,
+      "sha256": "0b6c8ff478fc2f0a17c0fefbc88f47a499892b8be1a4daa83d60c7d61fcd8f4c",
+      "byteEqual": true
+    },
+    {
+      "file": "examples/shuang-study.pdf",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/examples/shuang-study.pdf",
+      "bytes": 1063721,
+      "sha256": "359970cd22261451a5042f3fa372bce4eae2e7067f05370e1131aa247bd41477",
+      "byteEqual": true
+    },
+    {
+      "file": "scripts/fixtures/takahashi-tables.csv",
+      "url": "https://raw.githubusercontent.com/antonsoo/shiguzhai/fa723942669e0b9b18c2b1c5e214d16d6529a434/scripts/fixtures/takahashi-tables.csv",
+      "bytes": 869,
+      "sha256": "466f28cbdcbbdc2604ad2245797456d095a08cabdd10342722bdbdf650f48fc1",
+      "byteEqual": true
+    }
+  ],
+  "scope": "Pinned public source snapshot verified before publication receipts were added. Documentation-only commits can follow without changing the reviewed build."
+}

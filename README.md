@@ -77,9 +77,11 @@ retains the source photographs, complete table page and font for offline use.
 [Comparison SVG](examples/reference-comparison.svg) ·
 [Comparison JSON](examples/reference-comparison.json).
 
-Decompress the HTML before opening it. The app saves an ordinary HTML file.
-This addition is reviewed locally; the existing public demo can use an earlier
-edition. The source paper's interpretation of a musical set remains distinct
+[Open the exact boundary comparison](https://antonsoo.github.io/shiguzhai/?bell=I&a=280&b=269&group=burial&values=all&reference=439.524&against=439.523#reference).
+Decompress the retained HTML example before opening it; the app saves an ordinary
+HTML file. [Public delivery review](docs/reference-publication.md) records the
+canonical bytes, actual browser operations and recovery with network connections
+refused. The source paper's interpretation of a musical set remains distinct
 from this modern sensitivity calculation.
 
 ## What is here

@@ -1,0 +1,49 @@
+{
+  "scope": "Actual downloaded CSV/SVG and actual printed PDF, not regenerated examples",
+  "cases": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "sourceEntries": 87,
+      "csvIntervals": 55,
+      "csvBoundaryEntries": 73,
+      "svgSegments": 55,
+      "csvSha256": "f91efb1eaff494d1b6d1e4efffcd477bcdbd684a5b68a2b6dc2346102f9a9389"
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "sourceEntries": 87,
+      "csvIntervals": 55,
+      "csvBoundaryEntries": 73,
+      "svgSegments": 55,
+      "csvSha256": "f91efb1eaff494d1b6d1e4efffcd477bcdbd684a5b68a2b6dc2346102f9a9389"
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "sourceEntries": 87,
+      "csvIntervals": 55,
+      "csvBoundaryEntries": 73,
+      "svgSegments": 55,
+      "csvSha256": "f91efb1eaff494d1b6d1e4efffcd477bcdbd684a5b68a2b6dc2346102f9a9389"
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "sourceEntries": 87,
+      "csvIntervals": 55,
+      "csvBoundaryEntries": 73,
+      "svgSegments": 55,
+      "csvSha256": "f91efb1eaff494d1b6d1e4efffcd477bcdbd684a5b68a2b6dc2346102f9a9389"
+    }
+  ],
+  "pdf": {
+    "pages": 5,
+    "keyPassagesPresent": true,
+    "extractedWordsInsidePages": true,
+    "tagged": false,
+    "sha256": "b1944605f0a71116a2a2d143e745025f5aa9c4b4fabac10d2e11b9220cf8fbdf"
+  },
+  "limits": "PDF is untagged; physical printing is unverified. Reported integer frequencies carry no inferred error bars."
+}
