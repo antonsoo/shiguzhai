@@ -1,0 +1,163 @@
+{
+  "checkedAtUtc": "2026-10-31T23:57:20.192346+00:00",
+  "sourceCommit": "1959593a76e1e0d7685252bf8df90099b2b2a1bb",
+  "node": "24.22.1",
+  "checks": [
+    "fresh git archive",
+    "npm ci",
+    "npm run check"
+  ],
+  "identicalFileCount": 37,
+  "distBytes": 5047942,
+  "files": {
+    "assets/main-C3j1J8ot.css": {
+      "bytes": 16833,
+      "sha256": "6c2b1e7d6039e284f634f3e9456386a5863ded8169abdd3cb329453884473bdc"
+    },
+    "assets/main-DUkuPv5n.js": {
+      "bytes": 56895,
+      "sha256": "02431867936b158f904fbf95f48f8533fa57cdcd9b214abc01e3bfabea5f741b"
+    },
+    "assets/shuang-B-HmsU8V.js": {
+      "bytes": 47860,
+      "sha256": "d985ed1a8514544c29a9059030721601345020eeb79a44292e382ab3420cb484"
+    },
+    "assets/shuang-gQwaWKKF.css": {
+      "bytes": 9913,
+      "sha256": "dcdf3d341402cac162ff5bab02853225de356a99eb61226cb06b3df0c0aa3171"
+    },
+    "assets/verified-assets-hDJvX1c-.js": {
+      "bytes": 5751,
+      "sha256": "1babe734e10df8eaaaec58947563146096bdb35b6f848f0ad6d8ebe7de83ca93"
+    },
+    "favicon.svg": {
+      "bytes": 379,
+      "sha256": "b78fd707d8a0d882b7e1442decf6dd4cce1c1ffb1ccffb9f27c1d74d3a214d4c"
+    },
+    "fonts/Atkinson-OFL.txt": {
+      "bytes": 4431,
+      "sha256": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030"
+    },
+    "fonts/AtkinsonHyperlegibleNext.ttf": {
+      "bytes": 114552,
+      "sha256": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745"
+    },
+    "fonts/NotoCJK-OFL.txt": {
+      "bytes": 4353,
+      "sha256": "a01a391b3cc44676298e459fca4a0afdac011d2219fecbe7bb8f6a0f7ece23e4"
+    },
+    "fonts/NotoSansCJK-subset.woff2": {
+      "bytes": 7628,
+      "sha256": "6cdf4a4357f72b5de6e63f76919dfcec1eff5b929f03b4d8f49de16f91740877"
+    },
+    "index.html": {
+      "bytes": 1260,
+      "sha256": "b7b73eba5245db78dd03f4680ac4ade40773578de17718a706d85b5403aebfb2"
+    },
+    "shuang/favicon.svg": {
+      "bytes": 285,
+      "sha256": "38bc37ca370dde3b1b5417d690feed16c27816566f78ad465754e22bb02fa499"
+    },
+    "shuang/fonts/Atkinson-OFL.txt": {
+      "bytes": 4431,
+      "sha256": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030"
+    },
+    "shuang/fonts/AtkinsonHyperlegibleNext.ttf": {
+      "bytes": 114552,
+      "sha256": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745"
+    },
+    "shuang/fonts/IBMPlex-OFL.txt": {
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    "shuang/fonts/IBMPlexSans-Regular.woff2": {
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    "shuang/fonts/IBMPlexSans-SemiBold.woff2": {
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    "shuang/fonts/NotoCJK-OFL.txt": {
+      "bytes": 4346,
+      "sha256": "af55b908a0ccf969b7bdd0e6cac6f4866a7ed0d1aeb9c7b29516ca0d24422981"
+    },
+    "shuang/fonts/NotoCJK-provenance.json": {
+      "bytes": 671,
+      "sha256": "e4f3f5d7d782e566f36e874603b6d0ea046c0409812ee5dd3c2b3e1268ac401c"
+    },
+    "shuang/fonts/NotoSansCJK-subset.woff2": {
+      "bytes": 17200,
+      "sha256": "b084f45e8c181e3c9112b595f4ba5cd23dcb07a7ec41c4e40eb413fac83fa5de"
+    },
+    "shuang/sources/CC-BY-SA-4.0.txt": {
+      "bytes": 20138,
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    },
+    "shuang/sources/CODE-LICENSE.txt": {
+      "bytes": 1071,
+      "sha256": "f4cec46403514e2601f3b917ad36bfc8cd9a6d97359ac2f9bb554d2062a251eb"
+    },
+    "shuang/sources/NOTICES.txt": {
+      "bytes": 3072,
+      "sha256": "3e2432af1b3c84382c939fcd30ff900f15a8a05d066a8a27b0d1c7b93b3b602e"
+    },
+    "shuang/sources/cleveland-1962.44.jpg": {
+      "bytes": 26775,
+      "sha256": "810cc1016b40d1d9fd6b039292743092e68be934a64b02c4e960db5fc74a15ab"
+    },
+    "shuang/sources/kaogongji-fu-revision-2159477.txt": {
+      "bytes": 910,
+      "sha256": "3d777cae80cbfcc25ad00d720a2e192c6a5e7bf4f43fbfa7b35f3e55e669254b"
+    },
+    "shuang/sources/kaogongji-selections.txt": {
+      "bytes": 783,
+      "sha256": "0ed797e195ff3b2a4798e87f847e1796af99b953d92d3216f3fbfc930dc05592"
+    },
+    "shuang/sources/measurements.json": {
+      "bytes": 4948,
+      "sha256": "d195502f8197b135e3fe44c8d20f11ee48e6cadfd260366b8b125e70585c3367"
+    },
+    "shuang/sources/provenance.json": {
+      "bytes": 2303,
+      "sha256": "e9d7e72013d98202545f3520fa9aa00ac101b7ba687e446b7784f2d02d8cd72a"
+    },
+    "shuang.html": {
+      "bytes": 885,
+      "sha256": "73e0ff6a0e9d3c77fa0e58d7900257511552252f220a872ab23ae961b20275fa"
+    },
+    "sources/li-2024-figure-1.jpg": {
+      "bytes": 290913,
+      "sha256": "0eee43d9543d83eafd2d9533f2e969355951575f9d68d39142879b25398f6a4b"
+    },
+    "sources/li-2024-figure-2.jpg": {
+      "bytes": 313023,
+      "sha256": "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63"
+    },
+    "sources/li-2024-figure-3.jpg": {
+      "bytes": 424211,
+      "sha256": "3ff569a427d00d181217ce7b03924d3b44e9929b6cd4ea853786c413264c84bf"
+    },
+    "sources/li-2024-figure-5.jpg": {
+      "bytes": 106243,
+      "sha256": "f01c769b4e8781a16ccbcbf8e8ba77ce6cceb5ee19c4e6c6f2567f534708c13d"
+    },
+    "sources/li-2024-shiguzhai.pdf": {
+      "bytes": 2762411,
+      "sha256": "431eacc7f75f338349109161f320bd9f1a6e22da7b13db33fab5f759cbb72edd"
+    },
+    "sources/li-2024-table-1.html": {
+      "bytes": 15392,
+      "sha256": "0afa79c6b8354480cd9a9e697536d3f4fc47b2af8d261825442247bf3673cfe2"
+    },
+    "sources/li-2024-table-1.jpg": {
+      "bytes": 516142,
+      "sha256": "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968"
+    },
+    "sw.js": {
+      "bytes": 12846,
+      "sha256": "0e5aac6e989fb1f544336101200e24c39365462b3797dfd5ff8ee521dfbebe66"
+    }
+  },
+  "scope": "Fresh source archive and install; byte-identical to local browser-reviewed production output. Publication and remote CI are separate."
+}

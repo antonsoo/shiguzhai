@@ -1,0 +1,67 @@
+{
+  "checkedAtUtc": "2026-10-31T23:55:55.297Z",
+  "priorFixture": {
+    "canonicalURL": "https://antonsoo.github.io/shiguzhai/",
+    "canonicalCheckedAt": "2026-10-31T23:54:33.623Z",
+    "files": 37,
+    "workerSha256": "b6f0f22a80514f8e0b7ff19af0cbfa022c452b7c1d7b2db195f2fb93eaac7430"
+  },
+  "currentLocalBuild": {
+    "files": 37,
+    "workerSha256": "0e5aac6e989fb1f544336101200e24c39365462b3797dfd5ff8ee521dfbebe66",
+    "edition": "52f9d8829041afee36e0c6bb0fdc11d832bed074a729c7e9925468f7392711a2"
+  },
+  "records": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "priorHostedEdition": "28e1c48dd70266cb81c6e63f7727d72f53ab2ace85d200e09a7f69b1a0eb1f65",
+      "delayedSourceSeconds": 5,
+      "statusDuringUpdate": "Downloading the updated bells & evidence…",
+      "oldRoomMismatch": "A different offline edition is saved. Reload online to finish updating.",
+      "currentEdition": "52f9d8829041afee36e0c6bb0fdc11d832bed074a729c7e9925468f7392711a2",
+      "onlyCurrentCacheAfterActivation": true,
+      "originDisabledAfterUpgrade": true,
+      "preservedReferencesAndCraftSelection": true,
+      "downloads": [
+        {
+          "room": "#save-reading",
+          "sha256": "0033c4ed95cb5bdaa22dcf7a0cb00b66b922df9d19ba37d27d76f61a0ccd17d8",
+          "bytes": 1316919
+        },
+        {
+          "room": "#save-study",
+          "sha256": "7af5a4a0ea39ebab96be9cf835b19067d95e5a19fc66de6523ed7bb1057e304d",
+          "bytes": 1764704
+        }
+      ],
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "priorHostedEdition": "28e1c48dd70266cb81c6e63f7727d72f53ab2ace85d200e09a7f69b1a0eb1f65",
+      "delayedSourceSeconds": 5,
+      "statusDuringUpdate": "Downloading the updated bells & evidence…",
+      "oldRoomMismatch": "A different offline edition is saved. Reload online to finish updating.",
+      "currentEdition": "52f9d8829041afee36e0c6bb0fdc11d832bed074a729c7e9925468f7392711a2",
+      "onlyCurrentCacheAfterActivation": true,
+      "originDisabledAfterUpgrade": true,
+      "preservedReferencesAndCraftSelection": true,
+      "downloads": [
+        {
+          "room": "#save-reading",
+          "sha256": "0033c4ed95cb5bdaa22dcf7a0cb00b66b922df9d19ba37d27d76f61a0ccd17d8",
+          "bytes": 1316919
+        },
+        {
+          "room": "#save-study",
+          "sha256": "987a4f2648ac48407f5e9e05a8a48e9db748704fde8005ed38515145cb73bde0",
+          "bytes": 1764704
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "scope": "Actual previous public bytes, matched at canonical URLs before this audit. Local HTTP fixture holds the new source download, then disables its origin. This establishes upgrade behavior, separately from publication."
+}

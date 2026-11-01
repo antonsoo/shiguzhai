@@ -1,0 +1,93 @@
+{
+  "scope": "Actual production HTML exports. Service workers blocked to exercise raw source failure, cancellation and response-body timeouts. No compiled fixture changes.",
+  "cases": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "room": "measurements",
+      "cancelStopsLateDownload": true,
+      "bodyTimeoutMs": 12027,
+      "currentSelectionPreserved": true,
+      "startTimeSelectionRetained": true,
+      "wrong200Rejected": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "room": "craft",
+      "cancelStopsLateDownload": true,
+      "bodyTimeoutMs": 12029,
+      "currentSelectionPreserved": true,
+      "startTimeSelectionRetained": true,
+      "wrong200Rejected": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "room": "measurements",
+      "cancelStopsLateDownload": true,
+      "bodyTimeoutMs": 12072,
+      "currentSelectionPreserved": true,
+      "startTimeSelectionRetained": true,
+      "wrong200Rejected": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "room": "craft",
+      "cancelStopsLateDownload": true,
+      "bodyTimeoutMs": 12029,
+      "currentSelectionPreserved": true,
+      "startTimeSelectionRetained": true,
+      "wrong200Rejected": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "room": "measurements",
+      "cancelStopsLateDownload": true,
+      "bodyTimeoutMs": 12108,
+      "currentSelectionPreserved": true,
+      "startTimeSelectionRetained": true,
+      "wrong200Rejected": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "room": "craft",
+      "cancelStopsLateDownload": true,
+      "bodyTimeoutMs": 12103,
+      "currentSelectionPreserved": true,
+      "startTimeSelectionRetained": true,
+      "wrong200Rejected": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "room": "measurements",
+      "cancelStopsLateDownload": true,
+      "bodyTimeoutMs": 12163,
+      "currentSelectionPreserved": true,
+      "startTimeSelectionRetained": true,
+      "wrong200Rejected": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "room": "craft",
+      "cancelStopsLateDownload": true,
+      "bodyTimeoutMs": 12123,
+      "currentSelectionPreserved": true,
+      "startTimeSelectionRetained": true,
+      "wrong200Rejected": true,
+      "pageErrors": []
+    }
+  ]
+}

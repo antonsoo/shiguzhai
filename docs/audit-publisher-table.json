@@ -1,0 +1,168 @@
+{
+  "method": "Supplied publisher PDF, printed p. 6, Poppler layout extraction by the ten original column positions; compared against the separately parsed retained publisher HTML",
+  "publisherURL": "https://www.nature.com/articles/s40494-024-01377-0.pdf",
+  "sha256": "431eacc7f75f338349109161f320bd9f1a6e22da7b13db33fab5f759cbb72edd",
+  "bytes": 2762411,
+  "retainedPdfIdentical": true,
+  "bells": [
+    {
+      "bell": "I",
+      "A": [
+        280,
+        279
+      ],
+      "B": [
+        283,
+        282,
+        280,
+        278,
+        276,
+        274,
+        269
+      ]
+    },
+    {
+      "bell": "II",
+      "A": [
+        280,
+        279
+      ],
+      "B": [
+        296,
+        302,
+        290,
+        288,
+        286,
+        283,
+        280
+      ]
+    },
+    {
+      "bell": "III",
+      "A": [
+        313,
+        312
+      ],
+      "B": [
+        350,
+        347,
+        343,
+        337,
+        335,
+        330,
+        321,
+        315,
+        306
+      ]
+    },
+    {
+      "bell": "IV",
+      "A": [
+        313,
+        314
+      ],
+      "B": [
+        326,
+        323,
+        319,
+        315,
+        313,
+        311
+      ]
+    },
+    {
+      "bell": "V",
+      "A": [
+        325,
+        326,
+        327
+      ],
+      "B": [
+        355,
+        360,
+        358,
+        351,
+        347,
+        342,
+        338,
+        333,
+        330,
+        328,
+        326
+      ]
+    },
+    {
+      "bell": "VI",
+      "A": [
+        364,
+        363
+      ],
+      "B": [
+        377,
+        380,
+        375,
+        373,
+        370,
+        368,
+        366
+      ]
+    },
+    {
+      "bell": "VII",
+      "A": [
+        362,
+        363,
+        364
+      ],
+      "B": [
+        406,
+        404,
+        402
+      ]
+    },
+    {
+      "bell": "VIII",
+      "A": [
+        379,
+        381,
+        377
+      ],
+      "B": [
+        409,
+        410,
+        408,
+        403
+      ]
+    },
+    {
+      "bell": "IX",
+      "A": [
+        402
+      ],
+      "B": [
+        423,
+        420,
+        412,
+        409,
+        403
+      ]
+    },
+    {
+      "bell": "X",
+      "A": [
+        410
+      ],
+      "B": [
+        437,
+        434,
+        431,
+        427,
+        423,
+        420,
+        413
+      ]
+    }
+  ],
+  "entries": 87,
+  "limits": "Verifies source transcription and order. Does not repeat the physical acoustic experiment."
+}

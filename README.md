@@ -37,6 +37,15 @@ an ancient equal-tempered scale, or proof of the exact pitches heard in antiquit
 At 440 Hz, the 269 Hz observation is only about 1.9 cents from a key boundary.
 The source gives integer frequencies without measurement error bars.
 
+The [follow-up audit](docs/reference-audit.md) checks the source tables again
+and repairs failure paths in both rooms. Offline readiness now verifies every
+saved file's bytes. If a file is missing or corrupt, both open rooms withdraw
+the saved claim and offer **Repair offline files**. A saved lesson also opens
+through temporary server errors, maintenance pages, and stalled document bodies
+after a two-second network window. Illustrated exports can be cancelled and
+source requests time out after twelve seconds; later control changes stay on
+screen while the saved reading keeps its starting selection.
+
 ## Cross a boundary; keep the sound
 
 The **Boundaries** investigation extends the original comparison in the same

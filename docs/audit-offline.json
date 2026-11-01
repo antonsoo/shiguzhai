@@ -1,0 +1,272 @@
+{
+  "at": "2026-10-31T23:57:10.202Z",
+  "scope": "Local production worker; actual source corruption, two open rooms, cache eviction, repair, server errors/stalls, interrupted installation and stale repair across replacement. The next fixture changes build identity only.",
+  "edition": "52f9d8829041afee36e0c6bb0fdc11d832bed074a729c7e9925468f7392711a2",
+  "nextEdition": "9278c7cc927252550c072755bd11918c2895273dd06a0be7feb82fce2255436f",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "wrongPresentSourceRejected": true,
+      "wrong200RepairRejected": true,
+      "bothRoomsInvalidatedAndRestored": true,
+      "repairStateAccessibilityViolations": 0,
+      "repairStateOverflow": false,
+      "wholeCacheEvictionAndSharedRepair": true,
+      "navigation": [
+        {
+          "room": "index.html",
+          "mode": "error",
+          "elapsedMs": 80,
+          "injectedRequests": 1
+        },
+        {
+          "room": "index.html",
+          "mode": "maintenance",
+          "elapsedMs": 74,
+          "injectedRequests": 1
+        },
+        {
+          "room": "index.html",
+          "mode": "stall",
+          "elapsedMs": 2098,
+          "injectedRequests": 1
+        },
+        {
+          "room": "index.html",
+          "mode": "body-stall",
+          "elapsedMs": 2101,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "error",
+          "elapsedMs": 53,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "maintenance",
+          "elapsedMs": 61,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "stall",
+          "elapsedMs": 2073,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "body-stall",
+          "elapsedMs": 2069,
+          "injectedRequests": 1
+        }
+      ],
+      "offlineNativeReadingSha256": "3499d1abe3f2cf9484c236ee5109f69697b682297e8e05377ab43f4a8ca9ebd2",
+      "pageErrors": []
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "wrongPresentSourceRejected": true,
+      "wrong200RepairRejected": true,
+      "bothRoomsInvalidatedAndRestored": true,
+      "repairStateAccessibilityViolations": 0,
+      "repairStateOverflow": false,
+      "wholeCacheEvictionAndSharedRepair": true,
+      "navigation": [
+        {
+          "room": "index.html",
+          "mode": "error",
+          "elapsedMs": 90,
+          "injectedRequests": 1
+        },
+        {
+          "room": "index.html",
+          "mode": "maintenance",
+          "elapsedMs": 147,
+          "injectedRequests": 1
+        },
+        {
+          "room": "index.html",
+          "mode": "stall",
+          "elapsedMs": 2101,
+          "injectedRequests": 1
+        },
+        {
+          "room": "index.html",
+          "mode": "body-stall",
+          "elapsedMs": 2124,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "error",
+          "elapsedMs": 79,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "maintenance",
+          "elapsedMs": 67,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "stall",
+          "elapsedMs": 2068,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "body-stall",
+          "elapsedMs": 2077,
+          "injectedRequests": 1
+        }
+      ],
+      "offlineNativeReadingSha256": "3499d1abe3f2cf9484c236ee5109f69697b682297e8e05377ab43f4a8ca9ebd2",
+      "pageErrors": []
+    },
+    {
+      "engine": "chromium",
+      "lifecycle": "Actual worker replacement while the prior repair awaits a source response",
+      "staleRepairCannotRecreateCache": true,
+      "retiredInspectionDidNotRecreateCache": true,
+      "oldPageShowsEditionMismatch": true,
+      "explicitReloadReachesNewEdition": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "wrongPresentSourceRejected": true,
+      "wrong200RepairRejected": true,
+      "bothRoomsInvalidatedAndRestored": true,
+      "repairStateAccessibilityViolations": 0,
+      "repairStateOverflow": false,
+      "wholeCacheEvictionAndSharedRepair": true,
+      "navigation": [
+        {
+          "room": "index.html",
+          "mode": "error",
+          "elapsedMs": 238,
+          "injectedRequests": 1
+        },
+        {
+          "room": "index.html",
+          "mode": "maintenance",
+          "elapsedMs": 177,
+          "injectedRequests": 1
+        },
+        {
+          "room": "index.html",
+          "mode": "stall",
+          "elapsedMs": 2206,
+          "injectedRequests": 1
+        },
+        {
+          "room": "index.html",
+          "mode": "body-stall",
+          "elapsedMs": 2401,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "error",
+          "elapsedMs": 120,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "maintenance",
+          "elapsedMs": 150,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "stall",
+          "elapsedMs": 2306,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "body-stall",
+          "elapsedMs": 2184,
+          "injectedRequests": 1
+        }
+      ],
+      "offlineNativeReadingSha256": "3499d1abe3f2cf9484c236ee5109f69697b682297e8e05377ab43f4a8ca9ebd2",
+      "pageErrors": []
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "wrongPresentSourceRejected": true,
+      "wrong200RepairRejected": true,
+      "bothRoomsInvalidatedAndRestored": true,
+      "repairStateAccessibilityViolations": 0,
+      "repairStateOverflow": false,
+      "wholeCacheEvictionAndSharedRepair": true,
+      "navigation": [
+        {
+          "room": "index.html",
+          "mode": "error",
+          "elapsedMs": 104,
+          "injectedRequests": 1
+        },
+        {
+          "room": "index.html",
+          "mode": "maintenance",
+          "elapsedMs": 99,
+          "injectedRequests": 1
+        },
+        {
+          "room": "index.html",
+          "mode": "stall",
+          "elapsedMs": 2156,
+          "injectedRequests": 1
+        },
+        {
+          "room": "index.html",
+          "mode": "body-stall",
+          "elapsedMs": 2189,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "error",
+          "elapsedMs": 105,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "maintenance",
+          "elapsedMs": 89,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "stall",
+          "elapsedMs": 2075,
+          "injectedRequests": 1
+        },
+        {
+          "room": "shuang.html",
+          "mode": "body-stall",
+          "elapsedMs": 2079,
+          "injectedRequests": 1
+        }
+      ],
+      "offlineNativeReadingSha256": "3499d1abe3f2cf9484c236ee5109f69697b682297e8e05377ab43f4a8ca9ebd2",
+      "pageErrors": []
+    },
+    {
+      "engine": "firefox",
+      "lifecycle": "Actual worker replacement while the prior repair awaits a source response",
+      "staleRepairCannotRecreateCache": true,
+      "retiredInspectionDidNotRecreateCache": true,
+      "oldPageShowsEditionMismatch": true,
+      "explicitReloadReachesNewEdition": true
+    }
+  ]
+}

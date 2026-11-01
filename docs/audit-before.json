@@ -1,0 +1,54 @@
+[
+  {
+    "browser": "chromium",
+    "initial": {
+      "type": "SHIGUZHAI_EDITION",
+      "edition": "93c605e115bb7fe3a0fc4f49403cd1090df832522f22dabe82ed8aa18618240a",
+      "complete": true
+    },
+    "corruptedInspection": {
+      "type": "SHIGUZHAI_EDITION",
+      "edition": "93c605e115bb7fe3a0fc4f49403cd1090df832522f22dabe82ed8aa18618240a",
+      "complete": true
+    },
+    "corruptStatus": "Bells & evidence saved offline",
+    "deletedInspection": {
+      "type": "SHIGUZHAI_EDITION",
+      "edition": "93c605e115bb7fe3a0fc4f49403cd1090df832522f22dabe82ed8aa18618240a",
+      "complete": false
+    },
+    "deletedStatuses": [
+      "Bells & evidence saved offline",
+      "Bells & evidence saved offline"
+    ],
+    "errorBody": "Server unavailable",
+    "stalled": true,
+    "stallMs": 4501
+  },
+  {
+    "browser": "firefox",
+    "initial": {
+      "type": "SHIGUZHAI_EDITION",
+      "edition": "93c605e115bb7fe3a0fc4f49403cd1090df832522f22dabe82ed8aa18618240a",
+      "complete": true
+    },
+    "corruptedInspection": {
+      "type": "SHIGUZHAI_EDITION",
+      "edition": "93c605e115bb7fe3a0fc4f49403cd1090df832522f22dabe82ed8aa18618240a",
+      "complete": true
+    },
+    "corruptStatus": "Bells & evidence saved offline",
+    "deletedInspection": {
+      "type": "SHIGUZHAI_EDITION",
+      "edition": "93c605e115bb7fe3a0fc4f49403cd1090df832522f22dabe82ed8aa18618240a",
+      "complete": false
+    },
+    "deletedStatuses": [
+      "Bells & evidence saved offline",
+      "Bells & evidence saved offline"
+    ],
+    "errorBody": "Server unavailable",
+    "stalled": true,
+    "stallMs": 4500
+  }
+]

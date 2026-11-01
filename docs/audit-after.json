@@ -1,0 +1,74 @@
+[
+  {
+    "browser": "chromium",
+    "initial": {
+      "type": "SHIGUZHAI_EDITION",
+      "edition": "52f9d8829041afee36e0c6bb0fdc11d832bed074a729c7e9925468f7392711a2",
+      "complete": true,
+      "files": 36,
+      "missing": []
+    },
+    "corruptedInspection": {
+      "type": "SHIGUZHAI_EDITION",
+      "edition": "52f9d8829041afee36e0c6bb0fdc11d832bed074a729c7e9925468f7392711a2",
+      "complete": false,
+      "files": 36,
+      "missing": [
+        "/shiguzhai/sources/li-2024-table-1.jpg"
+      ]
+    },
+    "corruptStatus": "The offline copy is incomplete. Reconnect and repair its files.",
+    "deletedInspection": {
+      "type": "SHIGUZHAI_EDITION",
+      "edition": "52f9d8829041afee36e0c6bb0fdc11d832bed074a729c7e9925468f7392711a2",
+      "complete": false,
+      "files": 36,
+      "missing": [
+        "/shiguzhai/sources/li-2024-table-1.jpg"
+      ]
+    },
+    "deletedStatuses": [
+      "The offline copy is incomplete. Reconnect and repair its files.",
+      "The offline copy is incomplete. Reconnect and repair its files."
+    ],
+    "errorBody": "\nSkip to the measurements\nShiguzhai 石鼓寨ListenCompareBoundariesEvidenceCraft bench\n\nTen bells.How many notes?These bronze",
+    "stalled": false,
+    "stallMs": 2052
+  },
+  {
+    "browser": "firefox",
+    "initial": {
+      "type": "SHIGUZHAI_EDITION",
+      "edition": "52f9d8829041afee36e0c6bb0fdc11d832bed074a729c7e9925468f7392711a2",
+      "complete": true,
+      "files": 36,
+      "missing": []
+    },
+    "corruptedInspection": {
+      "type": "SHIGUZHAI_EDITION",
+      "edition": "52f9d8829041afee36e0c6bb0fdc11d832bed074a729c7e9925468f7392711a2",
+      "complete": false,
+      "files": 36,
+      "missing": [
+        "/shiguzhai/sources/li-2024-table-1.jpg"
+      ]
+    },
+    "corruptStatus": "The offline copy is incomplete. Reconnect and repair its files.",
+    "deletedInspection": {
+      "type": "SHIGUZHAI_EDITION",
+      "edition": "52f9d8829041afee36e0c6bb0fdc11d832bed074a729c7e9925468f7392711a2",
+      "complete": false,
+      "files": 36,
+      "missing": [
+        "/shiguzhai/sources/li-2024-table-1.jpg"
+      ]
+    },
+    "deletedStatuses": [
+      "The offline copy is incomplete. Reconnect and repair its files.",
+      "The offline copy is incomplete. Reconnect and repair its files."
+    ],
+    "errorBody": "\nSkip to the measurements\nShiguzhai 石鼓寨ListenCompareBoundariesEvidenceCraft bench\n\nTen bells.How many notes?These bronze",
+    "stalled": false,
+    "stallMs": 2089
+  }
+]
