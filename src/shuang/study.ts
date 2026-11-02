@@ -99,5 +99,5 @@ export async function studyHTML(s: State, signal?: AbortSignal) {
         `<details><summary>${esc(n)}</summary><pre>${esc(new TextDecoder().decode(data[n]))}</pre></details>`,
     )
     .join("")}
-  <footer>New code and diagrams: MIT, © 2026 Anthony Mercer. New teaching text and adaptations of the Wikisource selections: CC BY-SA 4.0. The museum photograph is CC0. Font licenses and source notices are retained above. This HTML has no script and makes no automatic network requests. Audio plays only when requested. Printing preserves the written lesson; save the HTML or WAV to retain sound.</footer></body></html>`;
+  <footer>New code and diagrams: PolyForm Noncommercial, © 2026 Anthony Mercer. New teaching text and adaptations of the Wikisource selections: CC BY-SA 4.0. The museum photograph is CC0. Font licenses and source notices are retained above. This HTML has no script and makes no automatic network requests. Audio plays only when requested. Printing preserves the written lesson; save the HTML or WAV to retain sound.</footer></body></html>`;
 }

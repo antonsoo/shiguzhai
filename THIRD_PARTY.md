@@ -1,6 +1,6 @@
 # Third-party material
 
-The MIT license covers new application code, diagrams and the original exhibit's teaching text. It does
+The PolyForm Noncommercial license covers new application code, diagrams and the original exhibit's teaching text. It does
 not replace the licenses of the following sources.
 
 The new Shuang room has separate [complete notices](public/shuang/sources/NOTICES.txt).

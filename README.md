@@ -2,7 +2,7 @@
 
 **Ten ancient bronze bells. Hear the measurements; question the modern labels.**
 
-[![License: MIT](https://img.shields.io/badge/code-MIT-17383f)](LICENSE)
+[![License: PolyForm Noncommercial](https://img.shields.io/badge/code-PolyForm%20Noncommercial-17383f)](LICENSE)
 [![Live exhibit](https://img.shields.io/badge/live-exhibit-006a70)](https://antonsoo.github.io/shiguzhai/)
 
 A different strike position can bring out a different pitch in an ancient
@@ -235,10 +235,12 @@ boundaries and link the dictionaries and museum material.
 
 ## Contributing and licenses
 
+New versions are released under the [PolyForm Noncommercial License 1.0.0](LICENSE). It is free for any noncommercial purpose, including personal study, teaching and research, and for use by charities, schools, universities, research organizations and government institutions. Commercial use needs written permission from Anthony Mercer (anthony@praviel.com). Versions up to commit [`82f9090`](https://github.com/antonsoo/shiguzhai/tree/82f9090) (2026-11-01) were released under the MIT License, and copies of those versions keep it.
+
 See [CONTRIBUTING.md](CONTRIBUTING.md). Corrections should identify the object,
 source passage and observable consequence.
 
-New code, diagrams and the original exhibit's teaching text are [MIT](LICENSE).
+New code, diagrams and the original exhibit's teaching text are [PolyForm Noncommercial 1.0.0](LICENSE).
 Shuang's new lessons and adapted Chinese selections are CC BY-SA 4.0; its
 separately identified Cleveland Museum photograph is CC0. [Room notices](public/shuang/sources/NOTICES.txt)
 retain the full sources and licenses. Original exhibit article material and

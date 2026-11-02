@@ -1,6 +1,6 @@
 SHUANG: SOURCE, IMAGE AND FONT NOTICES
 
-New code and original schematic diagrams: MIT.
+New code and original schematic diagrams: PolyForm Noncommercial.
 Copyright (c) 2026 Anthony Mercer. See CODE-LICENSE.txt.
 
 New explanatory teaching text, English readings and the adapted reader:
