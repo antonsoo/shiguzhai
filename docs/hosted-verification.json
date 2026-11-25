@@ -1,16 +1,31 @@
 {
-  "checkedAt": "2026-10-22T03:57:13.575Z",
+  "checkedAt": "2026-11-25T20:50:07.884Z",
   "url": "https://antonsoo.github.io/shiguzhai/",
   "inventory": [
     {
-      "file": "assets/index-CBatit1h.css",
-      "bytes": 14489,
-      "sha256": "b2e19a258bc9a9a0d09984b78d082f69d272b78546e0300a9aff2e1d7325c11d"
+      "file": "assets/main-B56tnbEo.js",
+      "bytes": 56922,
+      "sha256": "8b3c16a7b124daed46bb3c68b90bf66a9fc88628a70a2c6b53b935b952a308c3"
     },
     {
-      "file": "assets/index-CpVmswLQ.js",
-      "bytes": 42953,
-      "sha256": "567f9ab518c6f61a508ffe41adc8c97ab70920e387c63bccd71e34ce960b748d"
+      "file": "assets/main-C3j1J8ot.css",
+      "bytes": 16833,
+      "sha256": "6c2b1e7d6039e284f634f3e9456386a5863ded8169abdd3cb329453884473bdc"
+    },
+    {
+      "file": "assets/shuang-DY4cZwUa.js",
+      "bytes": 47896,
+      "sha256": "89cb18dfc4865e1564ac15e31b39014d525db408c2734e4e63a1f767e0136ea5"
+    },
+    {
+      "file": "assets/shuang-gQwaWKKF.css",
+      "bytes": 9913,
+      "sha256": "dcdf3d341402cac162ff5bab02853225de356a99eb61226cb06b3df0c0aa3171"
+    },
+    {
+      "file": "assets/verified-assets-DYc24DbB.js",
+      "bytes": 5762,
+      "sha256": "b2789b1964d3aea6a66e0d5325bd759cebea6a41077edb704e216855d1dc9292"
     },
     {
       "file": "favicon.svg",
@@ -39,8 +54,98 @@
     },
     {
       "file": "index.html",
-      "bytes": 1055,
-      "sha256": "e8638099f1d03dd8e1174157c0eb827845b466dd9e418e548b78a7ee699dc10f"
+      "bytes": 1260,
+      "sha256": "2ef385deb5489a51c3d9c8a96a9ba1a4d1de14acdae4cbf7bb27c2631ca99d62"
+    },
+    {
+      "file": "shuang.html",
+      "bytes": 885,
+      "sha256": "60d10f5b3942eacc1867a78b8cf90bc0d6d5bec2edcdd13aedf93988ee55d0f9"
+    },
+    {
+      "file": "shuang/favicon.svg",
+      "bytes": 285,
+      "sha256": "38bc37ca370dde3b1b5417d690feed16c27816566f78ad465754e22bb02fa499"
+    },
+    {
+      "file": "shuang/fonts/Atkinson-OFL.txt",
+      "bytes": 4431,
+      "sha256": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030"
+    },
+    {
+      "file": "shuang/fonts/AtkinsonHyperlegibleNext.ttf",
+      "bytes": 114552,
+      "sha256": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745"
+    },
+    {
+      "file": "shuang/fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "file": "shuang/fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    {
+      "file": "shuang/fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    {
+      "file": "shuang/fonts/NotoCJK-OFL.txt",
+      "bytes": 4346,
+      "sha256": "af55b908a0ccf969b7bdd0e6cac6f4866a7ed0d1aeb9c7b29516ca0d24422981"
+    },
+    {
+      "file": "shuang/fonts/NotoCJK-provenance.json",
+      "bytes": 671,
+      "sha256": "e4f3f5d7d782e566f36e874603b6d0ea046c0409812ee5dd3c2b3e1268ac401c"
+    },
+    {
+      "file": "shuang/fonts/NotoSansCJK-subset.woff2",
+      "bytes": 17200,
+      "sha256": "b084f45e8c181e3c9112b595f4ba5cd23dcb07a7ec41c4e40eb413fac83fa5de"
+    },
+    {
+      "file": "shuang/sources/CC-BY-SA-4.0.txt",
+      "bytes": 20138,
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    },
+    {
+      "file": "shuang/sources/CODE-LICENSE.txt",
+      "bytes": 4655,
+      "sha256": "0c45f87da56f2c4083953be5db63af7ac00f7d4bc2877e9e15caeaa23417a3ce"
+    },
+    {
+      "file": "shuang/sources/NOTICES.txt",
+      "bytes": 3091,
+      "sha256": "ede62b7fc874f91c9874fad3e47bfb7e8efd3532f8a89146d102fd276dcda4b1"
+    },
+    {
+      "file": "shuang/sources/cleveland-1962.44.jpg",
+      "bytes": 26775,
+      "sha256": "810cc1016b40d1d9fd6b039292743092e68be934a64b02c4e960db5fc74a15ab"
+    },
+    {
+      "file": "shuang/sources/kaogongji-fu-revision-2159477.txt",
+      "bytes": 910,
+      "sha256": "3d777cae80cbfcc25ad00d720a2e192c6a5e7bf4f43fbfa7b35f3e55e669254b"
+    },
+    {
+      "file": "shuang/sources/kaogongji-selections.txt",
+      "bytes": 783,
+      "sha256": "0ed797e195ff3b2a4798e87f847e1796af99b953d92d3216f3fbfc930dc05592"
+    },
+    {
+      "file": "shuang/sources/measurements.json",
+      "bytes": 4948,
+      "sha256": "d195502f8197b135e3fe44c8d20f11ee48e6cadfd260366b8b125e70585c3367"
+    },
+    {
+      "file": "shuang/sources/provenance.json",
+      "bytes": 2303,
+      "sha256": "e9d7e72013d98202545f3520fa9aa00ac101b7ba687e446b7784f2d02d8cd72a"
     },
     {
       "file": "sources/li-2024-figure-1.jpg",
@@ -79,8 +184,8 @@
     },
     {
       "file": "sw.js",
-      "bytes": 4207,
-      "sha256": "c5fe0e6cfdab3609a5afa93609e640a548136cc4e2e1d70d44d77f9114027661"
+      "bytes": 12846,
+      "sha256": "810e29e5edb4bfd9edd644d1347b896c0439b1679a010dbebcd0daa5f5d04c3c"
     }
   ],
   "directoryEntryExact": true,
@@ -97,7 +202,7 @@
         "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63",
         "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968"
       ],
-      "standaloneReadingSha256": "4ef750d64f8e34f2ff94623f6b23740e5a15ea77110b0528bf3a63abd471e187",
+      "standaloneReadingSha256": "17885bf18888a12e1ba820ab0bb40a11feb55d847e2b76679fa24e618c11dc66",
       "offlineReloadAudioAndExport": true,
       "errors": [],
       "external": []
@@ -114,7 +219,7 @@
         "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63",
         "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968"
       ],
-      "standaloneReadingSha256": "4ef750d64f8e34f2ff94623f6b23740e5a15ea77110b0528bf3a63abd471e187",
+      "standaloneReadingSha256": "17885bf18888a12e1ba820ab0bb40a11feb55d847e2b76679fa24e618c11dc66",
       "offlineReloadAudioAndExport": true,
       "errors": [],
       "external": []
@@ -131,7 +236,7 @@
         "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63",
         "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968"
       ],
-      "standaloneReadingSha256": "4ef750d64f8e34f2ff94623f6b23740e5a15ea77110b0528bf3a63abd471e187",
+      "standaloneReadingSha256": "17885bf18888a12e1ba820ab0bb40a11feb55d847e2b76679fa24e618c11dc66",
       "offlineReloadAudioAndExport": true,
       "errors": [],
       "external": []
@@ -148,7 +253,7 @@
         "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63",
         "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968"
       ],
-      "standaloneReadingSha256": "4ef750d64f8e34f2ff94623f6b23740e5a15ea77110b0528bf3a63abd471e187",
+      "standaloneReadingSha256": "17885bf18888a12e1ba820ab0bb40a11feb55d847e2b76679fa24e618c11dc66",
       "offlineReloadAudioAndExport": true,
       "errors": [],
       "external": []

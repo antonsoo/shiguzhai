@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-25T01:29:08.358Z",
+  "checkedAt": "2026-11-25T20:51:49.701Z",
   "scope": "Built app, native controls, actual SVG positions, downloads, source images, source substitution, and origin-disabled offline listening.",
   "configurations": [
     {
@@ -5524,7 +5524,7 @@
         "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63",
         "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968"
       ],
-      "standaloneReadingHash": "4ef750d64f8e34f2ff94623f6b23740e5a15ea77110b0528bf3a63abd471e187",
+      "standaloneReadingHash": "17885bf18888a12e1ba820ab0bb40a11feb55d847e2b76679fa24e618c11dc66",
       "offlineReloadAudioExportAndPaper": true,
       "errors": [],
       "external": [],
@@ -11053,7 +11053,7 @@
         "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63",
         "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968"
       ],
-      "standaloneReadingHash": "4ef750d64f8e34f2ff94623f6b23740e5a15ea77110b0528bf3a63abd471e187",
+      "standaloneReadingHash": "17885bf18888a12e1ba820ab0bb40a11feb55d847e2b76679fa24e618c11dc66",
       "offlineReloadAudioExportAndPaper": true,
       "errors": [],
       "external": [],
@@ -16582,7 +16582,7 @@
         "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63",
         "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968"
       ],
-      "standaloneReadingHash": "4ef750d64f8e34f2ff94623f6b23740e5a15ea77110b0528bf3a63abd471e187",
+      "standaloneReadingHash": "17885bf18888a12e1ba820ab0bb40a11feb55d847e2b76679fa24e618c11dc66",
       "offlineReloadAudioExportAndPaper": true,
       "errors": [],
       "external": [],
@@ -22111,7 +22111,7 @@
         "64a1aadc0c8fd4a00ee8e5bd45fb36be495a73106c0dfee5eedbf6eb99635e63",
         "ddf674dba6e22c137183b08869fbb9c8c68408d34f611fe837a1690182dc3968"
       ],
-      "standaloneReadingHash": "4ef750d64f8e34f2ff94623f6b23740e5a15ea77110b0528bf3a63abd471e187",
+      "standaloneReadingHash": "17885bf18888a12e1ba820ab0bb40a11feb55d847e2b76679fa24e618c11dc66",
       "offlineReloadAudioExportAndPaper": true,
       "errors": [],
       "external": [],
@@ -22122,7 +22122,6 @@
   "audio": [
     {
       "file": "chromium-1440-I-280-269.wav",
-      "path": "/tmp/claude-1000/shuang-research/existing-browser/chromium-1440-I-280-269.wav",
       "sha256": "b4ee7a785364750952285d860b4551b7bada01e49df4f046d372ddc53b847708",
       "bell": "I",
       "a": 280,
@@ -22132,7 +22131,6 @@
     },
     {
       "file": "chromium-375-I-280-269.wav",
-      "path": "/tmp/claude-1000/shuang-research/existing-browser/chromium-375-I-280-269.wav",
       "sha256": "b4ee7a785364750952285d860b4551b7bada01e49df4f046d372ddc53b847708",
       "bell": "I",
       "a": 280,
@@ -22142,7 +22140,6 @@
     },
     {
       "file": "firefox-1440-I-280-269.wav",
-      "path": "/tmp/claude-1000/shuang-research/existing-browser/firefox-1440-I-280-269.wav",
       "sha256": "7ec6c6b21935b02656f7476aa7033f19b9249cb0456bab01768fbe6295fc70b0",
       "bell": "I",
       "a": 280,
@@ -22152,7 +22149,6 @@
     },
     {
       "file": "firefox-375-I-280-269.wav",
-      "path": "/tmp/claude-1000/shuang-research/existing-browser/firefox-375-I-280-269.wav",
       "sha256": "7ec6c6b21935b02656f7476aa7033f19b9249cb0456bab01768fbe6295fc70b0",
       "bell": "I",
       "a": 280,

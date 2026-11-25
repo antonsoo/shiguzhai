@@ -58,3 +58,17 @@ replace a screen-reader study. Public deployment is recorded separately in
 The published site was checked in four fresh browser configurations. All sixteen
 canonical files and the directory entry match the reviewed clean build. Shared
 439 Hz state, keyboard reset, audio and offline illustrated exports passed.
+
+## 2026-11-25: retained reading regenerated
+
+The retained bell I reading (HTML, JSON and PDF) was regenerated on 2026-11-25
+by running `scripts/browser-review.mjs` on a build of commit `a5441ac`, for the
+author-name and license change. The credit now reads PolyForm Noncommercial,
+Anthony Mercer. The current tool also adds the two-grid reference comparison
+(held and current A4) to the saved reading and its JSON, so the print grew from
+four to 5 pages. The measurement CSV and the reference WAV came out
+byte-identical. [browser-verification.json](browser-verification.json),
+[hosted-verification.json](hosted-verification.json) (now 37 canonical files,
+since the second room was added) and the
+[original-room review](shuang-existing-exhibit-review.json) are that day's reruns;
+all eight configurations and the public site saved the same reading.

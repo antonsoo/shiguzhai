@@ -295,7 +295,16 @@ try {
         await page.locator("#stop").click();
         assert.equal(await page.locator(".is-sounding").count(), 0);
         const wave = await save(page, "save-wav", `${name}-${width}-I-280-269.wav`);
-        report.audio.push({ ...wave, bell: "I", a: 280, b: 269, mode: "pair", browser: name });
+        // Keep the local download path out of the retained receipt.
+        report.audio.push({
+          file: wave.file,
+          sha256: wave.sha256,
+          bell: "I",
+          a: 280,
+          b: 269,
+          mode: "pair",
+          browser: name,
+        });
         const csv = await save(page, "save-csv", `${name}-${width}-measurements.csv`);
         assert.equal((await readFile(csv.path, "utf8")).trim().split(/\r?\n/).length, 88);
         const json = await save(page, "save-json", `${name}-${width}-reading.json`);
