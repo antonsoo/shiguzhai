@@ -21,8 +21,8 @@ assert(
   "Use the isolated local development server.",
 );
 const pkg = JSON.parse(await readFile("package.json", "utf8")),
-  gonia = pkg.name === "@antonsoloviev/gonia";
-assert(gonia || pkg.name === "@antonsoloviev/shiguzhai");
+  gonia = pkg.name === "@anthonymercer/gonia";
+assert(gonia || pkg.name === "@anthonymercer/shiguzhai");
 const source = gonia
     ? "public/sources/optics/manifest.json"
     : "public/shuang/sources/measurements.json",
